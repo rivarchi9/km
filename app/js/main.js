@@ -99,11 +99,11 @@ $(document).ready(function() {
 function sliderNavigation(){
 	if (w < 768) {
 		topp = Math.round($(".section-news img").height()*0.85)-24;
-		$(".bx-default-pager").css('top',topp+"px");
+		
 	} else {
 		topp = Math.round($(".section-news img").height()*0.85)-14;
-		$(".bx-default-pager").css('top',topp+"px");
 	}
+	$(".bx-default-pager").css('top',topp+"px");
 }
 
 function toggleClass(status, selector, children_1, children_2){
