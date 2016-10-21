@@ -306,7 +306,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .sticker-item {
 	padding-top: 8px;
 	padding-bottom: 8px;
-	padding-left: 19px;
+	padding-left: 15px;
 	padding-right: 19px;
 	color: $color3;
 	background-color: $color8;
@@ -1786,7 +1786,7 @@ p {
 	border-left: 1px solid #adadad;
 	// background-color: #000;
 	background: url('../img/icon/sprite.png') center center no-repeat;
-	background-position: -31px -210px;
+	background-position: -24px -201px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -2569,7 +2569,12 @@ p {
 	.recomenned .inner-section-mini-prewiew-item {
 		width: 100%;
 	}
-	
+	.recomenned  .sticker-item {
+		padding-left: 30px;
+	}
+	.sticker:before {
+		display: none;
+	}
 	
 }
 @media (max-width:600px ) {
