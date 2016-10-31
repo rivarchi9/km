@@ -271,10 +271,10 @@ header {
 }
 .image-shadow .image-prewiew {
 	background: #ffffff;
-background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #ffffff 88%, #ffffff 88%, #f2f2f2 100%);
-background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
-background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+// background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #ffffff 88%, #ffffff 88%, #f2f2f2 100%);
+// background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
+// background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
 
 }
 
@@ -1042,7 +1042,7 @@ p {
 	color: #000;
 }
 .aside-list .default {
-	color: #333333;
+	color: #7f7f7f;
 	border: 1px solid transparent;
 	border-bottom: 1px solid #e5e5e5;
 }
@@ -2166,7 +2166,7 @@ content .description {
 }
 .pagelist-item-title a {
 	font-size: 20px;
-	color: #665f5f;
+	color: #000;
 	font-weight: 900;
 	text-decoration: none;
 	line-height: 28px;
@@ -2393,7 +2393,7 @@ content .description {
 	top: -32px;
 }
 .header-pagelist .pagelist-prewiew {
-	padding: 20px 0;
+	padding: 20px 0 24px 0;
 }
 .header-pagelist .pagelist-prewiew img {
 	min-width: 100%;
