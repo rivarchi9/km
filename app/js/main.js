@@ -174,6 +174,7 @@ function sliderTrailers (section, type, trailer){
 }
 
 function imageResize(){
+	
 	w = window.innerWidth;
 	$('.responsive-image').each(function(index, el) {
 		// var mobile = $(this).attr('data-src-x');

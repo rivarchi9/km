@@ -43,10 +43,10 @@
               </li>
               <li><a href="#">ЧИТАТЬ</a>
                 <ul class="nav-list-dop">
-                  <li><a href="#">НОВОСТИ</a></li>
-                  <li><a href="#">ИНТЕРВЬЮ</a></li>
-                  <li><a href="#">РЕЦЕНЗИИ</a></li>
-                  <li><a href="#">БЛОГИ</a></li>
+                  <li><a href="news-list.php">НОВОСТИ</a></li>
+                  <li><a href="interview-list.php">ИНТЕРВЬЮ</a></li>
+                  <li><a href="reviews.php">РЕЦЕНЗИИ</a></li>
+                  <li><a href="blog-list.php">БЛОГИ</a></li>
                   <li><a href="#">ПРЕССА</a></li>
                   <li><a href="#">ФОРУМ</a></li>
                 </ul>
@@ -94,10 +94,10 @@
         </li>
         <li><a href="#">ЧИТАТЬ</a>
           <ul class="nav-list-dop">
-            <li><a href="#">НОВОСТИ</a></li>
-            <li><a href="#">ИНТЕРВЬЮ</a></li>
-            <li><a href="#">РЕЦЕНЗИИ</a></li>
-            <li><a href="#">БЛОГИ</a></li>
+            <li><a href="news-list.php">НОВОСТИ</a></li>
+            <li><a href="interview-list.php">ИНТЕРВЬЮ</a></li>
+            <li><a href="reviews.php">РЕЦЕНЗИИ</a></li>
+            <li><a href="blog-list.php">БЛОГИ</a></li>
             <li><a href="#">ПРЕССА</a></li>
             <li><a href="#">ФОРУМ</a></li>
           </ul>
