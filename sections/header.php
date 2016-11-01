@@ -21,8 +21,8 @@
       <div class="autorization-outer col-xl-3 col-lg-3 col-md-7 col-sm-5 col-xs-5">
         <div class="autorization">
           <ul class="autorization-list">
-            <li><a href="#"><span>ВХОД</span></a></li>
-            <li><a href="#"><span>РЕГИСТРАЦИЯ</span></a></li>
+            <li><a href="/login.php"><span>ВХОД</span></a></li>
+            <li><a href="/login.php"><span>РЕГИСТРАЦИЯ</span></a></li>
           </ul>
         </div>
       </div>

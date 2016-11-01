@@ -271,6 +271,7 @@ header {
 }
 .image-shadow .image-prewiew {
 	background: #ffffff;
+	border-bottom: none;
 // background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #ffffff 88%, #ffffff 88%, #f2f2f2 100%);
 // background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
 // background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#ffffff 88%,#ffffff 88%,#f2f2f2 100%);
@@ -2722,25 +2723,137 @@ content .description {
 		color: #0b97b2;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.page-no-aside {
+	/*padding: 0;*/
+}
+.outer-form {
+	padding: 18px 15px 46px 15px;
+	text-align: center;
+}
+.form-content {
+	display: inline-block;
+}
+.form-content input {
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	padding: 6px;
+	font-size: 14px;
+	width: 360px;
+	// margin-left: 10px;
+}
+.form-content ul li {
+	position: relative;
+	margin-bottom: 20px;
+	span {
+		text-align: right;
+		position: absolute;
+		left: 0;
+		display: inline-block;
+		top: 50%;
+		transform: translate(-100%,-50%);
+		font-size: 14px;
+		font-weight: bold;
+		margin-left: -10px;	
+	}
+}
+.button4 {
+    color: #fff;
+    background-color: #13a0e3;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #ffe486;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #01557c;
+    border-top: 1px solid #58c3f6;
+    text-shadow: 0 1px 0 #0e8dc9;
+    padding: 9px 30px 9px 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.button4:hover {
+	background-color: #128fcb;
+}
+.form-content button {
+	margin-bottom: 25px;
+}
+.row-forgot-password {
+	margin-bottom: 22px;
+}
+.forgot-password,.reg {
+	font-size: 14px;
+}
+.reg {
+	color: #7f7f7f;
+	margin-bottom: 22px;
+}
+.form-social-text {
+	font-size: 14px;
+	color: #000;
+	padding-bottom: 15px;
+}
+.form-title {
+	padding-bottom: 21px;
+}
+.form-social-icon {
+	+ li {
+		margin-left: 5px;
+	}
+	display: inline-block;	
+	a {
+		display: inline-block;	
+		&:before{
+			content: '';
+			display: inline-block;	
+			width: 32px;	
+			height: 32px;
+			background: url('../img/icon/sprite.png') 0 0 no-repeat;
+		}
+	}
+	.vk:before {
+		background-position: -98px -310px;
+	}
+	.fb:before {
+		background-position: -140px -310px;
+	}
+	.ok:before {
+		background-position: -182px -310px;
+	}
+	.tw:before {
+		background-position: -224px -310px;
+	}
+	.gplus:before {
+		background-position: -266px -310px;
+	}
+}
+.outer-form + .outer-form {
+	border-top: 1px solid #e5e5e5;
+	padding-top: 38px;
+}
+.form-welcome-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 16px;
+}
+.form-welcome-text {
+	font-size: 14px;
+	color: #7f7f7f;
+	display: inline-block;
+	max-width: 420px;
+	padding-bottom: 24px;
+	line-height: 21px;
+}
+.registration {
+	.pagetitle {
+		padding-bottom: 15px;
+	}
+	ul {
+		padding-bottom: 19px;
+	}
+}
+.outer-form:last-child {
+	padding-bottom: 11px;
+}
 
 
 
@@ -2796,7 +2909,7 @@ content .description {
 
 
 
-.author-comment-info-list li a,.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
+.forgot-password,.reg a,.author-comment-info-list li a,.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
 	&:hover {
 		color: #df4839;
 	}
@@ -3441,6 +3554,25 @@ content .description {
 	}
 	.aside-treilers-item + .aside-treilers-item {
 		padding-top: 15px;
+	}
+	.form-content {
+    width: 100%;
+    display: block;
+	}
+	.form-content ul li {
+		text-align: left;
+	}
+	.form-content ul li span {
+    text-align: left;
+     position: relative; 
+     left: 0; 
+     top: 0; 
+     transform: translate(0%, 0%); 
+     margin-left: 0; 
+     margin-bottom: 5px;
+	}
+	.form-content input {
+		width: 100%;
 	}
 	
 }

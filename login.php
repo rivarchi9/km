@@ -1,6 +1,6 @@
 
 <?php 
-  $namePage = 'ИНТЕРВЬЮ Список'; // название страницы
+  $namePage = 'Вход и регистрация'; // название страницы
   include "sections/head.php"; // вывод head
 ?>
 <body>
@@ -23,112 +23,63 @@
         <!-- Контент -->
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
-          <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-          	<h1 class="pagetitle">ИНТЕРВЬЮ</h1>
-            <div class="description">
-              Интервью с кинематографистами о кино и о жизни.
-            </div>
-            <div class="outer-pagelist-item clear">
-              <section class="pagelist-item clear">
-                <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class=" image-shadow ">
-                    <a href="/interview-item.php"><img alt="" src="/app/img/content/3435.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3435.jpg" data-src-t="/app/img/content/3435.jpg" data-src-m="/app/img/content/3435.jpg"></a>
-                  </div>
+          <content class="page-section-content page-no-aside section-content content-outer col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="outer-form login">
+              <div class="form-title pagetitle">ВХОД</div>
+              <div class="form-content">
+                <form>
+                  <ul>
+                    <li><span>Логин:</span> <input type="text"> </li>
+                    <li><span>Пароль:</span> <input type="text">  </li>
+                  </ul>
+                  <button class="button button4">войти</button>
+                  <div class="row-forgot-password"><a href="#" class="forgot-password">Забыли пароль?</a></div>
+                </form>
+                <div class="reg">Еще нет аккаунта? <a href="#">Пожалуйста, зарегистрируйтесь</a></div>
+              </div>
+              <div class="form-add">
+                <div class="form-social-text">Или войдите через акканут социальных сетей:</div>
+                <div class="form-social">
+                  <ul>
+                    <li class="form-social-icon"><a href="#" class="vk"></a></li>
+                    <li class="form-social-icon"><a href="#" class="fb"></a></li>
+                    <li class="form-social-icon"><a href="#" class="ok"></a></li>
+                    <li class="form-social-icon"><a href="#" class="tw"></a></li>
+                    <li class="form-social-icon"><a href="#" class="gplus"></a></li>
+                  </ul>
                 </div>
-                <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="pagelist-item-title">
-                    <a href="/interview-item.php">Пол Фиг: «Я должен заставить смеяться как можно больше зрителей»</a>
-                  </div>
-                  <p>
-                    «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
-                  </p>
-                  <div class="pagelist-info">
-                    <span class="pagelist__author"><a href="#">Киномания</a></span>, 
-                    <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
-                    <a href="#" class="pagelist__comments">8</a>
-                  </div>
-                  <a href="/interview-item.php" class="pagelist__link">Подробнее</a>
-                </div>
-              </section>
-              <section class="pagelist-item clear">
-                <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class=" image-shadow ">
-                    <a href="/interview-item.php"><img alt="" src="/app/img/content/3435.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3435.jpg" data-src-t="/app/img/content/3435.jpg" data-src-m="/app/img/content/3435.jpg"></a>
-                  </div>
-                </div>
-                <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="pagelist-item-title">
-                    <a href="/interview-item.php">Пол Фиг: «Я должен заставить смеяться как можно больше зрителей»</a>
-                  </div>
-                  <p>
-                    «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
-                  </p>
-                  <div class="pagelist-info">
-                    <span class="pagelist__author"><a href="#">Киномания</a></span>, 
-                    <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
-                    <a href="#" class="pagelist__comments">8</a>
-                  </div>
-                  <a href="/interview-item.php" class="pagelist__link">Подробнее</a>
-                </div>
-              </section>
-              <section class="pagelist-item clear">
-                <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class=" image-shadow ">
-                    <a href="/interview-item.php"><img alt="" src="/app/img/content/3435.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3435.jpg" data-src-t="/app/img/content/3435.jpg" data-src-m="/app/img/content/3435.jpg"></a>
-                  </div>
-                </div>
-                <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="pagelist-item-title">
-                    <a href="/interview-item.php">Пол Фиг: «Я должен заставить смеяться как можно больше зрителей»</a>
-                  </div>
-                  <p>
-                    «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
-                  </p>
-                  <div class="pagelist-info">
-                    <span class="pagelist__author"><a href="#">Киномания</a></span>, 
-                    <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
-                    <a href="#" class="pagelist__comments">8</a>
-                  </div>
-                  <a href="/interview-item.php" class="pagelist__link">Подробнее</a>
-                </div>
-              </section>
-              <section class="pagelist-item clear">
-                <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class=" image-shadow ">
-                    <a href="/interview-item.php"><img alt="" src="/app/img/content/3435.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3435.jpg" data-src-t="/app/img/content/3435.jpg" data-src-m="/app/img/content/3435.jpg"></a>
-                  </div>
-                </div>
-                <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="pagelist-item-title">
-                    <a href="/interview-item.php">Пол Фиг: «Я должен заставить смеяться как можно больше зрителей»</a>
-                  </div>
-                  <p>
-                    «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
-                  </p>
-                  <div class="pagelist-info">
-                    <span class="pagelist__author"><a href="#">Киномания</a></span>, 
-                    <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
-                    <a href="#" class="pagelist__comments">8</a>
-                  </div>
-                  <a href="/interview-item.php" class="pagelist__link">Подробнее</a>
-                </div>
-              </section>
-            </div>
-            <div class="outer-pagelist-more">
-              <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
-            </div>
-            <div class="pagelist-social">
-              <div class="outer-social clear">
-                <ul class="social-list social-list--horizontal">
-                  <li class="vk"><a href="#"><span class="number">856</span></a></li>
-                  <li class="fb"><a href="#"><span class="number">856</span></a></li>
-                  <li class="tw"><a href="#"></a></li>
-                </ul>
               </div>
             </div>
-          </content>
-          <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+            <div class="outer-form registration">
+              <div class="form-title pagetitle">РЕГИСТРАЦИЯ</div>
+              <div class="form-welcome">
+                <div class="form-welcome-title">Добро пожаловать на KINOMANIA.RU!</div>
+                <div class="form-welcome-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet congue tellus ac hendrerit. Morbi aliquam tincidunt ipsum. Sed congue lorem eget quam lacinia consequat.</div>
+              </div>
+              <div class="form-content">
+                <form>
+                  <ul>
+                    <li><span>Логин:</span> <input type="text"> </li>
+                    <li><span>Пароль:</span> <input type="text">  </li>
+                    <li><span>Email:</span> <input type="text">  </li>
+                  </ul>
+                  <button class="button button4">создать аккаунт</button>
+                </form>
+              </div>
+              <div class="form-add">
+                <div class="form-social-text">Или войдите через акканут социальных сетей:</div>
+                <div class="form-social">
+                  <ul>
+                    <li class="form-social-icon"><a href="#" class="vk"></a></li>
+                    <li class="form-social-icon"><a href="#" class="fb"></a></li>
+                    <li class="form-social-icon"><a href="#" class="ok"></a></li>
+                    <li class="form-social-icon"><a href="#" class="tw"></a></li>
+                    <li class="form-social-icon"><a href="#" class="gplus"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </content> 
         </section>
     </div>
   <?php include "sections/footer.php"; ?>
