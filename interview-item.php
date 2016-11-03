@@ -22,8 +22,8 @@
         <!-- Контент -->
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
-          <content class="pagelist page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-          <div class="header-pagelist header-pagelist--black">
+          <content class="pagelist page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <div class="header-pagelist header-pagelist-prewiew header-pagelist--black">
             <div class="inner-header-pagelist parent-sticker">
               <div class="sticker">
                 <div class="sticker-item">ИНТЕРВЬЮ</div>

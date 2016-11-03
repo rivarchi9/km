@@ -35,7 +35,7 @@
                   <button class="button button4">войти</button>
                   <div class="row-forgot-password"><a href="#" class="forgot-password">Забыли пароль?</a></div>
                 </form>
-                <div class="reg">Еще нет аккаунта? <a href="#">Пожалуйста, зарегистрируйтесь</a></div>
+                <div class="reg">Еще нет аккаунта? <a href="#registration">Пожалуйста, зарегистрируйтесь</a></div>
               </div>
               <div class="form-add">
                 <div class="form-social-text">Или войдите через акканут социальных сетей:</div>
@@ -50,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <div class="outer-form registration">
+            <div class="outer-form registration" id="registration">
               <div class="form-title pagetitle">РЕГИСТРАЦИЯ</div>
               <div class="form-welcome">
                 <div class="form-welcome-title">Добро пожаловать на KINOMANIA.RU!</div>

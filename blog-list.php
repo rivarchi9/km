@@ -22,7 +22,7 @@
         <!-- Контент -->
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
-          <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+          <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<h1 class="pagetitle">БЛОГ</h1>
             <div class="outer-pagelist-item clear">
               <section class="pagelist-item clear">

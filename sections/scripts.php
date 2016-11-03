@@ -8,13 +8,25 @@
     $('.bxslider').bxSlider({
       auto: true
     });
-    $('.happy-carousel').bxSlider({
-      slideWidth: 300,
-      maxSlides: 2,
-      minSlides: 2,
-      infiniteLoop: true,
-      slideMargin: 70,
-      pager: false
-    });
+    w = window.innerWidth;
+    if (w <= 992) {
+       $('.happy-carousel').bxSlider({
+        slideWidth: 0,
+        maxSlides: 2,
+        minSlides: 2,
+        infiniteLoop: true,
+        slideMargin: 70,
+        pager: false
+      });
+    } else {
+      $('.happy-carousel').bxSlider({
+        slideWidth: 300,
+        maxSlides: 2,
+        minSlides: 2,
+        infiniteLoop: true,
+        slideMargin: 70,
+        pager: false
+      });
+    }
   });
 </script>

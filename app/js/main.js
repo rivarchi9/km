@@ -119,6 +119,9 @@ function sliderNavigationButton(){
 	}else if (w < 768) {
 		topp = Math.round($(".section-news img").height()*0.85)-100;
 		
+	}else if (w < 992) {
+		topp = Math.round($(".section-news img").height()*0.85)-100;
+		
 	} else {
 		topp = Math.round($(".section-news img").height()*0.85)-114;
 	}

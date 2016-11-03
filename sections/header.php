@@ -3,7 +3,7 @@
     <div class="top clear">
       <div class="outer-logo col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-8">
         <div class="logo">
-          <a href="#" class="logo__link">
+          <a href="/" class="logo__link">
             <img  src="app/img/design/logo.png" class="logo__image" alt="Logo Kinomania" title="Logo Kinomania">
           </a>
         </div>
@@ -13,7 +13,8 @@
           <form>
             <input type="text" class="search__input" placeholder="Поиск">
             <div class="search__button-outer">
-              <button class="search__button button button1">Найти</button>
+              <!-- <button class="search__button button button1">Найти</button> -->
+              <a href="search.php" class="search__button button button1">Найти</a>
             </div>
           </form>
         </div>

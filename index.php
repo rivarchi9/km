@@ -26,14 +26,14 @@
             <div class="bxslider">
               <div class="item">
                 <div class="inner-section clear row">
-                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="outer-image-prewiew ">
                       <div class="inner-image-prewiew ">
                         <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/cs.jpg" data-src-t="/app/img/content/cs.jpg" data-src-m="/app/img/content/cs.jpg">
                       </div>
                     </div>
                   </div>
-                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="outer-desc">
                         <a href="" class="title-description">Премьеры российского проката 1</a>
                       <div class="info-section center-info-section">
@@ -50,14 +50,14 @@
               </div>
               <div class="item">
                 <div class="inner-section clear row">
-                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="outer-image-prewiew ">
                       <div class="inner-image-prewiew ">
                         <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/cs.jpg" data-src-t="/app/img/content/cs.jpg" data-src-m="/app/img/content/cs.jpg">
                       </div>
                     </div>
                   </div>
-                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="outer-desc">
                         <a href="" class="title-description">Премьеры российского проката 1</a>
                       <div class="info-section center-info-section">
@@ -141,7 +141,7 @@
         </section>
         <!-- Трейлеры -->
         <section class="outer-section section-black outer-vert clear ">
-          <div class="section-black-item section-black-item1 col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12">
+          <div class="section-black-item section-black-item1 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12">
             <div class="section-black-head clear">
               <div class="outer-section-black-item clear">
                 <div class="section-black-head-item section-black__title">ТРЕЙЛЕРЫ</div>
@@ -509,7 +509,7 @@
               </div>
             </div>
           </div>
-          <div class="section-black-item section-black-item2 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="section-black-item section-black-item2 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-xs-12">
             <div class="video-prewiew-nav-head clear">
               <ul class="video-prewiew-nav-list active" data-type-trailersSection="cinema">
                 <li class="active item1" data-type-trailersTypeButton="0"><span>Новые</span></li>
@@ -671,7 +671,7 @@
         <!-- Контент -->
         <section class="outer-section clear outer-content">
         	<!-- Контент -->
-          <content class="section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+          <content class="section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<!-- Зарубежные сериалы -->
             <section class="inner-content outer-content-item parent-sticker">
               <div class="sticker">

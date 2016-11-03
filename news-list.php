@@ -23,7 +23,7 @@
         <!-- Контент -->
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
-          <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+          <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<h1 class="pagetitle">НОВОСТИ КИНО</h1>
             <div class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta purus in enim luctus, rhoncus feugiat libero feugiat. Nunc accumsan pellentesque felis non lacinia. Nullam at euismod est, non rhoncus neque.
