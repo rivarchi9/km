@@ -17,7 +17,7 @@
     <div class="wrap">
       <?php include "sections/header.php"; ?>
       <div class="banner no-mobile">
-        <a href="#"><img alt="" src="#" class="responsive-image banner__image" data-src-d="/app/img/content/banner.jpg" data-src-t="/app/img/content/banner.jpg" data-src-m="/app/img/content/banner.jpg"></a>
+        <a href="#"><img alt="" src="#" class="responsive-image banner__image" data-src-d="/app/img/content/banner2.jpg" data-src-t="/app/img/content/banner2.jpg" data-src-m="/app/img/content/banner2.jpg"></a>
       </div>
       <div class="main-content-other-page clear">
         <!-- Контент -->
