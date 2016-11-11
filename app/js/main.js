@@ -103,7 +103,7 @@ $(document).ready(function() {
 function sliderNavigation(){
 	if (w < 768) {
 		topp = Math.round($(".section-news img").height()*0.85)-24;
-		
+
 	} else {
 		topp = Math.round($(".section-news img").height()*0.85)-14;
 	}
@@ -112,16 +112,16 @@ function sliderNavigation(){
 function sliderNavigationButton(){
 	if (w < 320) {
 		topp = Math.round($(".section-news img").height()*0.85)-40;
-		
+
 	}else if (w < 544) {
 		topp = Math.round($(".section-news img").height()*0.85)-70;
-		
+
 	}else if (w < 768) {
 		topp = Math.round($(".section-news img").height()*0.85)-100;
-		
+
 	}else if (w < 992) {
 		topp = Math.round($(".section-news img").height()*0.85)-100;
-		
+
 	} else {
 		topp = Math.round($(".section-news img").height()*0.85)-114;
 	}
@@ -177,7 +177,7 @@ function sliderTrailers (section, type, trailer){
 }
 
 function imageResize(){
-	
+
 	w = window.innerWidth;
 	$('.responsive-image').each(function(index, el) {
 		// var mobile = $(this).attr('data-src-x');
@@ -192,3 +192,72 @@ function imageResize(){
 		}
 	});
 }
+
+
+// ==============================================
+// ============= FILM LIGHTBOX ==================
+// ==============================================
+var parent;
+function open_over(object){
+	parent = $(object).parents("[data-type-over-img]");
+	$("body").css('overflow-y','hidden');
+	$(".overlay-photo").addClass('active');
+	$(".inner-overlay-image img").attr('src',$(parent).attr('data-type-over-img'));
+	$(".inner-overlay-caption").html($(parent).children(".trailer-caption-hide").html());
+}
+$(document).ready(function() {
+	$("div[data-type-over-img] .parent").on('click',function(){
+		open_over(this);
+	});
+	//	след кадр
+	$(".overlay-photo .next").on('click',function(){
+		var next = $(parent).next(".trailer-item-col[data-type-over-img]:not(.hide)").find(".parent");
+		if($(next).html() == undefined){
+			open_over($(".trailer-item-col[data-type-over-img]:not(.hide):first").find(".parent"));
+		}else{
+			open_over(next);
+		}
+	});
+	//	предыдущий кадр
+	$(".overlay-photo .prev").on('click',function(){
+		var prev = $(parent).prev(".trailer-item-col[data-type-over-img]:not(.hide)").find(".parent");
+		if($(prev).html() == undefined){
+			open_over($(".trailer-item-col[data-type-over-img]:not(.hide):last").find(".parent"));
+		}else{
+			open_over(prev);
+		}
+	});
+
+	// Закрывашка оверлея
+	$(".overlay-photo .close").on('click',function(){
+		$('.overlay-photo').removeClass('active');
+		$("body").css('overflow-y','scroll');
+	});
+	$(document).mouseup(function (e) {
+    if ($('.overlay-photo').is('.active')) {
+      var container = $(".inner-overlay-photo");
+      var outer = $('.overlay-photo');
+      if (container.has(e.target).length === 0){
+          outer.removeClass('active');
+					$("body").css('overflow-y','scroll');
+      }
+    }
+	});
+
+	// Фильтр
+	$("[data-type-filter-button]").on('click',function(){
+		filter = $(this).attr('data-type-filter-button');
+
+		$("[data-type-filter-button][data-type-filter-button != "+filter+"]").removeClass('active');
+		$("[data-type-filter-button = "+filter+"]").addClass('active');
+
+		if(filter != 'ALL'){
+			$("[data-type-filter][data-type-filter != "+filter+"]").addClass('hide');
+			$("[data-type-filter][data-type-filter = "+filter+"]").removeClass('hide');
+		}else{
+			$("[data-type-filter]").removeClass('hide');
+		}
+	});
+
+
+});

@@ -61,13 +61,14 @@
               </li>
               <li><a href="#">МЕДИА</a>
                 <ul class="nav-list-dop">
-                  <li><a href="#">ТРЕЙЛЕРЫ</a></li>
+                  <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
                   <li><a href="#">ПОСТЕРЫ</a></li>
                   <li><a href="#">САУНДТРЕКИ</a></li>
                   <li><a href="#">ФОТО</a></li>
                   <li><a href="#">ОБОИ (ФИЛЬМЫ)</a></li>
                   <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
                   <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
+                  <li><a href="/film_lightbox.php">КАДРЫ</a></li>
                 </ul>
               </li>
               <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
@@ -112,13 +113,14 @@
         </li>
         <li><a href="#">МЕДИА</a>
           <ul class="nav-list-dop">
-            <li><a href="#">ТРЕЙЛЕРЫ</a></li>
+            <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
             <li><a href="#">ПОСТЕРЫ</a></li>
             <li><a href="#">САУНДТРЕКИ</a></li>
             <li><a href="#">ФОТО</a></li>
-            <li><a href="#">ОБОИ (ФИЛЬМЫ)</a></li>
+            <li><a href="/film_lightbox.php">ОБОИ (ФИЛЬМЫ)</a></li>
             <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
             <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
+            <li><a href="/film_lightbox.php">КАДРЫ</a></li>
           </ul>
         </li>
         <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>

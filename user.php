@@ -23,12 +23,7 @@
         <div class="head-content">
           <div class="info-user">
             <h1 class="pagetitle mini__pagetitle login__user">Stanislav_Nikulin</h1>
-            <h2 class="name__user">Станислав Никулин</h2>
-          </div>
-          <div class="nav-list">
-            <ul>
-              <li><a href="#"></a></li>
-            </ul>
+            <h2 class="name__page">Станислав Никулин</h2>
           </div>
           <div class="nav-content">
             <ul class="nav-content-list clear">
@@ -41,12 +36,11 @@
               <li class="nav-content-item"><a href="#">Персоналии <span class="number">4</span></a></li>
             </ul>
           </div>
-          <div class="back-nav-content"></div>
         </div>
         <section class="outer-section clear outer-content">
         	<!-- Контент -->
 
-          <content class="page-section-content section-content content-outercol-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <content class="page-section-content profile-section-content section-content content-outercol-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           
           <div class="list-content">
             <div class="user-head row-profile-item profile-item-chief">
@@ -100,7 +94,7 @@
               <div class="row-profile-item-content">
                 <div class="profile-post-item">
                   <a href="#" class="profile-post-item__title">No Country for Old Men</a>
-                  <div class="profile-post-item__content">Так вот про «Оскар». Если не ходить вокруг да около, что имеем в сухом остатке: 1. Лучшим фильмом стал фильм-расследование, основанный на реальных событиях и заставляющий задуматься о том, что происходит здесь-и-сейчас, в реальном мире, а не в фантазиях (пусть и великолепно перенесённых на экран) голливудских сценаристов. 2. Ди Каприо наконец получил «Оскар». 3. «Безумный Макс» собрал больше всех статуэток.4. Прекрасный фильм «Из машины» получил награду в самой неожиданной для себя номинации. 5. Гениальному Морриконе будет чем гвоздь в квартире забить.  </div>
+                  <div class="profile-post-item__content">Друзья, товарищи, братья и сёстры (как недавно <a href="#">выяснилось</a>, все братья — сёстры). Имеется небольшое объявление по «распорядку дня», которое без продолжительных вступлений и хотелось бы озвучить. </div>
                   <div class="profile-post-item__date">
                     <div class="pagelist-info">
                       <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
@@ -242,12 +236,6 @@
                         </div>
                         <div class="main-raiting">Общий рейтинг фильма: <span class="number">869</span></div>
                       </div>
-                      <div class="main-folder-icon">
-                        <div class="row-icon-add row-icon-add--white icon-folder">
-                          <a href="#" class="folder__icon icon"></a>
-                          <div class="hint">Добавить в Мои Фильмы</div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div class="rating-profile-item">
@@ -269,12 +257,6 @@
                         </div>
                         <div class="main-raiting">Общий рейтинг фильма: <span class="number">869</span></div>
                       </div>
-                      <div class="main-folder-icon">
-                        <div class="row-icon-add row-icon-add--white icon-folder">
-                          <a href="#" class="folder__icon icon"></a>
-                          <div class="hint">Добавить в Мои Фильмы</div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div class="rating-profile-item">
@@ -295,12 +277,6 @@
                           из 10
                         </div>
                         <div class="main-raiting">Общий рейтинг фильма: <span class="number">869</span></div>
-                      </div>
-                      <div class="main-folder-icon">
-                        <div class="row-icon-add row-icon-add--white icon-folder">
-                          <a href="#" class="folder__icon icon"></a>
-                          <div class="hint">Добавить в Мои Фильмы</div>
-                        </div>
                       </div>
                     </div>
                   </div>

@@ -23,10 +23,10 @@
         <section class="outer-section clear outer-content">
         	<!-- Контент -->
           <content class="pagelist page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          <h1 class="pagetitle mini__pagetitle">РЕЗУЛЬТАТЫ ПОИСКА</h1>
+          <h1 class="pagetitle">РЕЗУЛЬТАТЫ ПОИСКА</h1>
           <div class="header-pagelist header-search header-pagelist--black">
             <div class="inner-header-pagelist">
-              <div class="pagelist-titile-black search-title">СКОРЕЕ ВСЕГО ВЫ ИЩЕТЕ</div>
+              <div class="pagelist-title-black search-title">СКОРЕЕ ВСЕГО ВЫ ИЩЕТЕ</div>
               <div class="section-result-content clear">
                 <div class="section-result-item item1">
                   <a href="#"><img class="image-padding image-padding--white" src="app/img/content/s1.jpg" alt=""></a>
