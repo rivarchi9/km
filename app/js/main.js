@@ -19,6 +19,42 @@ $(document).ready(function() {
 	imageResize();
 
 
+	// Setttings
+	var inputRowEdit = $('.row-input');
+	
+	$(inputRowEdit).click(function() {
+		thisInput = $(this).find('.input-field[data-type = no-edit]');
+		if (thisInput.length != 0) {
+			thisInput.next().addClass('active').html('Разблокируйте поле');
+		}
+	});
+
+	$('.check-hide input').click(function() {
+		findInputHide = $(this).parents('.form-input-item').find('input[data-type = hide]');
+		if ($(this).is(':checked')){
+			findInputHide.attr('type', 'password');
+		}else {
+			findInputHide.attr('type', 'text');
+		}
+	});
+	
+	$('.field-add-icon[data-type = edit]').click(function() {
+		var findParentsInput = $(this).parents('.form-input-item').find('.input-field[data-type = no-edit]');
+		findParentsInput.removeAttr('disabled').removeAttr('data-type');
+		findParentsInput.next().removeClass('active').html('');
+	});
+	minDays = 1;
+	while (minDays <= 31){
+		$('select[name = day]').append('<option value="'+minDays+'">'+minDays+'</option>');
+		minDays++
+	}
+	maxYears = 2016;
+	while (maxYears >= 1920){
+		$('select[name = years]').append('<option value="'+maxYears+'">'+maxYears+'</option>');
+		maxYears--
+	}
+
+
 	// Мобильное меню
 	$(".mobile-nav-button, .mobile-nav-button__close").on('click',function(){
 		if ($('.outer-mobile-nav').is('.default')) {
@@ -383,37 +419,6 @@ $("[data-type-slider=left_controller] , [data-type-slider=right_controller]").mo
 		$('body').attr('onmousedown',false);
 		$('body').attr('onselectstart',false);
 	});
-	var inputRowEdit = $('.row-input');
-	
-	$(inputRowEdit).click(function() {
-		thisInput = $(this).find('.input-field[data-type = no-edit]');
-		if (thisInput.length != 0) {
-			thisInput.next().addClass('active').html('Разблокируйте поле');
-		}
-	});
 
-	$('.check-hide input').click(function() {
-		findInputHide = $(this).parents('.form-input-item').find('input[data-type = hide]');
-		if ($(this).is(':checked')){
-			findInputHide.attr('type', 'password');
-		}else {
-			findInputHide.attr('type', 'text');
-		}
-	});
 	
-	$('.field-add-icon[data-type = edit]').click(function() {
-		var findParentsInput = $(this).parents('.form-input-item').find('.input-field[data-type = no-edit]');
-		findParentsInput.removeAttr('disabled').removeAttr('data-type');
-		findParentsInput.next().removeClass('active').html('');
-	});
-	minDays = 1;
-	while (minDays <= 31){
-		$('select[name = day]').append('<option value="'+minDays+'">'+minDays+'</option>');
-		minDays++
-	}
-	maxYears = 2016;
-	while (maxYears >= 1920){
-		$('select[name = years]').append('<option value="'+maxYears+'">'+maxYears+'</option>');
-		maxYears--
-	}
 });
