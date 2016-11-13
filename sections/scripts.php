@@ -6,7 +6,7 @@
 <script>
   $(document).ready(function(){
     $('.bxslider').bxSlider({
-      auto: true
+      auto: false
     });
     w = window.innerWidth;
     if (w <= 992) {
