@@ -258,6 +258,162 @@ $(document).ready(function() {
 			$("[data-type-filter]").removeClass('hide');
 		}
 	});
+});
 
 
+// ==============================================
+// ================ TRAILERS ====================
+// ==============================================
+
+function get_inform_about_slider(object){
+	if($(object).is('[data-type!=slider]')){
+		object = $(object).parents('[data-type=slider]');
+	}
+	array = [];
+	array['slider_min']		= parseInt($(object).attr('data-type-slider-min'));
+	array['slider_max']		= parseInt($(object).attr('data-type-slider-max'));
+	array['slider_bg']			= $(object).find('[data-type-slider=bg]');
+	array['slider_fr']			= $(object).find('[data-type-slider=fr]');
+	array['left_controller']	= $(object).find('[data-type-slider=left_controller]');
+	array['right_controller']	= $(object).find('[data-type-slider=right_controller]');
+	array['input_left']		= $(object).find('[data-type-slider=input_left]');
+	array['input_right']		= $(object).find('[data-type-slider=input_right]');
+	return array;
+}
+
+$(document).ready(function() {
+
+	 $("[data-type=slider]").each(function(){
+		 ar = get_inform_about_slider(this);
+		 $(ar.left_controller).css('left','0%');
+		 $(ar.right_controller).css('left','100%');
+		 $(ar.input_left).val( ar.slider_min );
+		 $(ar.input_right).val( ar.slider_max );
+		 $(ar.slider_fr).css('left','0%');
+		 $(ar.slider_fr).css('width','100%');
+	 });
+
+	 $('[data-type-slider=input_left] , [data-type-slider=input_right]').on('input',function(){
+		if($(this).is('[data-type-slider=input_left]')){
+	 		input = "left";
+	 	}
+	 	if($(this).is('[data-type-slider=input_right]')){
+	 		input = "right";
+	 	}
+
+		ar = get_inform_about_slider(this);
+		val = $(this).val();
+		width = $(ar.slider_bg).width();
+		left = parseInt($(this).css('left'));
+
+		left_count = Math.round((val-ar.slider_min)/(ar.slider_max-ar.slider_min)*width);
+		if(input == 'left'){
+			if(left_count < 0){
+				left_count = 0;
+			}
+			if(left_count >= parseInt($(ar.right_controller).css('left'))){
+				left_count = parseInt($(ar.right_controller).css('left')) - 1;
+			}
+			$(ar.left_controller).css('left',left_count);
+		}
+		if(input == 'right'){
+			if(left_count > width){
+				left_count = width;
+			}
+			if(left_count <= parseInt($(ar.left_controller).css('left'))){
+				left_count = parseInt($(ar.left_controller).css('left')) + 1;
+			}
+			$(ar.right_controller).css('left',left_count);
+		}
+
+		left_controller = parseInt($(ar.left_controller).css('left'));
+		right_controller = parseInt($(ar.right_controller).css('left'));
+		$(ar.slider_fr).css('left',left_controller);
+		$(ar.slider_fr).css('width',right_controller-left_controller);
+ 	});
+});
+
+slider_status = 0;
+coord_x = 0;
+
+$("[data-type-slider=left_controller] , [data-type-slider=right_controller]").mousedown(function(){
+
+	$('body').attr('onmousedown','return false');
+	$('body').attr('onselectstart','return false');
+
+	slider_status = 1;
+	obj = this;
+
+	if($(obj).is('[data-type-slider=left_controller]')){
+		controller = "left";
+	}
+	if($(obj).is('[data-type-slider=right_controller]')){
+		controller = "right";
+	}
+
+	ar = get_inform_about_slider(obj);
+
+	coord_start = event.pageX;
+	width = $(ar.slider_bg).width();
+	left_start = parseInt($(obj).css('left'));
+
+	$(window).mousemove(function(){
+		if(slider_status == 1){
+			left = event.pageX - coord_start + left_start;
+			left_obj_pos = parseInt($(ar.left_controller).css('left'));
+			right_obj_pos = parseInt($(ar.right_controller).css('left'));
+
+			if(0 < left && left < width && (controller == "left" && right_obj_pos - left > 0 || controller == "right" && left - left_obj_pos > 0)){
+				$(obj).css('left',left);
+				orange_width = right_obj_pos - left_obj_pos;
+				$(ar.slider_fr).css('left',left_obj_pos);
+				$(ar.slider_fr).css('width',orange_width);
+
+				if( controller == "left" ){
+					$(ar.input_left).val(Math.round((ar.slider_max - ar.slider_min) / width * left_obj_pos)+ar.slider_min);
+				}
+				if( controller == "right" ){
+					$(ar.input_right).val(Math.round((ar.slider_max - ar.slider_min) / width * right_obj_pos)+ar.slider_min);
+				}
+			}
+		}
+	});
+	$(window).mouseup(function(){
+		slider_status = 0;
+		$('body').attr('onmousedown',false);
+		$('body').attr('onselectstart',false);
+	});
+	var inputRowEdit = $('.row-input');
+	
+	$(inputRowEdit).click(function() {
+		thisInput = $(this).find('.input-field[data-type = no-edit]');
+		if (thisInput.length != 0) {
+			thisInput.next().addClass('active').html('Разблокируйте поле');
+		}
+	});
+
+	$('.check-hide input').click(function() {
+		findInputHide = $(this).parents('.form-input-item').find('input[data-type = hide]');
+		if ($(this).is(':checked')){
+			findInputHide.attr('type', 'password');
+		}else {
+			findInputHide.attr('type', 'text');
+		}
+	});
+	
+	$('.field-add-icon[data-type = edit]').click(function() {
+		var findParentsInput = $(this).parents('.form-input-item').find('.input-field[data-type = no-edit]');
+		findParentsInput.removeAttr('disabled').removeAttr('data-type');
+		findParentsInput.next().removeClass('active').html('');
+	});
+	minDays = 1;
+	while (minDays <= 31){
+		$('select[name = day]').append('<option value="'+minDays+'">'+minDays+'</option>');
+		minDays++
+	}
+	maxYears = 2016;
+	while (maxYears >= 1920){
+		$('select[name = years]').append('<option value="'+maxYears+'">'+maxYears+'</option>');
+		maxYears--
+	}
 });

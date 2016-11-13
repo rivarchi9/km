@@ -27,13 +27,14 @@
           </div>
           <div class="nav-content">
             <ul class="nav-content-list clear">
-              <li class="nav-content-item active"><a href="#">Профиль</a></li>
+              <li class="nav-content-item active"><a href="user.php">Профиль</a></li>
               <li class="nav-content-item no-active"><span>Рецензии</span></li>
               <li class="nav-content-item no-active"><span>Отзывы</span></li>
-              <li class="nav-content-item"><a href="#">Комментарии <span class="number">38</span></a></li>
-              <li class="nav-content-item"><a href="#">Оценки <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="#">Фильмы <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="#">Персоналии <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="userComments.php">Комментарии <span class="number">38</span></a></li>
+              <li class="nav-content-item"><a href="userRaiting.php">Оценки <span class="number">8</span></a></li>
+              <li class="nav-content-item"><a href="userFilms.php">Фильмы <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="userPeople.php">Персоналии <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="userSetting.php">Настройки</a></li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,5 @@
 
-<?php 
+<?php
   $namePage = 'Трейлеры'; // название страницы
   include "sections/head.php"; // вывод head
 ?>
@@ -73,7 +73,7 @@
                   </div>
                 </div>
                 <div class="selection-trailers-item clear">
-                  <div class="item years">
+                  <div class="item years" data-type="slider" data-type-slider-min="1930" data-type-slider-max="2016">
                     <div class="selection-trailers__name">Года:</div>
                     <div class="selection-trailers__value">
                       <div class="outer-time-bar clear">
@@ -85,20 +85,20 @@
                           </ul>
                         </div>
                         <div class="time-bar-slide">
-                          <div class="slide-bar-bottom">
-                            <div class="slide-bar-top"></div>
+                          <div class="slide-bar-bottom" data-type-slider="bg">
+                            <div class="slide-bar-top" data-type-slider="fr"></div>
                             <div class="slide-bar-controls">
-                              <div class="slide-bar-controls__item slide-bar-controls__left"></div>
-                              <div class="slide-bar-controls__item slide-bar-controls__right"></div>
+                              <div class="slide-bar-controls__item slide-bar-controls__left" data-type-slider="left_controller"></div>
+                              <div class="slide-bar-controls__item slide-bar-controls__right" data-type-slider="right_controller"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="outer-time-value clear">
                         <span>с</span>
-                        <input type="text" class="time-value-before" placeholder="1993">
+                        <input type="text" class="time-value-after" data-type-slider="input_left" value="1993">
                         <span>по</span>
-                        <input type="text" class="time-value-before" placeholder="2006">
+                        <input type="text" class="time-value-before" data-type-slider="input_right" value="2006">
                       </div>
                     </div>
                   </div>
@@ -185,12 +185,12 @@
                 <h1>НОВЫЕ ТРЕЙЛЕРЫ</h1>
               </div>
               <ul class="tab-list clear">
-                <li class="active" data-type="ru">ФИЛЬМЫ</li>
-                <li class="default" data-type="eng">ЗАРУБЕЖНЫЕ СЕРИАЛЫ</li>
-                <li class="default" data-type="eng">РОССИЙСКИЕ СЕРИАЛЫ</li>
+                <li class="active" data-type="ru" data-type-sliderGroup="new_trailers" data-type-sliderButton="1">ФИЛЬМЫ</li>
+                <li class="default" data-type="eng" data-type-sliderGroup="new_trailers" data-type-sliderButton="2">ЗАРУБЕЖНЫЕ СЕРИАЛЫ</li>
+                <li class="default" data-type="eng" data-type-sliderGroup="new_trailers" data-type-sliderButton="3">РОССИЙСКИЕ СЕРИАЛЫ</li>
               </ul>
-              <div class="result-list-content">
-                <div class="trailer-item clear">
+              <div class="result-list-content active" data-type-sliderGroup="new_trailers" data-type-sliderElem="1">
+                <div class="trailer-item  clear">
                   <div class="row-trailer-image">
                     <div class="image-shadow">
                       <a href="#" class="parent"><img src="app/img/content/t2.jpg" alt="" class="image-cover">
@@ -211,7 +211,7 @@
                     </div>
                     <div class=" clear">
                       <div class="trailer-list-download--left">
-                        или 
+                        или
                         <div class="trailer-list-download"><span class="trailer-list-download__link">скачать</span>
                         <i class="trailer-list-download__icon"></i>
                           <div class="row-trailer-list-download">
@@ -254,7 +254,7 @@
                     </div>
                     <div class=" clear">
                       <div class="trailer-list-download--left">
-                        или 
+                        или
                         <div class="trailer-list-download"><span class="trailer-list-download__link">скачать</span>
                         <i class="trailer-list-download__icon"></i>
                           <div class="row-trailer-list-download">
@@ -289,11 +289,11 @@
                   <li class="tw"><a href="#"></a></li>
                 </ul>
               </div>
-                
+
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+        	<?php include "sections/aside2.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>
