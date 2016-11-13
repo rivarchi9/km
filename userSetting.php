@@ -1,5 +1,5 @@
 <?php 
-  $namePage = 'Рейтинг Пользователя'; // название страницы
+  $namePage = 'Настройки Пользователя'; // название страницы
   include "sections/head.php"; // вывод head
 ?> 
 <body>
@@ -31,10 +31,10 @@
               <li class="nav-content-item no-active"><span>Рецензии</span></li>
               <li class="nav-content-item no-active"><span>Отзывы</span></li>
               <li class="nav-content-item"><a href="userComments.php">Комментарии <span class="number">38</span></a></li>
-              <li class="nav-content-item active"><a href="userRaiting.php">Оценки <span class="number">8</span></a></li>
+              <li class="nav-content-item "><a href="userRaiting.php">Оценки <span class="number">8</span></a></li>
               <li class="nav-content-item"><a href="userFilms.php">Фильмы <span class="number">4</span></a></li>
               <li class="nav-content-item"><a href="userPeople.php">Персоналии <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="userSetting.php">Настройки</a></li>
+              <li class="nav-content-item active"><a href="userSetting.php">Настройки</a></li>
             </ul>
           </div>
         </div>
