@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	// Setttings
 	var inputRowEdit = $('.row-input');
-	
+
 	$(inputRowEdit).click(function() {
 		thisInput = $(this).find('.input-field[data-type = no-edit]');
 		if (thisInput.length != 0) {
@@ -37,7 +37,7 @@ $(document).ready(function() {
 			findInputHide.attr('type', 'text');
 		}
 	});
-	
+
 	$('.field-add-icon[data-type = edit]').click(function() {
 		var findParentsInput = $(this).parents('.form-input-item').find('.input-field[data-type = no-edit]');
 		findParentsInput.removeAttr('disabled').removeAttr('data-type');
@@ -53,6 +53,11 @@ $(document).ready(function() {
 		$('select[name = years]').append('<option value="'+maxYears+'">'+maxYears+'</option>');
 		maxYears--
 	}
+
+	$('.add-folder-button').click(function() {
+		$('.add-folder-button').removeClass('active');
+		$(this).addClass('active');
+	});
 
 
 	// Мобильное меню
@@ -108,7 +113,7 @@ $(document).ready(function() {
 	});
 
 	// Открытие/закрытие календаря
-	$(".content-item-dop-date").on('click',function () {
+	$(".content-item-dop-date, .drop-down-where").on('click',function () {
 		$(".outer-calendar").slideToggle(50);
 	});
 	// Выбод даты в календаре
@@ -119,7 +124,9 @@ $(document).ready(function() {
 		}
 		$(".outer-calendar").slideUp(50);
 		mn = new Array('Января','Февраля','Марта','Апреля','Мая','Июня','Июля','Августа','Сентрября','Октября','Ноября','Декабря');
-		$(".content-item-dop-date").html($(this).html()+" "+mn[calMonth]);
+		$(".content-item-dop-date").html();
+		var date = ("0"+$(this).html()).slice(-2)+"."+("0"+(calMonth + 1)).slice(-2)+"."+(calYear+1900);
+		$(".drop-down-where").html(date);
 	});
 
 	// Строим календарь
@@ -420,5 +427,129 @@ $("[data-type-slider=left_controller] , [data-type-slider=right_controller]").mo
 		$('body').attr('onselectstart',false);
 	});
 
-	
+
+});
+
+
+// Reiting STARS
+
+$('.star__item[data-active = select]').append('<span class="select-star default">ваша оценка</span>');
+
+function amimatedStar(){
+	$('.select-star').addClass('default');
+}
+$('.star__item').click(function() {
+	parentStar = $(this).parents('.inner-raiting-star');
+	$('.inner-raiting-star .star__item .select-star').remove();
+	$(parentStar).find('.star__item').removeAttr('data-active');
+	$(this).attr('data-active','select');
+	$(this).parents('.inner-raiting-star').attr('data-fixed', 'fixed');
+	$(this).append('<span class="select-star">ваша оценка</span>');
+	setTimeout(amimatedStar, 2000);
+});
+$('.star__item').hover(function() {
+	thisStar = $(this).attr('data-value');
+	parentStar = $(this).parents('.inner-raiting-star');
+	minStar = 0;
+	maxStar = $(parentStar).find('.star__item').length;
+	if (!$(this).is('[data-active]')) {
+		while (minStar <= thisStar) {
+			$(parentStar).find('.star__item[data-value = '+ minStar +']').addClass('active');
+			minStar++
+		}
+	}
+	while (maxStar > thisStar) {
+		$(parentStar).find('.star__item[data-value = '+ maxStar +']').removeClass('active');
+		maxStar--
+	}
+	$(parentStar).find('.raiting-number .value').html(thisStar);
+}, function() {
+	if (!$('.inner-raiting-star').is('[data-fixed]')) {
+		$('.inner-raiting-star .star__item').removeClass('active');
+		$('.raiting-number .value').html(0);
+
+	}
+});
+$('.raiting-list-star').hover(function() {
+	$(this).find('.select-star').addClass('active');
+}, function() {
+	parentStar = $(this).parents('.inner-raiting-star');
+	minStar = 0;
+	fixedStar = $(parentStar).find('.star__item[data-active = select]').attr('data-value');
+	if ($('.inner-raiting-star').is('[data-fixed]')) {
+		$(parentStar).find('.star__item').removeClass('active');
+		while (minStar <= fixedStar) {
+			$(parentStar).find('.star__item[data-value = '+ minStar +']').addClass('active');
+			minStar++
+		}
+		$(parentStar).find('.raiting-number .value').html(fixedStar);
+		$('.select-star').removeClass('active');
+		setTimeout(amimatedStar, 2000);
+	}
+});
+$(document).ready(function() {
+	$('.inner-raiting-star').each(function(index, el) {
+		minStar = 0;
+		fixedStar = $(this).find('.star__item[data-active = select]').attr('data-value');
+		parentStar = $(this).parents('.inner-raiting-star');
+		while (minStar <= fixedStar) {
+			$(this).find('.star__item[data-value = '+ minStar +']').addClass('active');
+			minStar++
+		}
+		$(this).find('.raiting-number .value').html(fixedStar);
+	});
+});
+
+// Лайки и дислайки
+
+$(document).ready(function() {
+	$('.like-button .like , .like-button .dislike').click(function(){
+		par = $(this).parents('.like-button');
+		// если голос есть и не равен this
+		ttt = $(par).children('.dislike');
+		if($(this).is('.like') && ttt.is('.active')){
+			ttt.removeClass('active');
+			ttt.next('.number').html( (parseInt(ttt.next('.number').html() - 1)) );
+			if(ttt.next('.number').html() == 0){
+				ttt.next('.number').attr('data-type','default');
+			}
+		}
+		ttt = $(par).children('.like');
+		if($(this).is('.dislike') && ttt.is('.active')){
+			ttt.removeClass('active');
+			ttt.next('.number').html( (parseInt(ttt.next('.number').html() - 1)) );
+			if(ttt.next('.number').html() == 0){
+				ttt.next('.number').attr('data-type','default');
+			}
+		}
+		// если голоса нет
+		if($(this).parents('.like-button').find('.active').attr('class') == undefined){
+			$(this).addClass('active');
+			if(parseInt($(this).next('.number').html()) == 0 ){
+				if($(this).is('.like')){
+					$(this).next('.number').attr('data-type','more');
+				}
+				if($(this).is('.dislike')){
+					$(this).next('.number').attr('data-type','less');
+				}
+			}
+			$(this).next('.number').html( (parseInt($(this).next('.number').html()) + 1) );
+		}
+	});
+});
+
+
+// Film-Actors
+
+$(document).ready(function() {
+	$('.folder__icon').click(function(){
+		$(this).parent().children('.row-dropdown-folder').addClass('active');
+	});
+	$(document).mouseup(function (e){ // событие клика по веб-документу
+		var div = $(".row-dropdown-folder.active"); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+			div.removeClass('active'); // скрываем его
+		}
+	});
 });

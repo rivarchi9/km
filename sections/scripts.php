@@ -8,6 +8,15 @@
     $('.bxslider').bxSlider({
       auto: false
     });
+    $('.bx-mini-slider').bxSlider({
+      slideWidth: 215,
+      minSlides: 2,
+      maxSlides: 3,
+      slideMargin: 15,
+      pager: false,
+      nextText: '',
+      prevText: ''
+    });
     w = window.innerWidth;
     if (w <= 992) {
        $('.happy-carousel').bxSlider({

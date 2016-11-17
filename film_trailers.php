@@ -27,13 +27,15 @@
           </div>
           <div class="nav-content">
             <ul class="nav-content-list clear">
-              <li class="nav-content-item active"><a href="#">Профиль</a></li>
-              <li class="nav-content-item no-active"><span>Рецензии</span></li>
-              <li class="nav-content-item no-active"><span>Отзывы</span></li>
-              <li class="nav-content-item"><a href="#">Комментарии <span class="number">38</span></a></li>
-              <li class="nav-content-item"><a href="#">Оценки <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="#">Фильмы <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="#">Персоналии <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
+              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
+              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
+              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
+              <li class="nav-content-item"><a href="">Обои <span class="number">8</span></a></li>
+              <li class="nav-content-item active"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Саундтрек <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Постеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Награды <span class="number">4</span></a></li>
             </ul>
           </div>
         </div>
@@ -47,7 +49,7 @@
               <div class="section-video section-black-video">
               <!-- <div class="video-prewiew__play ytp-large-play-button ytp-button"></div> -->
               <div class="outer-trailer-item">
-                <div class="trailer-item">
+                <div class="">
                   <div class="trailer-list-item">
                     <div class="video-prewiew">
                       <img alt="" src="/app/img/content/t1.jpg" class="responsive-image video-prewiew__item" data-src-d="/app/img/content/t1.jpg" data-src-t="/app/img/content/t1.jpg" data-src-m="/app/img/content/t1.jpg">
@@ -229,6 +231,18 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="outer-pagelist-more">
+              <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
+            </div>
+            <div class="pagelist-social">
+              <div class="outer-social clear">
+                <ul class="social-list social-list--horizontal">
+                  <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                  <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                  <li class="tw"><a href="#"></a></li>
+                </ul>
               </div>
             </div>
           </div>   

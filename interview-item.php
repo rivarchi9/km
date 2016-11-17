@@ -1,7 +1,7 @@
-<?php 
+<?php
   $namePage = 'ИНТЕРВЬЮ'; // название страницы
   include "sections/head.php"; // вывод head
-?> 
+?>
 <body>
   <div class="outer-brang-bg">
     <div class="brand-bg">
@@ -31,7 +31,7 @@
               <h1 class="pagetitle">Антуан Фукуа: «Кино должно отражать то, что происходит в мире здесь и сейчас»</h1>
               <div class="header-pagelist-info">
                 <div class="pagelist-info">
-                  <span class="pagelist__author"><a href="#">Мария Мухина</a></span>, 
+                  <span class="pagelist__author"><a href="#">Мария Мухина</a></span>,
                   <span class="date__month">4 августа 2016</span>, <span class="date__hour">10:18</span>
                   <a href="#" class="pagelist__comments">8</a>
                 </div>
@@ -148,11 +148,12 @@
                     <li class="quote"><a href="#">Цитировать</a></li>
                     <li class="date">29 сентября 2016, 23:07</li>
                   </ul>
-                  <div class="like-button clear">
+                <div class="like-button clear">
                     <span class="like active"></span>
                     <span class="number" data-type="more">1</span>
                     <!-- data-type="more & less & default" -->
                     <span class="dislike"></span>
+                    <span class="number" data-type="less">100</span>
                   </div>
                 </div>
               </div>
@@ -172,10 +173,11 @@
                       <li class="date">29 сентября 2016, 23:07</li>
                     </ul>
                     <div class="like-button clear">
-                      <span class="like "></span>
-                      <span class="number " data-type="less">1</span>
+                      <span class="like"></span>
+                      <span class="number" data-type="default">0</span>
                       <!-- data-type="more & less & default" -->
-                      <span class="dislike active"></span>
+                      <span class="dislike"></span>
+                      <span class="number" data-type="default">0</span>
                     </div>
                   </div>
                 </div>
@@ -195,15 +197,16 @@
                     <li class="date">29 сентября 2016, 23:07</li>
                   </ul>
                   <div class="like-button clear">
-                    <span class="like active"></span>
+                    <span class="like"></span>
                     <span class="number" data-type="more">1</span>
                     <!-- data-type="more & less & default" -->
                     <span class="dislike"></span>
+                    <span class="number" data-type="less">100</span>
                   </div>
                 </div>
               </div>
 
-              
+
             </div>
           </div>
           <div class="row-pagelist-ligin">
@@ -225,7 +228,7 @@
           </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+        	<?php include "sections/aside2.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

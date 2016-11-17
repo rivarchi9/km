@@ -45,15 +45,15 @@
           </div>
           <div class="nav-content">
             <ul class="nav-content-list clear">
-              <li class="nav-content-item "><a href="#">О фильме</a></li>
-              <li class="nav-content-item "><span>Рецензии</span></li>
-              <li class="nav-content-item no-active"><span>Актеры и создатели</span></li>
-              <li class="nav-content-item active"><a href="#">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item"><a href="#">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="#">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="#">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="#">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="#">Награды <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
+              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
+              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
+              <li class="nav-content-item active"><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
+              <li class="nav-content-item"><a href="">Обои <span class="number">8</span></a></li>
+              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Саундтрек <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Постеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="">Награды <span class="number">4</span></a></li>
             </ul>
           </div>
         </div>
@@ -208,7 +208,7 @@
               </div>
             </div>
             <div class="outer-pagelist-more">
-              <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Другие кадры</span></span>
+              <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
             </div>
             <div class="pagelist-social">
               <div class="outer-social clear">
