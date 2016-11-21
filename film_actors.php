@@ -49,11 +49,11 @@
               <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
               <li class="nav-content-item active"><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
               <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item"><a href="">Обои <span class="number">8</span></a></li>
+              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
               <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Награды <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
             </ul>
           </div>
         </div>
@@ -92,11 +92,11 @@
                       </div>
                       <div class="row-result-tabs-item--right">
                         <div class="result-tabs-image">
-                          <div class="list-preview">
-                            <a href="app/img/content/ap1.jpg" class="parent" gallery-number="1">
+                          <div class="list-preview" gallery-number="1">
+                            <a href="app/img/content/ap1.jpg" class="parent">
                               <img src="app/img/content/ap1.jpg" alt="" class="">
                             </a>
-                            <a href="app/img/content/ap2.jpg" class="parent hidden" gallery-number="1"></a>
+                            <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
                           <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
                         </div>
@@ -152,11 +152,11 @@
                       </div>
                       <div class="row-result-tabs-item--right">
                         <div class="result-tabs-image">
-                          <div class="list-preview">
-                            <a href="app/img/content/ap1.jpg" class="parent" gallery-number="2">
+                          <div class="list-preview" gallery-number="2">
+                            <a href="app/img/content/ap1.jpg" class="parent">
                               <img src="app/img/content/ap1.jpg" alt="" class="">
                             </a>
-                            <a href="app/img/content/ap2.jpg" class="parent hidden" gallery-number="2"></a>
+                            <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
                           <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
                         </div>
@@ -212,11 +212,11 @@
                       </div>
                       <div class="row-result-tabs-item--right">
                         <div class="result-tabs-image">
-                          <div class="list-preview">
-                            <a href="app/img/content/ap1.jpg" class="parent" gallery-number="3">
+                          <div class="list-preview" gallery-number="3">
+                            <a href="app/img/content/ap1.jpg" class="parent">
                               <img src="app/img/content/ap1.jpg" alt="" class="">
                             </a>
-                            <a href="app/img/content/ap2.jpg" class="parent hidden" gallery-number="3"></a>
+                            <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
                           <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
                         </div>
@@ -245,7 +245,6 @@
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>

@@ -28,12 +28,12 @@
               <section class="pagelist-item clear">
                 <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
+                    <a href="blog-item.php"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title pagelist-item-title--black">
-                    <a href="#">No Country For Old Man</a>
+                    <a href="blog-item.php">No Country For Old Man</a>
                   </div>
                   
                   <div class="pagelist-info full-pagelist-info">
@@ -46,18 +46,18 @@
                   <p>
                     «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
                   </p>
-                  <a href="#" class="pagelist__link">Подробнее</a>
+                  <a href="blog-item.php" class="pagelist__link">Подробнее</a>
                 </div>
               </section>
               <section class="pagelist-item clear">
                 <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
+                    <a href="blog-item.php"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title pagelist-item-title--black">
-                    <a href="#">No Country For Old Man</a>
+                    <a href="blog-item.php">No Country For Old Man</a>
                   </div>
                   
                   <div class="pagelist-info full-pagelist-info">
@@ -70,18 +70,18 @@
                   <p>
                     «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
                   </p>
-                  <a href="#" class="pagelist__link">Подробнее</a>
+                  <a href="blog-item.php" class="pagelist__link">Подробнее</a>
                 </div>
               </section>
               <section class="pagelist-item clear">
                 <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
+                    <a href="blog-item.php"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title pagelist-item-title--black">
-                    <a href="#">No Country For Old Man</a>
+                    <a href="blog-item.php">No Country For Old Man</a>
                   </div>
                   
                   <div class="pagelist-info full-pagelist-info">
@@ -94,18 +94,18 @@
                   <p>
                     «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
                   </p>
-                  <a href="#" class="pagelist__link">Подробнее</a>
+                  <a href="blog-item.php" class="pagelist__link">Подробнее</a>
                 </div>
               </section>
               <section class="pagelist-item clear">
                 <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
+                    <a href="blog-item.php"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title pagelist-item-title--black">
-                    <a href="#">No Country For Old Man</a>
+                    <a href="blog-item.php">No Country For Old Man</a>
                   </div>
                   
                   <div class="pagelist-info full-pagelist-info">
@@ -118,18 +118,18 @@
                   <p>
                     «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
                   </p>
-                  <a href="#" class="pagelist__link">Подробнее</a>
+                  <a href="blog-item.php" class="pagelist__link">Подробнее</a>
                 </div>
               </section>
               <section class="pagelist-item clear">
                 <div class="pagelist-item-image all-pagelist-item-image  col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
+                    <a href="blog-item.php"><img alt="" src="/app/img/content/3437.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3437.jpg" data-src-t="/app/img/content/3437.jpg" data-src-m="/app/img/content/3437.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content all-pagelist-item-content pagelist-item-content col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title pagelist-item-title--black">
-                    <a href="#">No Country For Old Man</a>
+                    <a href="blog-item.php">No Country For Old Man</a>
                   </div>
                   
                   <div class="pagelist-info full-pagelist-info">
@@ -142,7 +142,7 @@
                   <p>
                     «<a href="#">Охотники за приведениями</a>» вернулись на большой экран спустя больше, чем три десятилетия, с четверкой дам в главных ролях. Киномания спросила у режиссера ленты <a href="#">Пола Фига</a>, не страшно ли было покушаться на классику.
                   </p>
-                  <a href="#" class="pagelist__link">Подробнее</a>
+                  <a href="blog-item.php" class="pagelist__link">Подробнее</a>
                 </div>
               </section>
             </div>

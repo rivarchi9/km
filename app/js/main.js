@@ -115,6 +115,11 @@ $(document).ready(function() {
 	// Открытие/закрытие календаря
 	$(".content-item-dop-date, .drop-down-where").on('click',function () {
 		$(".outer-calendar").slideToggle(50);
+
+		$(".outer-calendar").find('.prev').attr('onmousedown','return false');
+		$(".outer-calendar").find('.prev').attr('onselectstart','return false');
+		$(".outer-calendar").find('.next').attr('onmousedown','return false');
+		$(".outer-calendar").find('.next').attr('onselectstart','return false');
 	});
 	// Выбод даты в календаре
 	$(document).on('click',".day",function () {
@@ -247,9 +252,15 @@ function open_over(object){
 	$(".overlay-photo").addClass('active');
 	$(".inner-overlay-image img").attr('src',$(parent).attr('data-type-over-img'));
 	$(".inner-overlay-caption").html($(parent).children(".trailer-caption-hide").html());
+	if($(parent).is('[data-type-over-desc]')){
+		$(".inner-overlay-caption").html( $( $(parent).attr('data-type-over-desc') ).html() );
+
+		$(".inner-overlay-caption").children('.link').attr('href',$(parent).attr('data-type-over-img'));
+		$(".inner-overlay-caption").children('.desc').html($(parent).attr('data-type-over-desc-desc'));
+	}
 }
 $(document).ready(function() {
-	$("div[data-type-over-img] .parent").on('click',function(){
+	$("[data-type-over-img] .parent").on('click',function(){
 		open_over(this);
 	});
 	//	след кадр
@@ -551,5 +562,31 @@ $(document).ready(function() {
 				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
 			div.removeClass('active'); // скрываем его
 		}
+	});
+});
+
+// OPEN close
+
+$(document).ready(function() {
+	$('[data-type-openclose-button]').click(function(){
+		elem = $(this).attr('data-type-openclose-button');
+		if($(this).attr('data-type-openclose-class')){
+			$('[data-type-openclose-element = '+elem+']').toggleClass($(this).attr('data-type-openclose-class'));
+		}else{
+			$('[data-type-openclose-element = '+elem+']').slideToggle();
+
+		}
+	});
+});
+
+$(document).ready(function() {
+	$('.soundtrack-item__name-author').click(function(){
+		if(!$(this).parents('.soundtrack-item.clear').is('.active')){
+			$('.soundtrack-item.clear').removeClass('active');
+			$('.soundtrack-item.clear').find('.player').slideUp();
+		}
+
+		$(this).parents('.soundtrack-item.clear').toggleClass('active');
+		$(this).parents('.soundtrack-item.clear').find('.player').slideToggle();
 	});
 });

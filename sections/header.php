@@ -52,23 +52,22 @@
                   <li><a href="#">ФОРУМ</a></li>
                 </ul>
               </li>
-              <li><a href="#">АРТКИНОМАНИЯ</a>
+              <li><a href="art_kinomania.php">АРТКИНОМАНИЯ</a>
                 <ul class="nav-list-dop">
-                  <li><a href="#">ФЕСТИВАЛИ И ПРЕМИИ</a></li>
+                  <li><a href="festivals.php">ФЕСТИВАЛИ И ПРЕМИИ</a></li>
                   <li><a href="#">BOOM!</a></li>
-                  <li><a href="#">СЦЕНАРИИ</a></li>
+                  <li><a href="scripts.php">СЦЕНАРИИ</a></li>
                 </ul>
               </li>
               <li><a href="#">МЕДИА</a>
                 <ul class="nav-list-dop">
                   <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
-                  <li><a href="#">ПОСТЕРЫ</a></li>
+                  <li><a href="posters.php">ПОСТЕРЫ</a></li>
                   <li><a href="#">САУНДТРЕКИ</a></li>
                   <li><a href="#">ФОТО</a></li>
                   <li><a href="#">ОБОИ (ФИЛЬМЫ)</a></li>
                   <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
                   <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
-                  <li><a href="/film_lightbox.php">КАДРЫ</a></li>
                 </ul>
               </li>
               <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
@@ -104,23 +103,22 @@
             <li><a href="#">ФОРУМ</a></li>
           </ul>
         </li>
-        <li><a href="#">АРТКИНОМАНИЯ</a>
+        <li><a href="art_kinomania.php">АРТКИНОМАНИЯ</a>
           <ul class="nav-list-dop">
-            <li><a href="#">ФЕСТИВАЛИ И ПРЕМИИ</a></li>
+            <li><a href="festivals.php">ФЕСТИВАЛИ И ПРЕМИИ</a></li>
             <li><a href="#">BOOM!</a></li>
-            <li><a href="#">СЦЕНАРИИ</a></li>
+            <li><a href="scripts.php">СЦЕНАРИИ</a></li>
           </ul>
         </li>
         <li><a href="#">МЕДИА</a>
           <ul class="nav-list-dop">
             <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
-            <li><a href="#">ПОСТЕРЫ</a></li>
+            <li><a href="posters.php">ПОСТЕРЫ</a></li>
             <li><a href="#">САУНДТРЕКИ</a></li>
             <li><a href="#">ФОТО</a></li>
             <li><a href="/film_lightbox.php">ОБОИ (ФИЛЬМЫ)</a></li>
             <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
             <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
-            <li><a href="/film_lightbox.php">КАДРЫ</a></li>
           </ul>
         </li>
         <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>

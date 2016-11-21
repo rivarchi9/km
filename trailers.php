@@ -26,79 +26,81 @@
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<h1 class="pagetitle trailers-pagetitle">Трейлеры</h1>
             <div class="outer-selection-trailers">
-              <div class="button__selection-trailers"><span>Подбор по параметрам</span></div>
+              <div class="button__selection-trailers"><span data-type-openclose-button="open_close" data-type-openclose-class="active">Подбор по параметрам</span></div>
               <div class="selection-trailers">
-                <div class="selection-trailers-item clear">
-                  <div class="item ganre">
-                    <div class="selection-trailers__name">Жанр:</div>
-                    <div class="selection-trailers__value">
-                      <ul class="selection-trailers__value-list">
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                        <li><a href="#">комедия</a></li>
-                      </ul>
+                <div class="row-selection-hide" data-type-openclose-element="open_close">
+                  <div class="selection-trailers-item clear">
+                    <div class="item ganre">
+                      <div class="selection-trailers__name">Жанр:</div>
+                      <div class="selection-trailers__value">
+                        <ul class="selection-trailers__value-list">
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">комедия</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="item language">
+                      <div class="selection-trailers__name">Язык:</div>
+                      <div class="selection-trailers__value">
+                        <ul class="selection-trailers__value-list">
+                          <li><a href="#">оригинальный</a></li>
+                          <li><a href="#">локализованный</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="item type">
+                      <div class="selection-trailers__name">Тип:</div>
+                      <div class="selection-trailers__value">
+                        <ul class="selection-trailers__value-list">
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">трейлер</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="item language">
-                    <div class="selection-trailers__name">Язык:</div>
-                    <div class="selection-trailers__value">
-                      <ul class="selection-trailers__value-list">
-                        <li><a href="#">оригинальный</a></li>
-                        <li><a href="#">локализованный</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="item type">
-                    <div class="selection-trailers__name">Тип:</div>
-                    <div class="selection-trailers__value">
-                      <ul class="selection-trailers__value-list">
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                        <li><a href="#">трейлер</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="selection-trailers-item clear">
-                  <div class="item years" data-type="slider" data-type-slider-min="1930" data-type-slider-max="2016">
-                    <div class="selection-trailers__name">Года:</div>
-                    <div class="selection-trailers__value">
-                      <div class="outer-time-bar clear">
-                        <div class="time-bar-years">
-                          <ul>
-                            <li>1930</li>
-                            <li>1970</li>
-                            <li>2016</li>
-                          </ul>
-                        </div>
-                        <div class="time-bar-slide">
-                          <div class="slide-bar-bottom" data-type-slider="bg">
-                            <div class="slide-bar-top" data-type-slider="fr"></div>
-                            <div class="slide-bar-controls">
-                              <div class="slide-bar-controls__item slide-bar-controls__left" data-type-slider="left_controller"></div>
-                              <div class="slide-bar-controls__item slide-bar-controls__right" data-type-slider="right_controller"></div>
+                  <div class="selection-trailers-item clear">
+                    <div class="item years" data-type="slider" data-type-slider-min="1930" data-type-slider-max="2016">
+                      <div class="selection-trailers__name">Года:</div>
+                      <div class="selection-trailers__value">
+                        <div class="outer-time-bar clear">
+                          <div class="time-bar-years">
+                            <ul>
+                              <li>1930</li>
+                              <li>1970</li>
+                              <li>2016</li>
+                            </ul>
+                          </div>
+                          <div class="time-bar-slide">
+                            <div class="slide-bar-bottom" data-type-slider="bg">
+                              <div class="slide-bar-top" data-type-slider="fr"></div>
+                              <div class="slide-bar-controls">
+                                <div class="slide-bar-controls__item slide-bar-controls__left" data-type-slider="left_controller"></div>
+                                <div class="slide-bar-controls__item slide-bar-controls__right" data-type-slider="right_controller"></div>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="outer-time-value clear">
-                        <span>с</span>
-                        <input type="text" class="time-value-after" data-type-slider="input_left" value="1993">
-                        <span>по</span>
-                        <input type="text" class="time-value-before" data-type-slider="input_right" value="2006">
+                        <div class="outer-time-value clear">
+                          <span>с</span>
+                          <input type="text" class="time-value-after" data-type-slider="input_left" value="1993">
+                          <span>по</span>
+                          <input type="text" class="time-value-before" data-type-slider="input_right" value="2006">
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -107,12 +109,12 @@
                   <div class="item letters">
                     <div class="letters-select">
                       <ul class="tab-list clear">
-                        <li class="active" data-type="ru">RU</li>
-                        <li class="default" data-type="eng">ENG</li>
+                        <li class="active" data-type-sliderGroup="lang" data-type-sliderButton="ru">RU</li>
+                        <li class="default" data-type-sliderGroup="lang" data-type-sliderButton="eng">ENG</li>
                       </ul>
                     </div>
                     <div class="letters-text">
-                      <ul class="letters-text-list active" data-type="ru">
+                      <ul class="letters-text-list active" data-type-sliderGroup="lang" data-type-sliderElem="ru">
                         <li>А</li>
                         <li>Б</li>
                         <li>В</li>
@@ -147,7 +149,7 @@
                         <li>Ю</li>
                         <li>Я</li>
                       </ul>
-                      <ul class="letters-text-list" data-type="eng">
+                      <ul class="letters-text-list" data-type-sliderGroup="lang" data-type-sliderElem="eng">
                         <li>A</li>
                         <li>B</li>
                         <li>C</li>

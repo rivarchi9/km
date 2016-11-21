@@ -49,18 +49,20 @@
               <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
               <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
               <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item"><a href="">Обои <span class="number">8</span></a></li>
+              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
               <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="">Награды <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
+              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
             </ul>
           </div>
           <div class="caption-page clear">
             <div class="caption-page-item caption-page-image">
               <div class="outer-caption-page-image">
-                <img src="app/img/content/f1.jpg" alt="" class="image-cover">
-                <i class="image-hover"><span>Увеличить</span></i>
+                <a href="app/img/content/f1.jpg" class="image-cover-parent">
+                  <img src="app/img/content/f1.jpg" alt="" class="image-cover">
+                  <i class="image-hover"><span>Увеличить</span></i>
+                </a>
               </div>
             </div>
             <div class="caption-page-item caption-page-info">
@@ -352,12 +354,12 @@
               <div class="row-tabs">
                 <ul class="tabs-list clear">
                   <li class="tabs-list-name"><span>СМОТРЕТЬ</span></li>
-                  <li class="active"><a href=""><span>В КИНО</span></a></li>
-                  <li class=""><a href=""><span>ОНЛАЙН</span></a></li>
-                  <li class=""><a href=""><span>НА ТВ</span></a></li>
+                  <li class="active" data-type-sliderGroup="smotr" data-type-sliderButton="1"><a><span>В КИНО</span></a></li>
+                  <li class="" data-type-sliderGroup="smotr" data-type-sliderButton="2"><a><span>ОНЛАЙН</span></a></li>
+                  <li class="" data-type-sliderGroup="smotr" data-type-sliderButton="3"><a><span>НА ТВ</span></a></li>
                 </ul>
               </div>
-              <div class="row-session-table active" data-type="1">
+              <div class="row-session-table active" data-type-sliderGroup="smotr" data-type-sliderElem="1">
                 <form action="">
                   <div class="row-dropdown-input session-dropdown-input">
                     <select name="city" id="" class="">
@@ -415,29 +417,18 @@
                     <div class="session-table-item__name"><a href="#">Amigos</a></div>
                     <div class="session-table-item-list">
                       <ul class="time-list time-list--normal clear">
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li class="active"><a href="#" class="no-link">10:00</a></li>
-                        <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="session-table-item clear">
-                    <div class="session-table-item__name"><a href="#">Amigos</a></div>
-                    <div class="session-table-item-list">
-                      <ul class="time-list time-list--normal clear">
-                        <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li class="active"><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
@@ -452,7 +443,9 @@
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                        <li class="active"><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
@@ -467,7 +460,30 @@
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                        <li class="active"><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
+                        <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
+                        <li><span>10:00</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="session-table-item clear">
+                    <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                    <div class="session-table-item-list">
+                      <ul class="time-list time-list--normal clear">
+                        <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
+                        <li><span>10:00</span></li>
+                        <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
@@ -479,10 +495,14 @@
                     <div class="session-table-item-list">
                       <ul class="time-list time-list--normal clear">
                         <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li class="active"><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
@@ -494,10 +514,14 @@
                     <div class="session-table-item-list">
                       <ul class="time-list time-list--normal clear">
                         <li><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
-                        <li><span>10:00</span></li>
-                        <li class="active"><span>10:00</span></li>
+                        <li class="active open-help-in"><span>10:00</span>
+                          <div class="help help--color2">Купить билет</div>
+                        </li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
                         <li><span>10:00</span></li>
@@ -509,8 +533,8 @@
                   <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
                 </div>
               </div>
-              <div class="row-session-table" data-type="2">2</div>
-              <div class="row-session-table" data-type="3">3</div>
+              <div class="row-session-table" data-type-sliderGroup="smotr" data-type-sliderElem="2">2</div>
+              <div class="row-session-table" data-type-sliderGroup="smotr" data-type-sliderElem="3">3</div>
               <div class="row-list-post-item">
                 <div class="list-post-item">
                   <div class="list-post-item-title">
@@ -599,7 +623,7 @@
               </div>
             </div>
             <div class="row-mini-slide row-mini-slide--gray">
-              <div class="mini-slide-title"><a href="#" class="no-link">КАДРЫ <span class="number">38</a></span></div>
+              <div class="mini-slide-title"><a href="#" class="no-link">КАДРЫ <span class="number">38</span></a></div>
               <div class="row-bx-mini-slider">
                 <div class="bx-mini-slider">
                   <div class="slide"><img src="app/img/content/ps1.jpg"></div>

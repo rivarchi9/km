@@ -32,12 +32,12 @@
               <div class="pagelist-item clear">
                 <div class="pagelist-item-image news-pagelist-item-image col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3434.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3434.jpg" data-src-t="/app/img/content/3434.jpg" data-src-m="/app/img/content/3434.jpg"></a>
+                    <a href="news-item.php"><img alt="" src="/app/img/content/3434.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3434.jpg" data-src-t="/app/img/content/3434.jpg" data-src-m="/app/img/content/3434.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content news-pagelist-item-content col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title">
-                    <a href="#">Фанаты киновселенной DC требуют закрыть Rotten Tomatoes</a>
+                    <a href="news-item.php">Фанаты киновселенной DC требуют закрыть Rotten Tomatoes</a>
                   </div>
                   <p>
                     На сайте Change.org <a href="#">собирают голоса</a> под петицией о закрытии сайта <a href="#">Rotten Tomatoes</a>. Причиной обструкции стали низкие оценки критиков, выставленные новому фильму киновселенной DC Comics «<a href="#">Отряд самоубийц</a>». 
@@ -52,12 +52,12 @@
               <div class="pagelist-item clear">
                 <div class="pagelist-item-image news-pagelist-item-image col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class=" image-shadow ">
-                    <a href="#"><img alt="" src="/app/img/content/3434.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3434.jpg" data-src-t="/app/img/content/3434.jpg" data-src-m="/app/img/content/3434.jpg"></a>
+                    <a href="news-item.php"><img alt="" src="/app/img/content/3434.jpg" class="responsive-image  image-prewiew" data-src-d="/app/img/content/3434.jpg" data-src-t="/app/img/content/3434.jpg" data-src-m="/app/img/content/3434.jpg"></a>
                   </div>
                 </div>
                 <div class="pagelist-item-content news-pagelist-item-content col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <div class="pagelist-item-title">
-                    <a href="#">Фанаты киновселенной DC требуют закрыть Rotten Tomatoes</a>
+                    <a href="news-item.php">Фанаты киновселенной DC требуют закрыть Rotten Tomatoes</a>
                   </div>
                   <p>
                     На сайте Change.org <a href="#">собирают голоса</a> под петицией о закрытии сайта <a href="#">Rotten Tomatoes</a>. Причиной обструкции стали низкие оценки критиков, выставленные новому фильму киновселенной DC Comics «<b><a href="#">Отряд самоубийц</a></b>». 

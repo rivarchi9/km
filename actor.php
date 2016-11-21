@@ -58,8 +58,10 @@
           <div class="caption-page caption-page-actor clear">
             <div class="caption-page-item caption-page-image">
               <div class="outer-caption-page-image image-shadow">
-                <img src="app/img/content/af.jpg" alt="" class="image-cover">
-                <i class="image-hover"><span>Увеличить</span></i>
+                <a href="app/img/content/af.jpg" class="image-cover-parent">
+                  <img src="app/img/content/af.jpg" alt="" class="image-cover">
+                  <i class="image-hover"><span>Увеличить</span></i>
+                </a>
               </div>
             </div>
             <div class="caption-page-item caption-page-info">
@@ -72,27 +74,27 @@
                         <li class="value__name">Дата рождения:</li>
                         <li>09.07.1956 (59 лет)</li>
                       </ul></li>
-                    <li> 
+                    <li>
                       <ul class="value">
                         <li class="value__name">Место рождения:</li>
                         <li>Конкорд, США</li>
                       </ul></li>
                     <li><ul class="value">
-                      <li class="value__name">Профессия:</li> 
+                      <li class="value__name">Профессия:</li>
                       <li>актер</li>
                       <li>режиссер</li>
                       <li>сценарист</li>
                       <li>продюсер</li>
                     </ul></li>
-                    <li> 
+                    <li>
                       <ul class="value">
-                        <li class="value__name">Рост:</li> 
+                        <li class="value__name">Рост:</li>
                         <li>183 см</li>
                       </ul>
                     </li>
-                    <li> 
+                    <li>
                       <ul class="value">
-                        <li class="value__name">Семейное положение:</li> 
+                        <li class="value__name">Семейное положение:</li>
                         <li>в браке с <a href="#">Рита Уилсон</a></li>
                       </ul>
                     </li>
@@ -167,11 +169,11 @@
             <div class="caption-page-item caption-page-dop caption-page-tab">
               <div class="caption-page-item-title"></div>
               <ul class="aside-list clear">
-                <li class="active" data-type-slidergroup="novelty" data-type-sliderbutton="cinema">КИНО</li>
-                <li class="default" data-type-slidergroup="novelty" data-type-sliderbutton="trailers">ТРЕЙЛЕРЫ</li>
-                <li class="default" data-type-slidergroup="novelty" data-type-sliderbutton="wallpapers">ОБОИ</li>
+                <li class="active" data-type-slidergroup="novelty_2" data-type-sliderbutton="1">КИНО</li>
+                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="2">ТРЕЙЛЕРЫ</li>
+                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="3">ОБОИ</li>
               </ul>
-              <div class="caption-page-tab-content active" data-type="1">
+              <div class="caption-page-tab-content active" data-type-slidergroup="novelty_2" data-type-sliderelem="1">
                 <div class="caption-page-tab-item">
                   <div class="list-preview">
                     <a href="#">
@@ -199,8 +201,8 @@
                   </div>
                 </div>
               </div>
-              <div class="caption-page-tab-content" data-type="2">2</div>
-              <div class="caption-page-tab-content" data-type="3">3</div>
+              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="2">2</div>
+              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="3">3</div>
             </div>
           </div>
           <div class="band-nav">
@@ -225,288 +227,291 @@
               <div class="row-actor-about">
                 <div class="row-tabs">
                   <ul class="tabs-list clear">
-                    <li class="active"><a href=""><span>ФИЛЬМОГРАФИЯ</span></a></li>
+                    <li class="active" data-type-sliderGroup="tab" data-type-sliderButton="1"><a><span>ФИЛЬМОГРАФИЯ</span></a></li>
                     <li class="tabs-list-name"><span>СМОТРЕТЬ</span></li>
-                    <li class=""><a href=""><span>В КИНО</span></a></li>
-                    <li class=""><a href=""><span>ОНЛАЙН</span></a></li>
-                    <li class=""><a href=""><span>НА ТВ</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="2"><a><span>В КИНО</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="3"><a><span>ОНЛАЙН</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="4"><a><span>НА ТВ</span></a></li>
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="row-list-about">
-              <div class="parent-list-about">
-                <div class="shadow-list-about">
-                  <div class="list-about-item clear">
-                    <div class="list-about-item-tile">
-                      <span class="list-about-item__title animated">РЕЖИССЕР</span>
-                      <span class="list-about-item__number">8 работ</span>
-                    </div>
-                    <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
-                  </div>
-                </div>
-                <div class="row-list-about-result active">
-                  <div class="list-content-item-inner">
-                    <div class="section-result-content clear">
-                      <div class="row-chief-title clear">
-                        <div class="section-result-item">2016</div>
-                        <div class="section-result-item section-result-item-actor">
-                          <div class="list-preview">
-                            <a href="#">
-                              <span>
-                                <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
-                              </span>
-                            </a>
-                          </div>
-                        </div>
+              <div class="row-list-about active" data-type-sliderGroup="tab" data-type-sliderElem="1">
+                <div class="parent-list-about">
+                  <div class="shadow-list-about">
+                    <div class="list-about-item clear" data-type-openclose-button="1">
+                      <div class="list-about-item-tile">
+                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__number">8 работ</span>
                       </div>
-                      
-                      <div class="section-result-item item2 clear">
-                        <div class="row-result-tabs-item row-result-tabs-item--left">
-                          <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
-                          <div class="name__eng">HOLOGRAM FOR THE KING</div>
-                          <div class="section-result-info">
-                            <div class="actors-info-content">
-                              <ul>
-                                <li class="actors-info-role">Роль — Alan Clay</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row-result-tabs-item--right">
-                          <div class="result-tabs-image">
+                      <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
+                    </div>
+                  </div>
+                  <div class="row-list-about-result active" data-type-openclose-element="1">
+                    <div class="list-content-item-inner">
+                      <div class="section-result-content clear">
+                        <div class="row-chief-title clear">
+                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
-                              <a href="#" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                              <a href="#">
+                                <span>
+                                  <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
+                                </span>
                               </a>
                             </div>
                           </div>
-                          <div class="row-info-list-cinema">
-                            <div class="main-folder-icon">
-                              <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
-                                <a href="#" class="folder__icon icon"></a>
-                                <div class="hint">Добавить в Избранное</div>
-                                <div class="row-dropdown-folder">
-                                  <div class="dropdown-folder dropdown-folder-content">
-                                    <div class="dropdown-folder-title"><span>В избранное</span></div>
-                                    <ul class="dropdown-folder-list">
-                                      <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
-                                    </ul>
-                                  </div>
-                                  <div class="dropdown-folder dropdown-folder-setting">
-                                    <a href="#" class="clear">
-                                      <!-- <i class="setting-icon"></i> -->
-                                      <span>Управление папками</span>
-                                    </a>
+                        </div>
+
+                        <div class="section-result-item item2 clear">
+                          <div class="row-result-tabs-item row-result-tabs-item--left">
+                            <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
+                            <div class="name__eng">HOLOGRAM FOR THE KING</div>
+                            <div class="section-result-info">
+                              <div class="actors-info-content">
+                                <ul>
+                                  <li class="actors-info-role">Роль — Alan Clay</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row-result-tabs-item--right">
+                            <div class="result-tabs-image">
+                              <div class="list-preview" gallery-number="1">
+                                <a href="app/img/content/ap2.jpg" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                                </a>
+                                <a href="app/img/content/ap1.jpg" class="parent hidden"></a>
+                              </div>
+                            </div>
+                            <div class="row-info-list-cinema">
+                              <div class="main-folder-icon">
+                                <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                                  <a class="folder__icon icon"></a>
+                                  <div class="hint">Добавить в Избранное</div>
+                                  <div class="row-dropdown-folder">
+                                    <div class="dropdown-folder dropdown-folder-content">
+                                      <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                      <ul class="dropdown-folder-list">
+                                        <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                                      </ul>
+                                    </div>
+                                    <div class="dropdown-folder dropdown-folder-setting">
+                                      <a href="#" class="clear">
+                                        <!-- <i class="setting-icon"></i> -->
+                                        <span>Управление папками</span>
+                                      </a>
+                                    </div>
                                   </div>
                                 </div>
+                                <div class="row-icon-add row-icon-add--white icon-star">
+                                  <a class="star__icon icon"></a>
+                                  <div class="hint">Поставить оценку</div>
+                                </div>
                               </div>
-                              <div class="row-icon-add row-icon-add--white icon-star">
-                                <a href="#" class="star__icon icon"></a>
-                                <div class="hint">Поставить оценку</div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
                               </div>
-                            </div>
-                            <div class="row-mini-raiting-number">
-                              Рейтинг: <span class="number">8.4</span>
                             </div>
                           </div>
                         </div>
+
                       </div>
-                      
                     </div>
-                  </div>
-                  <div class="list-content-item-inner">
-                    <div class="section-result-content clear">
-                      <div class="row-chief-title clear">
-                        <div class="section-result-item">2016</div>
-                        <div class="section-result-item section-result-item-actor">
-                          <div class="list-preview">
-                            <a href="#">
-                              <span>
-                                <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
-                              </span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="section-result-item item2 clear">
-                        <div class="row-result-tabs-item row-result-tabs-item--left">
-                          <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
-                          <div class="name__eng">HOLOGRAM FOR THE KING</div>
-                          <div class="section-result-info">
-                            <div class="actors-info-content">
-                              <ul>
-                                <li class="actors-info-role">Роль — Alan Clay</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <a href="#" class="button button2">КУПИТЬ БИЛЕТ</a>
-                        </div>
-                        <div class="row-result-tabs-item--right">
-                          <div class="result-tabs-image">
+                    <div class="list-content-item-inner">
+                      <div class="section-result-content clear">
+                        <div class="row-chief-title clear">
+                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
-                              <a href="#" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                              <a href="#">
+                                <span>
+                                  <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
+                                </span>
                               </a>
                             </div>
                           </div>
-                          <div class="row-info-list-cinema">
-                            <div class="main-folder-icon">
-                              <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
-                                <a href="#" class="folder__icon icon"></a>
-                                <div class="hint">Добавить в Избранное</div>
-                                <div class="row-dropdown-folder">
-                                  <div class="dropdown-folder dropdown-folder-content">
-                                    <div class="dropdown-folder-title"><span>В избранное</span></div>
-                                    <ul class="dropdown-folder-list">
-                                      <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
-                                    </ul>
-                                  </div>
-                                  <div class="dropdown-folder dropdown-folder-setting">
-                                    <a href="#" class="clear">
-                                      <!-- <i class="setting-icon"></i> -->
-                                      <span>Управление папками</span>
-                                    </a>
+                        </div>
+
+                        <div class="section-result-item item2 clear">
+                          <div class="row-result-tabs-item row-result-tabs-item--left">
+                            <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
+                            <div class="name__eng">HOLOGRAM FOR THE KING</div>
+                            <div class="section-result-info">
+                              <div class="actors-info-content">
+                                <ul>
+                                  <li class="actors-info-role">Роль — Alan Clay</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <a href="#" class="button button2">КУПИТЬ БИЛЕТ</a>
+                          </div>
+                          <div class="row-result-tabs-item--right">
+                            <div class="result-tabs-image">
+                              <div class="list-preview" gallery-number="2">
+                                <a href="app/img/content/ap2.jpg" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                                </a>
+                                <a href="app/img/content/ap1.jpg" class="parent hidden"></a>
+                              </div>
+                            </div>
+                            <div class="row-info-list-cinema">
+                              <div class="main-folder-icon">
+                                <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                                  <a class="folder__icon icon"></a>
+                                  <div class="hint">Добавить в Избранное</div>
+                                  <div class="row-dropdown-folder">
+                                    <div class="dropdown-folder dropdown-folder-content">
+                                      <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                      <ul class="dropdown-folder-list">
+                                        <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                                      </ul>
+                                    </div>
+                                    <div class="dropdown-folder dropdown-folder-setting">
+                                      <a href="#" class="clear">
+                                        <!-- <i class="setting-icon"></i> -->
+                                        <span>Управление папками</span>
+                                      </a>
+                                    </div>
                                   </div>
                                 </div>
+                                <div class="row-icon-add row-icon-add--white icon-star">
+                                  <a class="star__icon icon"></a>
+                                  <div class="hint">Поставить оценку</div>
+                                </div>
                               </div>
-                              <div class="row-icon-add row-icon-add--white icon-star">
-                                <a href="#" class="star__icon icon"></a>
-                                <div class="hint">Поставить оценку</div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
                               </div>
-                            </div>
-                            <div class="row-mini-raiting-number">
-                              Рейтинг: <span class="number">8.4</span>
                             </div>
                           </div>
                         </div>
+
                       </div>
-                      
                     </div>
-                  </div>
-                  <div class="list-content-item-inner">
-                    <div class="section-result-content clear">
-                      <div class="row-chief-title clear">
-                        <div class="section-result-item">2016</div>
-                        <div class="section-result-item section-result-item-actor">
-                          <div class="list-preview">
-                            <a href="#">
-                              <span>
-                                <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
-                              </span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="section-result-item item2 clear">
-                        <div class="row-result-tabs-item row-result-tabs-item--left">
-                          <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
-                          <div class="name__eng">HOLOGRAM FOR THE KING</div>
-                          <div class="section-result-info">
-                            <div class="actors-info-content">
-                              <ul>
-                                <li class="actors-info-role">Роль — Alan Clay</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <button class="button button4 animated">СМОТРЕТЬ ОНЛАЙН</button>
-                        </div>
-                        <div class="row-result-tabs-item--right">
-                          <div class="result-tabs-image">
+                    <div class="list-content-item-inner">
+                      <div class="section-result-content clear">
+                        <div class="row-chief-title clear">
+                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
-                              <a href="#" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                              <a href="#">
+                                <span>
+                                  <img class=" image-padding--white" src="app/img/content/c1.jpg" alt="">
+                                </span>
                               </a>
                             </div>
                           </div>
-                          <div class="row-info-list-cinema">
-                            <div class="main-folder-icon">
-                              <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
-                                <a href="#" class="folder__icon icon"></a>
-                                <div class="hint">Добавить в Избранное</div>
-                                <div class="row-dropdown-folder">
-                                  <div class="dropdown-folder dropdown-folder-content">
-                                    <div class="dropdown-folder-title"><span>В избранное</span></div>
-                                    <ul class="dropdown-folder-list">
-                                      <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
-                                      <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
-                                    </ul>
-                                  </div>
-                                  <div class="dropdown-folder dropdown-folder-setting">
-                                    <a href="#" class="clear">
-                                      <!-- <i class="setting-icon"></i> -->
-                                      <span>Управление папками</span>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row-icon-add row-icon-add--white icon-star">
-                                <a href="#" class="star__icon icon"></a>
-                                <div class="hint">Поставить оценку</div>
+                        </div>
+
+                        <div class="section-result-item item2 clear">
+                          <div class="row-result-tabs-item row-result-tabs-item--left">
+                            <div class="name"><a href="#">ГОЛОГРАММА ДЛЯ КОРОЛЯ</a></div>
+                            <div class="name__eng">HOLOGRAM FOR THE KING</div>
+                            <div class="section-result-info">
+                              <div class="actors-info-content">
+                                <ul>
+                                  <li class="actors-info-role">Роль — Alan Clay</li>
+                                </ul>
                               </div>
                             </div>
-                            <div class="row-mini-raiting-number">
-                              Рейтинг: <span class="number">8.4</span>
+                            <button class="button button4 animated">СМОТРЕТЬ ОНЛАЙН</button>
+                          </div>
+                          <div class="row-result-tabs-item--right">
+                            <div class="result-tabs-image">
+                              <div class="list-preview" gallery-number="3">
+                                <a href="app/img/content/ap2.jpg" class="parent"><img src="app/img/content/ap2.jpg" alt="" class="">
+                                </a>
+                                <a href="app/img/content/ap1.jpg" class="parent hidden"></a>
+                              </div>
+                            </div>
+                            <div class="row-info-list-cinema">
+                              <div class="main-folder-icon">
+                                <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                                  <a class="folder__icon icon"></a>
+                                  <div class="hint">Добавить в Избранное</div>
+                                  <div class="row-dropdown-folder">
+                                    <div class="dropdown-folder dropdown-folder-content">
+                                      <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                      <ul class="dropdown-folder-list">
+                                        <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                        <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                                      </ul>
+                                    </div>
+                                    <div class="dropdown-folder dropdown-folder-setting">
+                                      <a href="#" class="clear">
+                                        <!-- <i class="setting-icon"></i> -->
+                                        <span>Управление папками</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row-icon-add row-icon-add--white icon-star">
+                                  <a class="star__icon icon"></a>
+                                  <div class="hint">Поставить оценку</div>
+                                </div>
+                              </div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
+                              </div>
                             </div>
                           </div>
                         </div>
+
                       </div>
-                      
+                    </div>
+                    <div class="outer-pagelist-more">
+                      <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
                     </div>
                   </div>
-                  <div class="outer-pagelist-more">
-                    <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
+                </div>
+                <div class="parent-list-about">
+                  <div class="shadow-list-about">
+                    <div class="list-about-item clear" data-type-openclose-button="2">
+                      <div class="list-about-item-tile">
+                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__number">8 работ</span>
+                      </div>
+                      <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
+                    </div>
                   </div>
+                  <div class="row-list-about-result" data-type-openclose-element="2"></div>
+                </div>
+                <div class="parent-list-about">
+                  <div class="shadow-list-about">
+                    <div class="list-about-item clear" data-type-openclose-button="3">
+                      <div class="list-about-item-tile">
+                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__number">8 работ</span>
+                      </div>
+                      <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
+                    </div>
+                  </div>
+                  <div class="row-list-about-result" data-type-openclose-element="3"></div>
+                </div>
+                <div class="parent-list-about">
+                  <div class="shadow-list-about">
+                    <div class="list-about-item clear" data-type-openclose-button="4">
+                      <div class="list-about-item-tile">
+                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__number">8 работ</span>
+                      </div>
+                      <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
+                    </div>
+                  </div>
+                  <div class="row-list-about-result" data-type-openclose-element="4"></div>
                 </div>
               </div>
-              <div class="parent-list-about">
-                <div class="shadow-list-about">
-                  <div class="list-about-item clear">
-                    <div class="list-about-item-tile">
-                      <span class="list-about-item__title animated">РЕЖИССЕР</span>
-                      <span class="list-about-item__number">8 работ</span>
-                    </div>
-                    <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
-                  </div>
-                </div>
-                <div class="row-list-about-result">
-                  2
-                </div>
+              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="2">2
               </div>
-              <div class="parent-list-about">
-                <div class="shadow-list-about">
-                  <div class="list-about-item clear">
-                    <div class="list-about-item-tile">
-                      <span class="list-about-item__title animated">РЕЖИССЕР</span>
-                      <span class="list-about-item__number">8 работ</span>
-                    </div>
-                    <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
-                  </div>
-                </div>
-                <div class="row-list-about-result">
-                  2
-                </div>
+              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="3">3
               </div>
-              <div class="parent-list-about">
-                <div class="shadow-list-about">
-                  <div class="list-about-item clear">
-                    <div class="list-about-item-tile">
-                      <span class="list-about-item__title animated">РЕЖИССЕР</span>
-                      <span class="list-about-item__number">8 работ</span>
-                    </div>
-                    <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
-                  </div>
-                </div>
-                <div class="row-list-about-result">
-                  2
-                </div>
+              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="4">4
               </div>
             </div>
             <div class="pagelist-social">
