@@ -38,7 +38,7 @@ $color10: #00A1E6; // link
 $color11: #f2f2f2; // background gray
 
 .outer {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .sprite {
@@ -397,10 +397,13 @@ p {
 	color: $color9;
 	
 }
-.center-section-description p {
+.center-section-description .slide-description {
 	max-width: 311px;
 	display: inline-block;
 	padding-bottom: 20px;
+	line-height: 19.6px;
+	font-size: 14px;
+	color: $color9;
 }
 .outer-section-description__text a:hover {
 	color: #DF493A;
@@ -1104,7 +1107,9 @@ p {
 	padding-top: 11px;
 }
 .aside-item-content {
-	padding-bottom: 20px;
+	.button {
+		margin-top: 20px;
+	}
 }
 .aside-item-content .aside-result.active {
 	display: block;
@@ -1797,7 +1802,7 @@ p {
 	margin-top: 1px;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 	li{
-		padding: 7px 0;
+		padding: 7px;
 	}
 	li.active {
 		background-color: #ffdb5d;
@@ -1959,11 +1964,11 @@ p {
 	top: 0;
 	bottom: 0;
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	z-index: 9999;
 	background-color: #F9BC0B;
 	overflow-y: scroll;
-  transition: 0.5s;
+  transition: 0.1s;
   transition-timing-function: cubic-bezier(.5,.56,.12,1);
 }
 .outer-mobile-nav.default {
@@ -3299,7 +3304,7 @@ a:hover + .hint {
     border-bottom: 1px solid #fff;
     box-sizing: content-box;
     margin-top: -1px;
-    margin-bottom: -2px;
+    /*margin-bottom: -2px;*/
     .number {
     	color: #f07166;
     }
@@ -4307,8 +4312,8 @@ display: none;
 	width: 25%;
 	text-align: center;
 	float: left;
-	margin-bottom: 18npx;
-	padding: 7.5px 0 0 7.5px;
+	margin-bottom: 18px;
+	padding: 7.5px 7.5px 0 7.5px;
 }
 
 .list-tile-name a {
@@ -6701,7 +6706,7 @@ div.caption-page-tab-info {
 	padding-left: 20px;
 	display: table;
 	width: 100%;
-	padding-bottom: 40px;
+	padding-bottom: 13px;
 	border-bottom: 1px solid #e5e5e5;
 }
 .art-awards__title {
@@ -6851,7 +6856,7 @@ div.caption-page-tab-info {
 }
 .select-filters-list {
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 36px;
 	li {
 		display: inline-block;
 		margin-right: 5px;
@@ -7114,10 +7119,6 @@ div.caption-page-tab-info {
 	transition: 0.4s;
 }
 .posters-item-tile:hover {
-	img{
-		background-color: #F6574B;
-		border-color: #ff1604;
-	}
 	.poster-title a {
 		color: #ff1604;
 	}
@@ -8941,11 +8942,162 @@ div.caption-page-tab-info {
 	display: block;
 	float: left;
 }
+.row-festival-item {
+	.inner-outside.parent-sticker {
+		padding-top: 53px;
+	}
+	.list-preview:after {
+		height: 15px;
+	}
+}
+.top-head-page {
+	.art-awards-item {
+		border: none;
+	}
+	.description {
+		padding: 15px;
+		font-size: 14px;
+	}
+}
+.festival-video {
+	.section-video {
+		padding-top: 0;
+	}
+	.video-prewiew-item__title {
+		display: block;
+	}
+	.title {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.title a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.festival-video-caption {
+		font-weight: normal;
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+}
+.festival-video-link {
+	font-weight: normal;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.festival-posters-caption {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+.festival-posters-caption {
+	font-size: 12px;
+}
+.author-post-list:hover {
+	text-decoration: underline;
+}
+.row-header-page {
+	padding: 35px 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 25px;
+}
+.header-page--color1 {
+	background-color: #212121;
+	
+}
+.header-page-text {
+	max-width: 400px;
+	display: inline-block;
+}
+.outer-selection-trailers-shorts {
+	padding-top: 20px;
+	border-top: 1px solid #E5E5E5;
+}
+.parent-sticker-not-outside {
+	.sticker {
+		left: -5px;
+	}
+}
+.header-page-text {
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+.row-user-content-with-sticker {
+	padding-top: 48px;
+}
+.user-content-list-item__title a {
+	font-weight: 900;
+	text-decoration: underline;
+}
+.user-content-list-item__title {
+	padding-bottom: 25px;
+}
+.row-user-last {
+	margin-bottom: 30px;
+}
+.nav-content-list .active a {
+	position: relative;
+}
+.nav-content-list .active a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -3px;
+}
+.user-reviews-info {
+	width: 234px;
+	display: block;
+	float: left;
+}
+.user-reviews-image {
+	width: 50%;
+	float: left;
+	.section-result-item.item1 {
+		display: inline-block;
+		width: auto;
+	}
+}
+.user-reviews-name {
+	width: 50%;
+	float: left;
+	> * {
+		display: block;
+	}
+	span {
+		font-size: 12px;
+		margin-bottom: 7px;
+		color: #7f7f7f;
+	}
+	a {
+		font-size: 14px;
+		color: #000;
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom: 7px;
+	}
+	.user-reviews-name-eng {
+		font-weight: bold;
+	}
+}
+.user-reviews-content {
+	float: left;
+	width: calc(100% - 234px);
+	padding-left: 15px;
 
-
-
-
-
+}
+.user-reviews-text {
+	font-size: 14px;
+	color: #4c4848;
+	margin-bottom: 7px;
+}
 
 .vis {
 	background-color: #f6574b;
@@ -8964,6 +9116,14 @@ body.test-body {
 	a:visited {
 		color: #8650C4;
 
+	}
+}
+
+.user-reviews-item {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	+.user-reviews-item {
+		padding-top: 30px;
 	}
 }
 
@@ -8995,7 +9155,7 @@ body.test-body {
 		border-color: #df4839;
 	}
 }
-.full-comments-text a,.full-comments-reviews .author-reviews-name a,.online-links a,.files-item__format a,.channel-item-head__name a,.table-aside-name a,.add__link,.bxslider-part-title a,.whom-item__link a,.row-table-bill-info .name a,.time-list li.active span,.cinema-info-item a,.button__selection-trailers span,.poster-title a,.all-items-list li ul .all-item-name-all a,.all-items-list a,.select-filters-list li:not(.active) a,.main-item__content-title a,.section-mini-prewiew-list li a,.online-item__title a,.online-item-list a,.art-awards__title a,.outside-more a,.art-list li ul a,.art-title a,.news-comment,.news-title a,.news-child-title a,.all-posts-author,.author__name,.page-content-text a,.awords-list-name.name,.big-awards-list-name li a,.mini-slider-caption-name a,.wall-size-list a,.all-slide-item a,.dropdown-folder-setting span,.name-icon,.trailer-list-view-quality li a span,.list-about-item__button,.nav-films-list a,.info-item-list a,.caption-page-dop li a,.pagelist-ligin-text a,li a.all-slide-item a,.session-table-item__name a,.tile-preview-item__text a,.info-item-list-link,.list-tile-value a,.selection-trailers__value a,.trailer-list-title a ,.trailer__title a,.profile-post-item__content a,.profile-comment-title a,.profile-post-item__title,.section-result-nav--white li a,.prevew-post__title a,.prevew-post__data a,.section-result-nav--black a,.section-result-item .name a,.cinema-list a,.header-result-nav a,.forgot-password,.reg a,.author-comment-info-list li a,.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
+.user-reviews-name a,.user-content-list-item__title a,.full-comments-text a,.full-comments-reviews .author-reviews-name a,.online-links a,.files-item__format a,.channel-item-head__name a,.table-aside-name a,.add__link,.bxslider-part-title a,.whom-item__link a,.row-table-bill-info .name a,.time-list li.active span,.cinema-info-item a,.button__selection-trailers span,.poster-title a,.all-items-list li ul .all-item-name-all a,.all-items-list a,.select-filters-list li:not(.active) a,.main-item__content-title a,.section-mini-prewiew-list li a,.online-item__title a,.online-item-list a,.art-awards__title a,.outside-more a,.art-list li ul a,.art-title a,.news-comment,.news-title a,.news-child-title a,.all-posts-author,.author__name,.page-content-text a,.awords-list-name.name,.big-awards-list-name li a,.mini-slider-caption-name a,.wall-size-list a,.all-slide-item a,.dropdown-folder-setting span,.name-icon,.trailer-list-view-quality li a span,.list-about-item__button,.nav-films-list a,.info-item-list a,.caption-page-dop li a,.pagelist-ligin-text a,li a.all-slide-item a,.session-table-item__name a,.tile-preview-item__text a,.info-item-list-link,.list-tile-value a,.selection-trailers__value a,.trailer-list-title a ,.trailer__title a,.profile-post-item__content a,.profile-comment-title a,.profile-post-item__title,.section-result-nav--white li a,.prevew-post__title a,.prevew-post__data a,.section-result-nav--black a,.section-result-item .name a,.cinema-list a,.header-result-nav a,.forgot-password,.reg a,.author-comment-info-list li a,.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
 	&:hover {
 		color: #F6574B;
 	}
@@ -9346,7 +9506,7 @@ body.test-body {
     margin-bottom: 18px;
 
 	}
-	.center-section-description p {
+	.center-section-description .slide-description {
 		max-width: none;
 	}
 	.content-item-row-image > a {
@@ -9541,7 +9701,15 @@ body.test-body {
 	.mobile-nav {
 		display: block;
 	}
-
+	.top {
+		height: auto;
+	}
+	.center-section-description .title-description_def {
+		font-size: 18px;
+		display: block;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
 	.news-item {
 		padding-top: 30px;
 	}
@@ -9570,9 +9738,6 @@ body.test-body {
 		width: 100%;
 		text-align: left;
 		margin-bottom: 20px;
-	}
-	.result-list li span {
-		padding: 0;
 	}
 	.video-prewiew:before {
 		content: '';
@@ -9894,8 +10059,8 @@ body.test-body {
 	.mobile-nav-button {
 		background: url('../img/icon/mni.png') center center no-repeat;
 		display: block;
-		height: 100%;
-		width: 100%;
+		height: 77px;
+		width: 77px;
 		float: right;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -9905,6 +10070,13 @@ body.test-body {
 	}
 	.autorization {
 		float: right;
+	}
+	.autorization-outer {
+		text-align: center;
+		.autorization {
+			float: none;
+			text-align: center;
+		}
 	}
 	.autorization-list li a {
 		text-decoration: underline;
@@ -10210,10 +10382,39 @@ body.test-body {
 	}
 }
 @media (max-width:544px ) {
-	.autorization-outer {
+	/*.autorization-outer {
 		display: none;
+	}*/
+	.user-reviews-info {
+		width: 100%;
+		float: none;
 	}
-	
+	.user-reviews-image {
+		width: 40%;
+	}
+	.user-reviews-name {
+		width: 60%;
+	}
+	.user-reviews-content {
+		width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+	.row-header-page {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.big-awards-inner-item .year {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.big-awards-inner-item .big-awards-info {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
 	.inner-overlay-caption {
 		.social-list li a {
 	    text-decoration: none;
@@ -10586,9 +10787,9 @@ body.test-body {
 		min-width: 100%;
 		margin: 0;
 	}
-	.autorization-outer {
+	/*.autorization-outer {
 		display: none;
-	}
+	}*/
 	.mobile-nav-button {
 		background: url('../img/icon/mni.png')  right 15px center no-repeat;
 	}

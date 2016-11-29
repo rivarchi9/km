@@ -48,12 +48,6 @@
                 </div>
                 <div class="aside-result__item">
                   <p class="aside-result__title">
-                    <span class="aside-result__title-text">Полный расколбас</span>
-                  </p>
-                  <p class="aside-result__dop">США, 2016</p>
-                </div>
-                <div class="aside-result__item">
-                  <p class="aside-result__title">
                     <span class="aside-result__title-text">Морган</span>
                   </p>
                   <p class="aside-result__dop">США, 2016</p>
@@ -64,6 +58,7 @@
                   </p>
                   <p class="aside-result__dop">США, Великобритания, Новая Зеландия, 2016</p>
                 </div>
+                <a href="#" class="button button2">ВСЕ ФИЛЬМЫ</a>
               </div>
               <div class="aside-result default" data-type-sliderGroup="novelty" data-type-sliderElem="trailers">
                 <div class="aside-result__item">
@@ -90,6 +85,7 @@
                   </p>
                   <p class="aside-result__dop">США, 2016</p>
                 </div>
+                <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
               </div>
               <div class="aside-result default" data-type-sliderGroup="novelty" data-type-sliderElem="wallpapers">
                 <div class="aside-result__item">
@@ -116,10 +112,10 @@
                   </p>
                   <p class="aside-result__dop">США, 2016</p>
                 </div>
+                <a href="#" class="button button2">ВСЕ ОБОИ</a>
               </div>
             </div>
           </div>
-          <a href="#" class="button button2">ВСЯ АФИША</a>
         </div>
         <div class="aside-item leaders no-mobile">
           <div class="aside__title">ЛИДЕРЫ ПРОКАТА</div>

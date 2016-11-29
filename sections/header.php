@@ -19,26 +19,18 @@
           </form>
         </div>
       </div>
-      <div class="autorization-outer col-xl-3 col-lg-3 col-md-7 col-sm-5 col-xs-5">
-        <div class="autorization">
-          <ul class="autorization-list">
-            <li><a href="/user.php"><span>ВХОД</span></a></li>
-            <li><a href="/login.php"><span>РЕГИСТРАЦИЯ</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="mobile-nav col-md-1 col-sm-2 col-xs-4">
+      <div class="mobile-nav col-md-1 col-sm-7 col-xs-4">
         <span class="mobile-nav-button"></span>
         <div class="outer-mobile-nav default">
           <div class="close">
-            <a href="#" class="mobile-nav-button__close">Закрыть</a>
+            <span href="#" class="mobile-nav-button__close">Закрыть</span>
             <ul class="mobile-nav-list clear">
               <li><a href="#">СМОТРЕТЬ</a>
                 <ul class="nav-list-dop">
-                  <li><a href="../releases.php">АФИША</a></li>
+                  <li><a href="/releases.php">АФИША</a></li>
                   <li><a href="#">СКОРО В КИНО</a></li>
-                  <li><a href="../tv.php">ТВ</a></li>
-                  <li><a href="#">ОНЛАЙН</a></li>
+                  <li><a href="/tv.php">ТВ</a></li>
+                  <li><a href="/online.php">ОНЛАЙН</a></li>
                   <li><a href="#">SHORTЫ</a></li>
                   <li><a href="/test/all.php">все</a></li>
                 </ul>
@@ -64,22 +56,30 @@
                 <ul class="nav-list-dop">
                   <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
                   <li><a href="posters.php">ПОСТЕРЫ</a></li>
-                  <li><a href="../soundtracks.php">САУНДТРЕКИ</a></li>
-                  <li><a href="../photos.php">ФОТО</a></li>
-                  <li><a href="../wallpapers.php">ОБОИ (ФИЛЬМЫ)</a></li>
-                  <li><a href="../wallpapers.php">ОБОИ (АКТЕРЫ)</a></li>
-                  <li><a href="../wallpapers.php">ОБОИ (АКТРИСЫ)</a></li>
+                  <li><a href="/soundtracks.php">САУНДТРЕКИ</a></li>
+                  <li><a href="/photos.php">ФОТО</a></li>
+                  <li><a href="/wallpapers.php">ОБОИ (ФИЛЬМЫ)</a></li>
+                  <li><a href="/wallpapers.php">ОБОИ (АКТЕРЫ)</a></li>
+                  <li><a href="/wallpapers.php">ОБОИ (АКТРИСЫ)</a></li>
                 </ul>
               </li>
               <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
                 <ul class="nav-list-dop">
                   <li><a href="#">РЕЙТИНГ КИНОМАНИИ</a></li>
-                  <li><a href="../top_films.php">ТОПЫ</a></li>
-                  <li><a href="../box_office.php">БОКС-ОФИС</a></li>
+                  <li><a href="/top_films.php">ПОДБОРКИ</a></li>
+                  <li><a href="/box_office.php">БОКС-ОФИС</a></li>
                 </ul>
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div class="autorization-outer col-xl-3 col-lg-3 col-md-7 col-sm-12 col-xs-12">
+        <div class="autorization">
+          <ul class="autorization-list">
+            <li><a href="/user.php"><span>ВХОД</span></a></li>
+            <li><a href="/login.php"><span>РЕГИСТРАЦИЯ</span></a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -87,11 +87,12 @@
       <ul class="nav-list clear">
         <li><a href="#">СМОТРЕТЬ</a>
           <ul class="nav-list-dop">
-            <li><a href="№">АФИША</a></li>
+            <li><a href="/releases.php">АФИША</a></li>
             <li><a href="#">СКОРО В КИНО</a></li>
-            <li><a href="#">ТВ</a></li>
-            <li><a href="#">ОНЛАЙН</a></li>
+            <li><a href="/tv.php">ТВ</a></li>
+            <li><a href="/online.php">ОНЛАЙН</a></li>
             <li><a href="#">SHORTЫ</a></li>
+            <li><a href="/test/all.php">все</a></li>
           </ul>
         </li>
         <li><a href="#">ЧИТАТЬ</a>
@@ -115,18 +116,18 @@
           <ul class="nav-list-dop">
             <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
             <li><a href="posters.php">ПОСТЕРЫ</a></li>
-            <li><a href="#">САУНДТРЕКИ</a></li>
-            <li><a href="#">ФОТО</a></li>
-            <li><a href="/film_lightbox.php">ОБОИ (ФИЛЬМЫ)</a></li>
-            <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
-            <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
+            <li><a href="/soundtracks.php">САУНДТРЕКИ</a></li>
+            <li><a href="/photos.php">ФОТО</a></li>
+            <li><a href="/wallpapers.php">ОБОИ (ФИЛЬМЫ)</a></li>
+            <li><a href="/wallpapers.php">ОБОИ (АКТЕРЫ)</a></li>
+            <li><a href="/wallpapers.php">ОБОИ (АКТРИСЫ)</a></li>
           </ul>
         </li>
         <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
           <ul class="nav-list-dop">
             <li><a href="#">РЕЙТИНГ КИНОМАНИИ</a></li>
-            <li><a href="#">ТОПЫ</a></li>
-            <li><a href="#">БОКС-ОФИС</a></li>
+            <li><a href="/top_films.php">ПОДБОРКИ</a></li>
+            <li><a href="/box_office.php">БОКС-ОФИС</a></li>
           </ul>
         </li>
       </ul>

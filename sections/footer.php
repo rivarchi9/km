@@ -50,7 +50,7 @@
           <a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
           <ul class="footer-nav-list">
             <li><a href="#">РЕЙТИНГ КИНОМАНИИ</a></li>
-            <li><a href="#">ТОПЫ</a></li>
+            <li><a href="#">ПОДБОРКИ</a></li>
             <li><a href="#">БОКС-ОФИС</a></li>
           </ul>
         </div>

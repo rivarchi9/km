@@ -1,6 +1,6 @@
 
 <?php
-  $namePage = 'Бокс-Офис'; // название страницы
+  $namePage = 'Подборки'; // название страницы
   include "sections/head.php"; // вывод head
 ?>
 <body>
@@ -25,16 +25,9 @@
         	<!-- Контент -->
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <div class="row-box-office">
-              <div class="row-list-nav-three">
-                <ul class="list-nav-second clear">
-                  <li class="active"><a href="">СБОРЫ В РФ</a></li>
-                  <li><a href="">СБОРЫ В СНГ</a></li>
-                  <li><a href="">СБОРЫ В США</a></li>
-                </ul>
-              </div>
-              <h1 class="pagetitle pagetitle-two">Бокс-Офис</h1>
+              <h1 class="pagetitle pagetitle-two">ПОДБОРКИ КИНОМАНИИ</h1>
               <div class="description description-border">
-                Анализ последних финансовых сводок. <br>Под прицелом - положение дел в США, Росиии и международном прокате.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis congue metus ut aliquam. Integer diam arcu, fringilla sit amet volutpat sit amet, consectetur ut diam. 
               </div>
               <div class="row-box">
                 <div class="pagelist-item clear">

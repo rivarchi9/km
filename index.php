@@ -20,57 +20,65 @@
         <a href="#"><img alt="" src="#" class="responsive-image banner__image" data-src-d="/app/img/content/banner.jpg" data-src-t="/app/img/content/banner.jpg" data-src-m="/app/img/content/banner.jpg"></a>
       </div>
       <div class="main-content clear">
-      	<!-- В ЦЕНТРЕ ВНИМАНИЯ -->
+        <!-- В ЦЕНТРЕ ВНИМАНИЯ -->
         <section class="outer-section clear section-news">
           <div class="parent-sticker">
-            <!--  -->
-            <!-- <div class="my-slider news-slider">
-              <div class="my-slider-outer">
-                <div class="my-slider-content">
-                  <div class="item">
-                    content
+            <div class="bxslider">
+              <div class="item">
+                <div class="inner-section clear row">
+                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="outer-image-prewiew ">
+                      <div class="inner-image-prewiew ">
+                        <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/cs.jpg" data-src-t="/app/img/content/cs.jpg" data-src-m="/app/img/content/cs.jpg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="outer-desc">
+                        <a href="#" class="title-description_def">Премьеры российского проката 1</a>
+                      <div class="info-section center-info-section">
+                        <span class="date-info">23 июня 2016</span>,
+                        <a href="#" class="comment-info">9</a>
+                      </div>
+                      <div class="outer-section-description__text">
+                        <div class="slide-description" >Первым номером в российском прокате стартует блокбастер гигантомана<br><a href="#">Роланда Эммериха</a><br>«<a href="#">День независимости: Возрождение</a>»,<br>сиквел-пересказ суперхита 20-летней давности. В комедийном сегменте сражаются американские «<a href="#">Соседи. На тропе войны 2</a>» и отечественный «<a href="#">Завтрак у папы</a>».</div>
+                      </div>
+                      <a href="#" class="button button2">ПОДРОБНО</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="my-slider-nav">
-                nav
+              <div class="item">
+                <div class="inner-section clear row">
+                  <div class="center-section-preview col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="outer-image-prewiew ">
+                      <div class="inner-image-prewiew ">
+                        <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/cs.jpg" data-src-t="/app/img/content/cs.jpg" data-src-m="/app/img/content/cs.jpg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="outer-desc">
+                        <a href="" class="title-description_def">Премьеры российского проката 1</a>
+                      <div class="info-section center-info-section">
+                        <span class="date-info">23 июня 2016</span>,
+                        <a href="#" class="comment-info">9</a>
+                      </div>
+                      <div class="outer-section-description__text">
+                        <div class="slide-description" >Первым номером в российском прокате стартует блокбастер гигантомана<br><a href="#">Роланда Эммериха</a><br>«<a href="#">День независимости: Возрождение</a>»,<br>сиквел-пересказ суперхита 20-летней давности. В комедийном сегменте сражаются американские «<a href="#">Соседи. На тропе войны 2</a>» и отечественный «<a href="#">Завтрак у папы</a>».</div>
+                      </div>
+                      <a href="#" class="button button2">ПОДРОБНО</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div> -->
-            <!--  -->
-            <style>
-              .my-slider-outer {
-                overflow: hidden;
-              }
-              .my-slider-content {
-                font-size: 0;
-              }
-              .my-slider-content.transition {
-                transition: 0.4s;
-              }
-              .item {
-                display: inline-block;
-                font-size: 16px;
-              }
-              .my-slider .item {
-                border: 1px black solid;
-                box-sizing: border-box;
-              }
-            </style>
-
-            <div class="my-slider">
-              <div class="item"><img src="" slider_src="app/img/content/po4.jpg" />1</div>
-              <div class="item"><img src="" slider_src="app/img/content/po4.jpg" />2</div>
-              <div class="item"><img src="" slider_src="app/img/content/po4.jpg" />3</div>
-              <div class="item"><img src="" slider_src="app/img/content/po4.jpg" />4</div>
-
-
             </div>
-
-            <!-- <div class="sticker">
+            <div class="sticker">
               <div class="sticker-item">В ЦЕНТРЕ ВНИМАНИЯ</div>
-            </div> -->
+            </div>
           </div>
         </section>
+
         <!-- Новости Кино -->
         <section class="outer-section outer-shadow outer-news">
           <div class="parent-news">
@@ -144,11 +152,12 @@
                     <li class="default" data-type-trailersSectionButton="series"><span>СЕРИАЛОВ</span></li>
                   </ul>
                   <div class="mobile-section-black__check-list">
-                    <div class="mobile__select">
+                    
+                    <div class="mobile__select my-select">
                       <span class="result">ФИЛЬМОВ</span>
                       <ul class="result-list">
-                        <li><span data-type-trailersSectionButton="cinema">ФИЛЬМОВ</span></li>
-                        <li><span data-type-trailersSectionButton="series">СЕРИАЛОВ</span></li>
+                        <li class="active" data-type-trailersSectionButton="cinema">ФИЛЬМОВ</li>
+                        <li class="default" data-type-trailersSectionButton="series"">СЕРИАЛОВ</li>
                       </ul>
                     </div>
                   </div>
@@ -663,9 +672,9 @@
         </section>
         <!-- Контент -->
         <section class="outer-section clear outer-content">
-        	<!-- Контент -->
+          <!-- Контент -->
           <content class="section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          	<!-- Зарубежные сериалы -->
+            <!-- Зарубежные сериалы -->
             <section class="inner-content outer-content-item parent-sticker">
               <div class="sticker">
                 <div class="sticker-item">ЗАРУБЕЖНЫЕ СЕРИАЛЫ</div>
@@ -1009,7 +1018,7 @@
             </section>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside.php"; ?>
+          <?php include "sections/aside.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

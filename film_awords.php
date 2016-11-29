@@ -276,7 +276,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

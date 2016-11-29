@@ -24,7 +24,7 @@
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          	<div class="row-festivals">
+          	<div class="row-festival-item">
               <h1 class="pagetitle pagetitle-with-mini">БЕРЛИНСКИЙ КИНОФЕСТИВАЛЬ 2015</h1>
               <div class="longtitle">BERLIN INTERNATIONAL FILM FESTIVAL</div>
               <div class="select-filters">

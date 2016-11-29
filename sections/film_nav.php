@@ -1,11 +1,8 @@
-
-
-
 <ul class="nav-content-list nav-content-list-films clear">
   <div class="mobile__select my-select">
     <span class="result"></span>
     <ul class="result-list">
-      <li class="nav-content-item active"><a href="films.php">О фильме</a></li>
+      <li class="nav-content-item"><a href="films.php">О фильме</a></li>
       <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
       <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
       <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>

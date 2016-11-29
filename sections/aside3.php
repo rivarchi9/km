@@ -12,7 +12,7 @@
    <!--  <div class="aside-branding no-mobile">
       <a href="#"><img src="/app/img/content/a1.jpg" alt=""></a>
     </div> -->
-    <div class="aside no-mobile">
+    <div class="aside">
       <div class="inner-aside">
         <div class="aside-item">
           <div class="aside__title">КОЛЛЕКЦИИ BLOKH</div>
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <div class="aside-item ">
+        <div class="aside-item no-mobile">
           <div class="aside__title">Новинки</div>
           <div class="aside-item-content">
             <div class="outer-aside-list">

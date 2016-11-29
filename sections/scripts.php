@@ -6,7 +6,7 @@
 <script>
   $(document).ready(function(){
     $('.slider-load').css('display', 'block');
-    $('.bxslider-home').bxSlider({
+    $('.bxslider').bxSlider({
       auto: false
     });
     w = window.innerWidth;
