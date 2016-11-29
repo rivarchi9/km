@@ -26,7 +26,7 @@
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<h1 class="pagetitle trailers-pagetitle">ВСЕ ПОСТЕРЫ</h1>
             <div class="outer-selection-trailers">
-              <div class="button__selection-trailers"><span data-type-openclose-button="open_close" data-type-openclose-class="active">Подбор по параметрам</span></div>
+              <div data-type-openclose-button="open_close" data-type-openclose-class="active" class="button__selection-trailers"><span>Подбор по параметрам</span></div>
               <div class="selection-trailers">
                 <div class="row-selection-hide" data-type-openclose-element="open_close">
                   <div class="selection-trailers-item clear">
@@ -227,7 +227,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po1.jpg" data-src-t="app/img/content/po1.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po1.jpg" data-src-t="app/img/content/po1.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -241,7 +241,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po2.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po2.jpg" data-src-t="app/img/content/po2.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po2.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po2.jpg" data-src-t="app/img/content/po2.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -255,7 +255,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po3.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po3.jpg" data-src-t="app/img/content/po3.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po3.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po3.jpg" data-src-t="app/img/content/po3.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -269,7 +269,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po1.jpg" data-src-t="app/img/content/po1.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po1.jpg" data-src-t="app/img/content/po1.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -283,7 +283,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po2.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po2.jpg" data-src-t="app/img/content/po2.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po2.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po2.jpg" data-src-t="app/img/content/po2.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -297,7 +297,7 @@
                     <div class="row-posters__image">
                       <a href="#">
                         <div class="image-shadow-poster posters__image">
-                          <img alt="" src="app/img/content/po3.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po3.jpg" data-src-t="app/img/content/po3.jpg" data-src-m="">
+                          <img alt="" src="app/img/content/po3.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/po3.jpg" data-src-t="app/img/content/po3.jpg" data-src-m="app/img/content/po1.jpg">
                         </div>
                       </a>
                     </div>
@@ -313,7 +313,7 @@
                 <div class="big-poster-item">
                   <a href="#">
                     <div class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/bp1.jpg" class="parent resbpnsive-image image-prewiew" data-src-d="app/img/content/bp1.jpg" data-src-t="app/img/content/bp1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/bp1.jpg" class="parent resbpnsive-image image-prewiew" data-src-d="app/img/content/bp1.jpg" data-src-t="app/img/content/bp1.jpg" data-src-m="app/img/content/po1.jpg">
                     </div>
                   </a>
                   <div class="posters-caption">
@@ -325,7 +325,7 @@
                 <div class="big-poster-item">
                   <a href="#">
                     <div class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/bp2.jpg" class="parent resbpnsive-image image-prewiew" data-src-d="app/img/content/bp2.jpg" data-src-t="app/img/content/bp2.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/bp2.jpg" class="parent resbpnsive-image image-prewiew" data-src-d="app/img/content/bp2.jpg" data-src-t="app/img/content/bp2.jpg" data-src-m="app/img/content/po1.jpg">
                     </div>
                   </a>
                   <div class="posters-caption">
@@ -348,7 +348,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

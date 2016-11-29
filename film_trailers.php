@@ -26,34 +26,21 @@
             <h2 class="name__page">Monsters University</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item active"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">
         	<!-- Контент -->
           <content class="pagelist page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          <!-- <h1 class="pagetitle mini__pagetitle">РЕЗУЛЬТАТЫ ПОИСКА</h1> -->
           <div class="header-pagelist header-search header-pagelist--black">
             <div class="inner-header-pagelist">
               <div class="pagelist-title-black ">Трейлеры <span class="number--opacity">5</span></div>
               <div class="section-video section-black-video">
-              <!-- <div class="video-prewiew__play ytp-large-play-button ytp-button"></div> -->
               <div class="outer-trailer-item">
                 <div class="">
                   <div class="trailer-list-item">
                     <div class="video-prewiew">
                       <img alt="" src="/app/img/content/t1.jpg" class="responsive-image video-prewiew__item" data-src-d="/app/img/content/t1.jpg" data-src-t="/app/img/content/t1.jpg" data-src-m="/app/img/content/t1.jpg">
-                      <!-- <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/4XmgYhOiKUs" frameborder="0" allowfullscreen></iframe> -->
                     </div>
                     <div class="head-desc clear">
                       <div class="trailer__title">
@@ -248,7 +235,7 @@
           </div>   
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+        	<?php include "sections/aside_billboards.php"; ?>  
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

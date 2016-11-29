@@ -31,7 +31,7 @@
               </div>
               <section class="inner-content outer-content-item parent-sticker">
                 <div class="sticker">
-                  <div class="sticker-item">ЗАРУБЕЖНЫЕ СЕРИАЛЫ</div>
+                  <div class="sticker-item">НОВОСТИ</div>
                 </div>
                 <div class="parent-content-item clear">
                   <div class="content-item content-item-big">

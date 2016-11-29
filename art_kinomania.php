@@ -79,7 +79,7 @@
               <div class="row-outside bg-color-one row-outside-art clear">
                 <div class="inner-outside parent-sticker">
                   <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="gray-section-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                       <div class="image-shadow">
                         <a href="#">
                           <img alt="" src="/app/img/content/n2.jpg" class="responsive-image image-prewiew" data-src-d="/app/img/content/n2.jpg" data-src-t="/app/img/content/n2.jpg" data-src-m="/app/img/content/n2.jpg">
@@ -112,7 +112,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="gray-section-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                       <div class="image-shadow">
                         <a href="#">
                           <img alt="" src="/app/img/content/n2.jpg" class="responsive-image image-prewiew" data-src-d="/app/img/content/n2.jpg" data-src-t="/app/img/content/n2.jpg" data-src-m="/app/img/content/n2.jpg">
@@ -145,7 +145,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="gray-section-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                       <div class="image-shadow">
                         <a href="#">
                           <img alt="" src="/app/img/content/n2.jpg" class="responsive-image image-prewiew" data-src-d="/app/img/content/n2.jpg" data-src-t="/app/img/content/n2.jpg" data-src-m="/app/img/content/n2.jpg">
@@ -189,7 +189,7 @@
                   </div>
                 </div>
               </div>
-              <section class="no-mobile inner-content outer-content-item parent-sticker outer-section-mini-prewiew art-yellow">
+              <section class="inner-content outer-content-item parent-sticker outer-section-mini-prewiew art-yellow">
                 <div class="section-mini-prewiew section-mini-prewiew--yellow">
                   <div class="outer-section-mini-prewiew-list">
                     <ul class="section-mini-prewiew-list clear">
@@ -205,7 +205,7 @@
                         <div class="section-mini-prewiew-item">
                           <a href="#"><img alt="" src="/app/img/content/y1.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/y1.jpg" data-src-t="/app/img/content/y1.jpg" data-src-m="/app/img/content/y1.jpg"></a>
                           <div class="section-mini-prewiew-item-text prewiew-item-art-text">
-                            Интервью с режиссером и продюсером Стивеном Спилбергом
+                            <a href="#">Интервью с режиссером и продюсером Стивеном Спилбергом</a>
                           </div>
                         </div>
             
@@ -216,7 +216,7 @@
                         <div class="section-mini-prewiew-item">
                           <a href="#"><img alt="" src="/app/img/content/y1.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/y1.jpg" data-src-t="/app/img/content/y1.jpg" data-src-m="/app/img/content/y1.jpg"></a>
                           <div class="section-mini-prewiew-item-text prewiew-item-art-text">
-                            Интервью с режиссером и продюсером Стивеном Спилбергом
+                            <a href="#">Интервью с режиссером и продюсером Стивеном Спилбергом</a>
                           </div>
                         </div>
             
@@ -227,7 +227,7 @@
                         <div class="section-mini-prewiew-item">
                           <a href="#"><img alt="" src="/app/img/content/y1.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/y1.jpg" data-src-t="/app/img/content/y1.jpg" data-src-m="/app/img/content/y1.jpg"></a>
                           <div class="section-mini-prewiew-item-text prewiew-item-art-text">
-                            Интервью с режиссером и продюсером Стивеном Спилбергом
+                            <a href="#">Интервью с режиссером и продюсером Стивеном Спилбергом</a>
                           </div>
                         </div>
             
@@ -238,7 +238,7 @@
                         <div class="section-mini-prewiew-item">
                           <a href="#"><img alt="" src="/app/img/content/y1.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/y1.jpg" data-src-t="/app/img/content/y1.jpg" data-src-m="/app/img/content/y1.jpg"></a>
                           <div class="section-mini-prewiew-item-text prewiew-item-art-text">
-                            Интервью с режиссером и продюсером Стивеном Спилбергом
+                            <a href="#">Интервью с режиссером и продюсером Стивеном Спилбергом</a>
                           </div>
                         </div>
             
@@ -296,7 +296,7 @@
                   <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
                 </div>
               </div>
-              <div class="row-outside bg-color-one row-outside-art clear">
+              <div class="row-outside bg-color-one row-outside-art row-outside-art-gray clear">
                 <div class="inner-outside parent-sticker">
                   <div class="row-online-item">
                     <div class="online-item clear">
@@ -339,7 +339,7 @@
                           Двадцатилетние Марк и Дарья исполняют роль пары, встретившейся в Долине Смерти. Она – секретарша, которая работает над проектом своего боса в Фениксе, он – бывший студент, который угнал самолет. Они гуляют по безжизненной пустыне, выясняют, ради чего живут, забываются и занимаются любовью.
                         </div>
                         <div class="online-item__price">
-                          <span class="online-item__price-name">Цена: от</span> <span class="value">260</span> руб.
+                          <span class="online-item__price-name">Цена: от</span> <span class="value">260 руб.</span> 
                         </div>
                       </div>
                     </div>
@@ -388,6 +388,9 @@
                       </div>
                     </div>
                   </div>
+                  <div class="sticker">
+                    <div class="sticker-item">СМОТРЕТЬ ОНЛАЙН</div>
+                  </div>
                 </div>
                 <div class="row-outside-more">
                   <div class="outside-more">
@@ -398,7 +401,7 @@
             </div>
             </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+        	<?php include "sections/aside_billboards.php"; ?>  
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

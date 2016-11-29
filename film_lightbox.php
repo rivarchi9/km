@@ -44,17 +44,7 @@
             <h2 class="name__page">Green Mile</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item active"><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">
@@ -73,7 +63,7 @@
           <div class="list-content">
             <div class="trailer-item clear">
               <div class="row">
-                <div class="col-xl-6 trailer-item-col" data-type-filter="from-came-place" data-type-over-img="app/img/content/tl1.jpg">
+                <div class="trailer-item-col" data-type-filter="from-came-place" data-type-over-img="app/img/content/tl1.jpg">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
                       <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
@@ -117,7 +107,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-6 trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
+                <div class="trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
                       <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
@@ -161,7 +151,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-6 trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
+                <div class="trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
                       <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">

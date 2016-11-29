@@ -44,22 +44,13 @@
             <h2 class="name__page">Tom Hanks</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item active"><a href="actor.php">Фильмография</a></li>
-              <li class="nav-content-item"><a href="actor_otziv.php">Отзывы</a></li>
-              <li class="nav-content-item"><a href="actor_photo.php">Фото <span class="number">45</span></a></li>
-              <li class="nav-content-item"><a href="actor_wall.php">Обои <span class="number">11</span></a></li>
-              <li class="nav-content-item"><a href="actor_box.php">Кадры <span class="number">616</span></a></li>
-              <li class="nav-content-item"><a href="actor_awards.php">Награды</a></li>
-              <li class="nav-content-item"><a href="actor_news.php">Новости <span class="number">142</span></a></li>
-              <li class="nav-content-item-add"><a href="actor_news.php">Смотреть <span class="number">22</span></a></li>
-            </ul>
+            <?php include "sections/actor_nav.php" ?>
           </div>
           <div class="caption-page caption-page-actor clear">
             <div class="caption-page-item caption-page-image">
               <div class="outer-caption-page-image image-shadow">
                 <a href="app/img/content/af.jpg" class="image-cover-parent">
-                  <img src="app/img/content/af.jpg" alt="" class="image-cover">
+                  <img alt="" src="#" class="responsive-image image-cover" data-src-d="app/img/content/af.jpg" data-src-t="app/img/content/af.jpg" data-src-m="app/img/content/af.jpg">
                   <i class="image-hover"><span>Увеличить</span></i>
                 </a>
               </div>
@@ -100,7 +91,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class="outer-info-item-list">
+                <div class="outer-info-item-list outer-info-item-list-social">
                   <ul class="info-item-list">
                     <li>
                       <ul class="value mini-social-list">
@@ -120,9 +111,9 @@
                       <ul class="awords-list-value clear">
                         <li class="awords-list__image"><img src="app/img/icon/aw1.jpg" alt=""></li>
                         <li>
-                          <span class="awords-list-name name">
+                          <a href="#" class="awords-list-name name">
                             ОСКАР
-                          </span>
+                          </a>
                           <span class="awords-list-name dop-name">
                             ACADEMY AWARDS <span class="value">2/5</span>
                           </span>
@@ -131,9 +122,9 @@
                       <ul class="awords-list-value clear">
                         <li class="awords-list__image"><img src="app/img/icon/aw2.jpg" alt=""></li>
                         <li>
-                          <span class="awords-list-name name">
+                          <a href="#" class="awords-list-name name">
                             MTV (США)
-                          </span>
+                          </a>
                           <span class="awords-list-name dop-name">
                             MTV (USA) <span class="value">1/13</span>
                           </span>
@@ -142,9 +133,9 @@
                       <ul class="awords-list-value clear">
                         <li class="awords-list__image"><img src="app/img/icon/aw3.jpg" alt=""></li>
                         <li>
-                          <span class="awords-list-name name">
+                          <a href="#" class="awords-list-name name">
                             ЗОЛОТОЙ ГЛОБУС
-                          </span>
+                          </a>
                           <span class="awords-list-name dop-name">
                             GOLDEN GLOBE <span class="value">4/8</span>
                           </span>
@@ -153,9 +144,9 @@
                       <ul class="awords-list-value clear">
                         <li class="awords-list__image"><img src="app/img/icon/aw4.jpg" alt=""></li>
                         <li>
-                          <span class="awords-list-name name">
+                          <a href="#" class="awords-list-name name">
                             БЕРЛИНСКИЙ КИНОФЕСТИВАЛЬ
-                          </span>
+                          </a>
                           <span class="awords-list-name dop-name">
                             BERLIN INTERNATIONAL FILM FESTIVAL <span class="value">1/1</span>
                           </span>
@@ -167,7 +158,7 @@
               </div>
             </div>
             <div class="caption-page-item caption-page-dop caption-page-tab">
-              <div class="caption-page-item-title"></div>
+              <div class="aside__title">Посмотреть фильм<br>с этим актером</div>
               <ul class="aside-list clear">
                 <li class="active" data-type-slidergroup="novelty_2" data-type-sliderbutton="1">КИНО</li>
                 <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="2">ТРЕЙЛЕРЫ</li>
@@ -178,7 +169,7 @@
                   <div class="list-preview">
                     <a href="#">
                       <span>
-                        <img class=" image-padding--white" src="app/img/content/in1.jpg" alt="">
+                      <img alt="" src="#" class="responsive-image image-padding--white" data-src-d="app/img/content/in1.jpg">
                       </span>
                     </a>
                   </div>
@@ -234,13 +225,22 @@
                     <li class="" data-type-sliderGroup="tab" data-type-sliderButton="4"><a><span>НА ТВ</span></a></li>
                   </ul>
                 </div>
+                <div class="mobile__select my-select">
+                  <span class="result">ФИЛЬМОГРАФИЯ</span>
+                  <ul class="result-list">
+                    <li class="active" data-type-sliderGroup="tab" data-type-sliderButton="1"><a><span>ФИЛЬМОГРАФИЯ</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="2"><a><span>В КИНО</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="3"><a><span>ОНЛАЙН</span></a></li>
+                    <li class="" data-type-sliderGroup="tab" data-type-sliderButton="4"><a><span>НА ТВ</span></a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="row-list-about active" data-type-sliderGroup="tab" data-type-sliderElem="1">
+              <div class="row-list-about adaptive-tile active" data-type-sliderGroup="tab" data-type-sliderElem="1">
                 <div class="parent-list-about">
                   <div class="shadow-list-about">
                     <div class="list-about-item clear" data-type-openclose-button="1">
                       <div class="list-about-item-tile">
-                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__title animated">АКТЕР</span>
                         <span class="list-about-item__number">8 работ</span>
                       </div>
                       <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
@@ -250,7 +250,7 @@
                     <div class="list-content-item-inner">
                       <div class="section-result-content clear">
                         <div class="row-chief-title clear">
-                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-years ">2016</div>
                           <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
                               <a href="#">
@@ -322,7 +322,7 @@
                     <div class="list-content-item-inner">
                       <div class="section-result-content clear">
                         <div class="row-chief-title clear">
-                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-years ">2016</div>
                           <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
                               <a href="#">
@@ -395,7 +395,7 @@
                     <div class="list-content-item-inner">
                       <div class="section-result-content clear">
                         <div class="row-chief-title clear">
-                          <div class="section-result-item">2016</div>
+                          <div class="section-result-item section-result-item-years ">2016</div>
                           <div class="section-result-item section-result-item-actor">
                             <div class="list-preview">
                               <a href="#">
@@ -486,7 +486,7 @@
                   <div class="shadow-list-about">
                     <div class="list-about-item clear" data-type-openclose-button="3">
                       <div class="list-about-item-tile">
-                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__title animated">СЦЕНАРИСТ</span>
                         <span class="list-about-item__number">8 работ</span>
                       </div>
                       <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
@@ -498,7 +498,7 @@
                   <div class="shadow-list-about">
                     <div class="list-about-item clear" data-type-openclose-button="4">
                       <div class="list-about-item-tile">
-                        <span class="list-about-item__title animated">РЕЖИССЕР</span>
+                        <span class="list-about-item__title animated">ПРОДЮСЕР</span>
                         <span class="list-about-item__number">8 работ</span>
                       </div>
                       <div class="list-about-item-tile list-about-item-tile--right"><span class="list-about-item__button animated">РАЗВЕРНУТЬ</span></div>
@@ -523,10 +523,10 @@
                 </ul>
               </div>
             </div>
-            <div class="outer-other no-mobile">
+            <div class="outer-other">
               <section class="inner-content outer-content-item parent-sticker outer-section-mini-prewiew">
                 <div class="sticker">
-                  <div class="sticker-item">НОВОСТИ О ФИЛЬМЕ</div>
+                  <div class="sticker-item">ПОСЛЕДНИЕ НОВОСТИ О ПЕРСОНЕ</div>
                 </div>
                 <div class="section-mini-prewiew section-mini-prewiew--yellow ">
                   <div class="outer-section-mini-prewiew-item clear">
@@ -548,7 +548,7 @@
                       <div class="pagelist-prewiew-item">
                         <div class="section-mini-prewiew-wrap-item">
                           <div class="section-mini-prewiew-item">
-                            <a href="#"><img alt="" src="/app/img/content/3439.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/3439.jpg" data-src-t="/app/img/content/3439.jpg" data-src-m="/app/img/content/3439.jpg"></a>
+                            <a href="#"><img alt="" src="/app/img/content/3439.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/3439.jpg" data-src-t="/app/img/content/3439.jpg" data-src-m=""></a>
                             <div class="section-mini-prewiew-item-text">
                               <a href="#">Павел Руминов: «Настоящее кино должно содержать нелепость»</a>
                               <a href="#" class="content-item-info-comment sprite-before">3</a>
@@ -562,7 +562,7 @@
                       <div class="pagelist-prewiew-item">
                         <div class="section-mini-prewiew-wrap-item">
                           <div class="section-mini-prewiew-item">
-                            <a href="#"><img alt="" src="/app/img/content/3439.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/3439.jpg" data-src-t="/app/img/content/3439.jpg" data-src-m="/app/img/content/3439.jpg"></a>
+                            <a href="#"><img alt="" src="/app/img/content/3439.jpg" class="responsive-image section-mini-prewiew-item__image" data-src-d="/app/img/content/3439.jpg" data-src-t="/app/img/content/3439.jpg" data-src-m=""></a>
                             <div class="section-mini-prewiew-item-text">
                               <a href="#">Павел Руминов: «Настоящее кино должно содержать нелепость»</a>
                               <a href="#" class="content-item-info-comment sprite-before">3</a>
@@ -579,9 +579,9 @@
                 </div>
               </section>
             </div>
-            <div class="full-comments full-comments-reviews">
+            <div class="full-comments full-comments-reviews full-comments-reviews-answer">
               <div class="full-comments-head">
-                <div class="full-comments-text">РЕЦЕНЗИИ <span class="number">2</span></div>
+                <div class="full-comments-text"><a href="#">Отзывы</a> <span class="number">2</span></div>
               </div>
               <div class="parent-author-full-comments row-author-full-comments">
                 <div class="author-full-comments-image">
@@ -636,11 +636,11 @@
                 </div>
               </div>
               <div class="full-comments-head full-comments-foot">
-                <div class="full-comments-text"><a href="#"><span>Все рецензии (113)</span></a></div>
+                <div class="full-comments-text"><a href="#"><span>Все отзывы (113)</span></a></div>
               </div>
             </div>
             <div class="row-pagelist-ligin">
-              <div class="pagelist__title pagelist-ligin__title">ОТПРАВИТЬ РЕЦЕНЗИЮ</div>
+              <div class="pagelist__title pagelist-ligin__title">ОТПРАВИТЬ ОТЗЫВ</div>
               <div class="pagelist-ligin">
                 <div class="pagelist-ligin__item">
                   <div class="pagelist-ligin__social">
@@ -658,7 +658,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

@@ -44,17 +44,7 @@
             <h2 class="name__page">Monsters University</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item "><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item active"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">

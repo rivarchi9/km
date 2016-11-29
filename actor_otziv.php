@@ -44,16 +44,7 @@
             <h2 class="name__page">Tom Hanks</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item "><a href="actor.php">Фильмография</a></li>
-              <li class="nav-content-item active"><a href="actor_otziv.php">Отзывы</a></li>
-              <li class="nav-content-item"><a href="actor_photo.php">Фото <span class="number">45</span></a></li>
-              <li class="nav-content-item"><a href="actor_wall.php">Обои <span class="number">11</span></a></li>
-              <li class="nav-content-item"><a href="actor_box.php">Кадры <span class="number">616</span></a></li>
-              <li class="nav-content-item"><a href="actor_awards.php">Награды</a></li>
-              <li class="nav-content-item"><a href="actor_news.php">Новости <span class="number">142</span></a></li>
-              <li class="nav-content-item-add"><a href="actor_news.php">Смотреть <span class="number">22</span></a></li>
-            </ul>
+            <?php include "sections/actor_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">
@@ -178,7 +169,7 @@
               </div>
             </div>
             <div class="row-pagelist-ligin">
-              <div class="pagelist__title pagelist-ligin__title">ДОБАВИТЬ РЕЦЕНЗИЮ</div>
+              <div class="pagelist__title pagelist-ligin__title">ДОБАВИТЬ ОТЗЫВЫ</div>
               <div class="pagelist-ligin">
                 <div class="pagelist-ligin__item">
                   <div class="pagelist-ligin__social">

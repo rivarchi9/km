@@ -44,17 +44,7 @@
             <h2 class="name__page">Green Mile</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item active"><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">
@@ -248,7 +238,161 @@
                   </div>
                 </div>
               </div>
-              <div class="row-result-tabs" data-type-sliderGroup="actors_creaters" data-type-sliderElem="2">2</div>
+              <div class="row-result-tabs" data-type-sliderGroup="actors_creaters" data-type-sliderElem="2">
+                <div class="list-content-item-inner">
+                  <div class="section-result-content clear">
+                    <div class="section-result-item section-result-item-actor   list-preview">
+                      <a href="#">
+                        <span>
+                          <img class=" image-padding--white" src="app/img/content/s1.jpg" alt="">
+                        </span>
+                      </a>
+                    </div>
+                    <div class="section-result-item item2 clear">
+                      <div class="row-result-tabs-item row-result-tabs-item--left">
+                        <div class="name"><a href="actor.php">СТИВ ХЭНКС</a></div>
+                        <div class="name__eng">STEVE HANKS</div>
+                        <div class="section-result-info">
+                          <div class="actors-info-content">
+                            <ul>
+                              <li class="actors-info-role">Роль - Paul Edgecomb</li>
+                              <li class="actors-info-year">1999</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-result-tabs-item--right">
+                        <div class="main-folder-icon">
+                          <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                            <a class="folder__icon icon"></a>
+                            <div class="hint">Добавить в Избранное</div>
+                            <div class="row-dropdown-folder">
+                              <div class="dropdown-folder dropdown-folder-content">
+                                <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                <ul class="dropdown-folder-list">
+                                  <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>25</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>488</span></i><span class="name-icon">Избранное</span></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown-folder dropdown-folder-setting">
+                                <a href="#" class="clear">
+                                  <!-- <i class="setting-icon"></i> -->
+                                  <span>Управление папками</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-content-item-inner">
+                  <div class="section-result-content clear">
+                    <div class="section-result-item section-result-item-actor   list-preview">
+                      <a href="#">
+                        <span>
+                          <img class=" image-padding--white" src="app/img/content/s1.jpg" alt="">
+                        </span>
+                      </a>
+                    </div>
+                    <div class="section-result-item item2 clear">
+                      <div class="row-result-tabs-item row-result-tabs-item--left">
+                        <div class="name"><a href="actor.php">СТИВ ХЭНКС</a></div>
+                        <div class="name__eng">STEVE HANKS</div>
+                        <div class="section-result-info">
+                          <div class="actors-info-content">
+                            <ul>
+                              <li class="actors-info-role">Роль - Paul Edgecomb</li>
+                              <li class="actors-info-year">1999</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-result-tabs-item--right">
+                        <div class="main-folder-icon">
+                          <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                            <a class="folder__icon icon"></a>
+                            <div class="hint">Добавить в Избранное</div>
+                            <div class="row-dropdown-folder">
+                              <div class="dropdown-folder dropdown-folder-content">
+                                <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                <ul class="dropdown-folder-list">
+                                  <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown-folder dropdown-folder-setting">
+                                <a href="#" class="clear">
+                                  <!-- <i class="setting-icon"></i> -->
+                                  <span>Управление папками</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-content-item-inner">
+                  <div class="section-result-content clear">
+                    <div class="section-result-item section-result-item-actor   list-preview">
+                      <a href="#">
+                        <span>
+                          <img class=" image-padding--white" src="app/img/content/s1.jpg" alt="">
+                        </span>
+                      </a>
+                    </div>
+                    <div class="section-result-item item2 clear">
+                      <div class="row-result-tabs-item row-result-tabs-item--left">
+                        <div class="name"><a href="actor.php">СТИВ ХЭНКС</a></div>
+                        <div class="name__eng">STEVE HANKS</div>
+                        <div class="section-result-info">
+                          <div class="actors-info-content">
+                            <ul>
+                              <li class="actors-info-role">Роль - Paul Edgecomb</li>
+                              <li class="actors-info-year">1999</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-result-tabs-item--right">
+                        <div class="main-folder-icon">
+                          <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                            <a class="folder__icon icon"></a>
+                            <div class="hint">Добавить в Избранное</div>
+                            <div class="row-dropdown-folder">
+                              <div class="dropdown-folder dropdown-folder-content">
+                                <div class="dropdown-folder-title"><span>В избранное</span></div>
+                                <ul class="dropdown-folder-list">
+                                  <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                                  <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown-folder dropdown-folder-setting">
+                                <a href="#" class="clear">
+                                  <!-- <i class="setting-icon"></i> -->
+                                  <span>Управление папками</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="outer-pagelist-more">
+                <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
+              </div>
             </div>
             <div class="pagelist-social">
               <div class="outer-social clear">
@@ -261,7 +405,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

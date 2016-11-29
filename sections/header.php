@@ -35,11 +35,12 @@
             <ul class="mobile-nav-list clear">
               <li><a href="#">СМОТРЕТЬ</a>
                 <ul class="nav-list-dop">
-                  <li><a href="#">АФИША</a></li>
+                  <li><a href="../releases.php">АФИША</a></li>
                   <li><a href="#">СКОРО В КИНО</a></li>
-                  <li><a href="#">ТВ</a></li>
+                  <li><a href="../tv.php">ТВ</a></li>
                   <li><a href="#">ОНЛАЙН</a></li>
                   <li><a href="#">SHORTЫ</a></li>
+                  <li><a href="/test/all.php">все</a></li>
                 </ul>
               </li>
               <li><a href="#">ЧИТАТЬ</a>
@@ -63,18 +64,18 @@
                 <ul class="nav-list-dop">
                   <li><a href="trailers.php">ТРЕЙЛЕРЫ</a></li>
                   <li><a href="posters.php">ПОСТЕРЫ</a></li>
-                  <li><a href="#">САУНДТРЕКИ</a></li>
-                  <li><a href="#">ФОТО</a></li>
-                  <li><a href="#">ОБОИ (ФИЛЬМЫ)</a></li>
-                  <li><a href="#">ОБОИ (АКТЕРЫ)</a></li>
-                  <li><a href="#">ОБОИ (АКТРИСЫ)</a></li>
+                  <li><a href="../soundtracks.php">САУНДТРЕКИ</a></li>
+                  <li><a href="../photos.php">ФОТО</a></li>
+                  <li><a href="../wallpapers.php">ОБОИ (ФИЛЬМЫ)</a></li>
+                  <li><a href="../wallpapers.php">ОБОИ (АКТЕРЫ)</a></li>
+                  <li><a href="../wallpapers.php">ОБОИ (АКТРИСЫ)</a></li>
                 </ul>
               </li>
               <li><a href="#">ЛУЧШИЕ ФИЛЬМЫ</a>
                 <ul class="nav-list-dop">
                   <li><a href="#">РЕЙТИНГ КИНОМАНИИ</a></li>
-                  <li><a href="#">ТОПЫ</a></li>
-                  <li><a href="#">БОКС-ОФИС</a></li>
+                  <li><a href="../top_films.php">ТОПЫ</a></li>
+                  <li><a href="../box_office.php">БОКС-ОФИС</a></li>
                 </ul>
               </li>
             </ul>

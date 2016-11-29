@@ -6,8 +6,8 @@
           <div class="aside__title">Новинки</div>
           <div class="aside-item-content">
             <div class="outer-aside-list">
-              <div class="mobile__select aside-select aside-top">
-                <span class="result">ФИЛЬМОВ</span>
+              <div class="mobile__select aside-select aside-top my-select">
+                <span class="result">КИНО</span>
                 <ul class="result-list">
                   <li class="active" data-type-sliderGroup="novelty" data-type-sliderButton="cinema">КИНО</li>
                   <li class="default" data-type-sliderGroup="novelty" data-type-sliderButton="trailers">ТРЕЙЛЕРЫ</li>

@@ -44,21 +44,11 @@
             <h2 class="name__page">Green Mile</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item active"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
           <div class="caption-page clear">
             <div class="caption-page-item caption-page-image">
-              <div class="outer-caption-page-image">
+              <div class="outer-caption-page-image image-shadow">
                 <a href="app/img/content/f1.jpg" class="image-cover-parent">
                   <img src="app/img/content/f1.jpg" alt="" class="image-cover">
                   <i class="image-hover"><span>Увеличить</span></i>
@@ -84,10 +74,6 @@
                       <li>детектив</li>
                       <li>фэнтези</li>
                       <li>драма</li>
-                      <li>криминал</li>
-                      <li>криминал</li>
-                      <li>криминал</li>
-                      <li>криминал</li>
                       <li>криминал</li>
                     </ul></li>
                     <li>
@@ -359,6 +345,14 @@
                   <li class="" data-type-sliderGroup="smotr" data-type-sliderButton="3"><a><span>НА ТВ</span></a></li>
                 </ul>
               </div>
+              <div class="mobile__select my-select">
+                <span class="result">В КИНО</span>
+                <ul class="result-list">
+                  <li class="active" data-type-sliderGroup="tab" data-type-sliderButton="2"><a><span>В КИНО</span></a></li>
+                  <li class="" data-type-sliderGroup="tab" data-type-sliderButton="3"><a><span>ОНЛАЙН</span></a></li>
+                  <li class="" data-type-sliderGroup="tab" data-type-sliderButton="4"><a><span>НА ТВ</span></a></li>
+                </ul>
+              </div>
               <div class="row-session-table active" data-type-sliderGroup="smotr" data-type-sliderElem="1">
                 <form action="">
                   <div class="row-dropdown-input session-dropdown-input">
@@ -366,7 +360,6 @@
                       <option value="name" selected="selected">Москва</option>
                     </select>
                     <select name="cinema" id="" class=""  >
-                      <!-- <option value="name" selected="selected" title="1">Выберите кинотеатр</option> -->
                       <option value="1">Кинотеатр 1</option>
                       <option value="2">Кинотеатр 2</option>
                       <option value="3">Кинотеатр 3</option>
@@ -405,10 +398,6 @@
                         </div>
                       </div>
                     </div>
-                    <!-- <select name="date" id="" class="">
-                      <option value="name" selected="selected">22.07.2019</option>
-                      <span>111</span>
-                    </select> -->
                   </div>
                 </form>
                 <div class="session-table-title">Сеансы</div>
@@ -547,12 +536,16 @@
                     <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Подробнее</span></span>
                   </div>
                 </div>
-                <div class="list-post-item">
+                <div class="list-post-item list-post-item-facts">
                   <div class="list-post-item-title">
-                    О ФИЛЬМЕ
+                    ИНТЕРЕСНЫЕ ФАКТЫ О ФИЛЬМЕ «ЗЕЛЕНАЯ МИЛЯ»
                   </div>
                   <div class="list-post-item-content">
-                    По мотивам произведения Стивена Кинга “Зеленая Миля”. Повествование в картине ведется от лица Пола Эджкомба, который, находясь в доме для престарелых, рассказывает своей подруге Эллен Коннели историю, произошедшую с ним 60 лет назад, когда он работал главным охранником в блоке смертников тюрьмы “Холодная гора”. Эджкомб (Tom Hanks) должен наблюдать за убийцами, приговоренными к казни на электрическом стуле, к которому ведет коридор, застланный зеленым покрытием, и из-за этого прозванный “Зеленая миля”. Он слегка циничен, но за долгие годы работы в тюрьме, каждый день наблюдая за тем, как люди живут и умирают, он уже готов потерять веру и рассудок. Он все чаще начинает задаваться вопросом “Имеет ли он право казнить людей ради зарплаты?”. Имеет ли он право брать на себя тяжкую роль бога? Но однажды на его жизненном пути встречается осужденный на смерть за убийство двух детей Джон Коффей (Michael Duncan). Коффей - человек огромного роста, у которого кулаки размером с вафельницу. Но несмотря на свой устрашающий вид он испуган как ребенок. Он боится спать ночью в камере без включенного ночника. К тому же выясняется, что он обладает особой мистической способностью к излечению людей. И Эджкомб и другие охранники теперь сочувствуют Джону и начинают расследование. Они убеждены, что этот сильный человек подобно Иисусу Христу был обвинен несправедливо и осужден на смерть.
+                    <p>Фильм снят по мотивам романа Стивена Кинга «Зеленая миля» (The Green Mile, 1996).</p>
+                    <p>В фильме снялись сразу тридцать мышей, которые играют Мистера Джинглса. Все мыши были названы в честь актёров и членов съёмочной группы.</p>
+                    <p>Съёмки проходили в США, в штатах Северная Каролина и Теннесси.</p>
+                    <p>Роман писался частями, и вначале издавался отдельными брошюрами.</p>
+                    <p>«Зеленая миля» Стивена Кинга получила премию «Stoker» в номинации «Лучший роман 1996-го года».</p>
                   </div>
                   <div class="outer-pagelist-more">
                     <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Подробнее</span></span>
@@ -622,7 +615,7 @@
 
               </div>
             </div>
-            <div class="row-mini-slide row-mini-slide--gray">
+            <div class="slider-load row-mini-slide row-mini-slide--gray">
               <div class="mini-slide-title"><a href="#" class="no-link">КАДРЫ <span class="number">38</span></a></div>
               <div class="row-bx-mini-slider">
                 <div class="bx-mini-slider">
@@ -640,7 +633,7 @@
                 </div>
               </div>
             </div>
-            <div class="pagelist-social">
+            <div class="pagelist-social no-mobile">
               <div class="outer-social clear">
                 <ul class="social-list social-list--horizontal">
                   <li class="vk"><a href="#"><span class="number">856</span></a></li>
@@ -649,7 +642,7 @@
                 </ul>
               </div>
             </div>
-            <div class="outer-other no-mobile">
+            <div class="outer-other">
               <section class="inner-content outer-content-item parent-sticker outer-section-mini-prewiew">
                 <div class="sticker">
                   <div class="sticker-item">НОВОСТИ О ФИЛЬМЕ</div>
@@ -707,7 +700,7 @@
             </div>
             <div class="full-comments full-comments-reviews">
               <div class="full-comments-head">
-                <div class="full-comments-text">РЕЦЕНЗИИ <span class="number">2</span></div>
+                <div class="full-comments-text"><a href="#">РЕЦЕНЗИИ</a> <span class="number">2</span></div>
               </div>
               <div class="parent-author-full-comments row-author-full-comments kinomania">
                 <div class="author-full-comments-image">
@@ -813,7 +806,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

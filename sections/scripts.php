@@ -5,19 +5,71 @@
 <script src="/app/js/plugins/bx/jquery.bxslider.js"></script>
 <script>
   $(document).ready(function(){
-    $('.bxslider').bxSlider({
+    $('.slider-load').css('display', 'block');
+    $('.bxslider-home').bxSlider({
       auto: false
     });
+    w = window.innerWidth;
+    $('.bxslider-part').bxSlider({
+      auto: false,
+      minSlides: 1,
+      maxSlides: 1,
+      nextText: '',
+      prevText: '',
+      pager: false
+    });
+
+    var bx_tv_slider;
+    create_bx_tv_slider();
+    $(window).resize(function(){
+      create_bx_tv_slider();
+    });
+    function create_bx_tv_slider (){
+      if($(bx_tv_slider).html() != undefined){
+        bx_tv_slider.destroySlider();
+      }
+
+      if(w < 768){
+        bx_tv_slider = {
+          minSlides: 1,
+          maxSlides: 1
+        };
+      } else if(w < 992){
+        bx_tv_slider = {
+          slideWidth: 275,
+          minSlides: 3,
+          maxSlides: 3
+        };
+      } else {
+        bx_tv_slider = {
+          slideWidth: 275,
+          minSlides: 4,
+          maxSlides: 4
+        };
+      }
+      param_def = {
+        auto: false,
+        slideMargin: 15,
+        nextText: '',
+        prevText: '',
+        pager: false
+      };
+
+      var param_def = $.extend(param_def, bx_tv_slider);
+      bx_tv_slider = $('.bx-tv-slider').bxSlider(param_def);
+    }
+
+
     $('.bx-mini-slider').bxSlider({
       slideWidth: 215,
-      minSlides: 2,
+      minSlides: 1,
       maxSlides: 3,
       slideMargin: 15,
       pager: false,
       nextText: '',
       prevText: ''
     });
-    w = window.innerWidth;
+
     if (w <= 992) {
        $('.happy-carousel').bxSlider({
         slideWidth: 0,
@@ -39,7 +91,27 @@
     }
   });
 </script>
+<script type="text/javascript">
 
+    // Создает обработчик события window.onLoad
+    YMaps.jQuery(function () {
+        var mapFunc = $('#YMapsID').attr('map-cardinate');
+        var mapFuncTwo = $('#YMapsID').attr('map-cardinateTwo');
+        if (!$('#YMapsID').is('[map-zoom]')){
+          var mapZoom = 10;
+        } else {
+          var mapZoom = $('#YMapsID').attr('map-zoom');
+          // alert(mapZoom);
+        }
+        // alert(mapFunc);
+        // alert(mapFuncTWo);
+        // Создает экземпляр карты и привязывает его к созданному контейнеру
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+        // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+        map.setCenter(new YMaps.GeoPoint(mapFunc,mapFuncTwo), mapZoom);
+    })
+</script>
 <!-- Magnific Popup core CSS file -->
 <link rel="stylesheet" href="/app/js/plugins/mp/magnific-popup.css">
 

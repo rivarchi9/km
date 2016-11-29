@@ -92,7 +92,7 @@
                     <div class="row-main-item-title">
                       <div class="main-item-title title-black">ВСЕ УЧАСТНИКИ</div>
                     </div>
-                    <div class="row-all-items-list row-all-items-list-tile">
+                    <div class="row-all-items-list row-all-items-list-tile clear">
                       <ul class="all-items-list all-items-list-tile">
                         <li>
                           <ul>
@@ -255,7 +255,7 @@
                       <div class="outer-dop-news">
                         <ul class="dop-news">
                           <li>
-                            <a href="#" class="all__news">ВСЕ НОВОСТИ</a>
+                            <a href="#" class="all__news">ВСЕ СТАТЬИ</a>
                           </li>
                           <li>
                             <a href="#" class="rss"></a>
@@ -337,7 +337,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>  
+        	<?php include "sections/aside_billboards.php"; ?>  
         </section>
     </div>
   <?php include "sections/footer.php"; ?>

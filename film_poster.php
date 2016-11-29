@@ -47,17 +47,7 @@
             <h2 class="name__page">Monsters University</h2>
           </div>
           <div class="nav-content">
-            <ul class="nav-content-list clear">
-              <li class="nav-content-item"><a href="films.php">О фильме</a></li>
-              <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
-              <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>
-              <li class="nav-content-item "><a href="film_wall.php">Обои <span class="number">8</span></a></li>
-              <li class="nav-content-item"><a href="film_trailers.php">Трейлеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
-              <li class="nav-content-item active"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
-              <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
-            </ul>
+            <?php include "sections/film_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">
@@ -68,7 +58,7 @@
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
                     <div data-type-over-img="app/img/content/p1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="app/img/content/p1.jpg">
                     </div>
                   </div>
                   <div class="posters-caption">
@@ -78,7 +68,7 @@
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
                     <div data-type-over-img="app/img/content/p1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="app/img/content/p1.jpg">
                     </div>
                   </div>
                   <div class="posters-caption">
@@ -88,7 +78,7 @@
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
                     <div data-type-over-img="app/img/content/p1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="app/img/content/p1.jpg">
                     </div>
                   </div>
                   <div class="posters-caption">
@@ -98,7 +88,7 @@
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
                     <div data-type-over-img="app/img/content/p1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="app/img/content/p1.jpg">
                     </div>
                   </div>
                   <div class="posters-caption">
@@ -108,7 +98,7 @@
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
                     <div data-type-over-img="app/img/content/p1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
-                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="">
+                      <img alt="" src="app/img/content/p1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/p1.jpg" data-src-t="app/img/content/p1.jpg" data-src-m="app/img/content/p1.jpg">
                     </div>
                   </div>
                   <div class="posters-caption">
@@ -131,7 +121,7 @@
             </div>
           </content>
           <!-- Сайдбар -->
-        	<?php include "sections/aside2.php"; ?>
+        	<?php include "sections/aside_billboards.php"; ?>
         </section>
     </div>
   <?php include "sections/footer.php"; ?>
