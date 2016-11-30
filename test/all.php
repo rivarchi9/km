@@ -4,7 +4,11 @@
   include "../sections/head.php"; // вывод head
 ?>
 <body class="test-body">
+
 	<ol>
+	<a href="../km.its-node.zip" download="../km.its-node.zip">Скачать архив</a>
+	<br>
+	<br>
 		<?
 		$dir = "../";
 		if($dir){

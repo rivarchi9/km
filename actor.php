@@ -178,7 +178,7 @@
                   <div class="caption-page-tab-info">
                     <span class="caption-page-tab-info-item">США, Великобритания, Канада, 2016</span>
                     <ul class="clear caption-page-tab-info-item">
-                      <li>Режиссёр:</li>
+                      <li>Режиссер:</li>
                       <li><a href="#">Рон Ховард</a></li>
                     </ul>
                     <ul class="clear caption-page-tab-info-item">

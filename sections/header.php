@@ -31,8 +31,7 @@
                   <li><a href="#">СКОРО В КИНО</a></li>
                   <li><a href="/tv.php">ТВ</a></li>
                   <li><a href="/online.php">ОНЛАЙН</a></li>
-                  <li><a href="#">SHORTЫ</a></li>
-                  <li><a href="/test/all.php">все</a></li>
+                  <li><a href="/shorts.php">SHORTЫ</a></li>
                 </ul>
               </li>
               <li><a href="#">ЧИТАТЬ</a>
@@ -91,7 +90,7 @@
             <li><a href="#">СКОРО В КИНО</a></li>
             <li><a href="/tv.php">ТВ</a></li>
             <li><a href="/online.php">ОНЛАЙН</a></li>
-            <li><a href="#">SHORTЫ</a></li>
+            <li><a href="/shorts.php">SHORTЫ</a></li>
             <li><a href="/test/all.php">все</a></li>
           </ul>
         </li>
