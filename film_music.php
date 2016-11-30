@@ -51,14 +51,14 @@
         	<!-- Контент -->
           <content class="pagelist page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <div class="row-soundtracks">
-              <div class="soundtrack-head clear">
-                <div class="soundtrack-head__image">
+              <div class="page-content-head clear">
+                <div class="page-content-head__image">
                   <div class="image-shadow ">
                     <div class="image-cover"><img src="app/img/content/w2.jpg" alt="" class=""></div>
 
                   </div>
                 </div>
-                <div class="soundtrack-head__content">
+                <div class="page-content-head__content">
                   <div class="soundtrack-name-page">Саундтрек к фильму</div>
                   <div class="soundtrack-name-item">УНИВЕРСИТЕТ МОНСТРОВ</div>
                   <div class="soundtrack-release">Релиз: <span class="value">2013</span></div>

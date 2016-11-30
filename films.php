@@ -348,9 +348,9 @@
               <div class="mobile__select my-select">
                 <span class="result">В КИНО</span>
                 <ul class="result-list">
-                  <li class="active" data-type-sliderGroup="tab" data-type-sliderButton="2"><a><span>В КИНО</span></a></li>
-                  <li class="" data-type-sliderGroup="tab" data-type-sliderButton="3"><a><span>ОНЛАЙН</span></a></li>
-                  <li class="" data-type-sliderGroup="tab" data-type-sliderButton="4"><a><span>НА ТВ</span></a></li>
+                  <li class="active" data-type-sliderGroup="smotr" data-type-sliderButton="1"><a><span>В КИНО</span></a></li>
+                  <li class="" data-type-sliderGroup="smotr" data-type-sliderButton="2"><a><span>ОНЛАЙН</span></a></li>
+                  <li class="" data-type-sliderGroup="smotr" data-type-sliderButton="3"><a><span>НА ТВ</span></a></li>
                 </ul>
               </div>
               <div class="row-session-table active" data-type-sliderGroup="smotr" data-type-sliderElem="1">
@@ -522,8 +522,72 @@
                   <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
                 </div>
               </div>
-              <div class="row-session-table" data-type-sliderGroup="smotr" data-type-sliderElem="2">2</div>
-              <div class="row-session-table" data-type-sliderGroup="smotr" data-type-sliderElem="3">3</div>
+              <div class="row-session-table row-session-tab-table " data-type-sliderGroup="smotr" data-type-sliderElem="2">
+                <div class="tab-table-outer">
+                  <div class="tab-table-head clear">
+                    <div class="tab-table-col">Канал</div>
+                    <div class="tab-table-col">Дата</div>
+                    <div class="tab-table-col">Время</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-session-table row-session-tab-table row-session-logo-table " data-type-sliderGroup="smotr" data-type-sliderElem="3">
+                <div class="tab-table-outer">
+                  <div class="tab-table-head clear">
+                    <div class="tab-table-col">Онлайн-кинотеатр</div>
+                    <div class="tab-table-col">Цена</div>
+                    <div class="tab-table-col"></div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                      <img src="app/img/icon/logo/i1.png" alt="" class="table-logo-1">
+                    </a></div>
+                    <div class="tab-table-col tab-table-price">249 руб.
+                    <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                    </div>
+                    <div class="tab-table-col">
+                      <a href="#" class="button button2">СМОТРЕТЬ</a>
+                    </div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                      <img src="app/img/icon/logo/i2.png" alt="" class="table-logo-1">
+                    </a></div>
+                    <div class="tab-table-col tab-table-price">249 руб.
+                    <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                    </div>
+                    <div class="tab-table-col">
+                      <a href="#" class="button button2">СМОТРЕТЬ</a>
+                    </div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                      <img src="app/img/icon/logo/i3.png" alt="" class="table-logo-1">
+                    </a></div>
+                    <div class="tab-table-col tab-table-price">249 руб.
+                    <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                    </div>
+                    <div class="tab-table-col">
+                      <a href="#" class="button button2">СМОТРЕТЬ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="row-list-post-item">
                 <div class="list-post-item">
                   <div class="list-post-item-title">

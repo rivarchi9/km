@@ -59,9 +59,7 @@
                 <div class="inner-list-item active" data-type-trailersType="0">
                   <div class="list-item active" data-type-trailersTrailer="0">
                     <div class="video-prewiew">
-                      <iframe class="video" width="100%" height="503" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
-                      <!-- <img alt="" src="#" class="responsive-image video-prewiew__item" data-src-d="/app/img/content/33.jpg" data-src-t="/app/img/content/33.jpg" data-src-m="/app/img/content/33.jpg"> -->
-                      <!-- <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/4XmgYhOiKUs" frameborder="0" allowfullscreen></iframe> -->
+                      <iframe class="video" width="100%" height="430" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info">
                       <p class="title"><a href="#">В Германии стартовал Берлинский кинофестиваль</a></p>
@@ -75,9 +73,7 @@
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
                     <div class="video-prewiew">
-                      <iframe class="video" width="100%" height="503" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
-                      <!-- <img alt="" src="#" class="responsive-image video-prewiew__item" data-src-d="/app/img/content/33.jpg" data-src-t="/app/img/content/33.jpg" data-src-m="/app/img/content/33.jpg"> -->
-                      <!-- <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/4XmgYhOiKUs" frameborder="0" allowfullscreen></iframe> -->
+                      <iframe class="video" width="100%" height="430" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info">
                       <p class="title"><a href="#">В Германии стартовал Берлинский кинофестиваль</a></p>

@@ -24,7 +24,7 @@
         <section class=" outer-section clear outer-content">
         	<!-- Контент -->
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          	<div class="row-header-page header-page--color1 parent-sticker parent-sticker-not-outside">
+          	<div class="row-header-page-item header-page--color1 parent-sticker parent-sticker-not-outside">
               <div class="header-page-text">Лучшие короткометражные фильмы со всего света.</div>
               <div class="sticker">
                 <div class="sticker-item">SHORTЫ</div>
@@ -40,16 +40,29 @@
                       <div class="selection-trailers__value">
                         <ul class="selection-trailers__value-list">
                           <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">комедия</a></li>
+                          <li><a href="#">биография</a></li>
+                          <li><a href="#">ужасы</a></li>
+                          <li><a href="#">драма</a></li>
+                          <li><a href="#">боевик</a></li>
+                          <li><a href="#">военный</a></li>
+                          <li><a href="#">фантастика</a></li>
+                          <li><a href="#">мультфильм</a></li>
+                          <li><a href="#">приключения</a></li>
+                          <li><a href="#">мелодрама</a></li>
+                          <li><a href="#">триллер</a></li>
+                          <li><a href="#">фэнтези</a></li>
+                          <li><a href="#">криминал</a></li>
+                          <li><a href="#">фильм-нуар</a></li>
+                          <li><a href="#">семейный</a></li>
+                          <li><a href="#">детектив</a></li>
+                          <li><a href="#">вестерн</a></li>
+                          <li><a href="#">спорт</a></li>
+                          <li><a href="#">мюзикл</a></li>
+                          <li><a href="#">музыка</a></li>
+                          <li><a href="#">исторический</a></li>
+                          <li><a href="#">документальный</a></li>
+                          <li><a href="#">рекламный ролик</a></li>
+                          <li><a href="#">музыкальный клип</a></li>
                         </ul>
                       </div>
                     </div>
@@ -57,23 +70,8 @@
                       <div class="selection-trailers__name">Язык:</div>
                       <div class="selection-trailers__value">
                         <ul class="selection-trailers__value-list">
-                          <li><a href="#">оригинальный</a></li>
-                          <li><a href="#">локализованный</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="item type">
-                      <div class="selection-trailers__name">Тип:</div>
-                      <div class="selection-trailers__value">
-                        <ul class="selection-trailers__value-list">
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
-                          <li><a href="#">трейлер</a></li>
+                          <li><a href="#">русский</a></li>
+                          <li><a href="#">иностранный</a></li>
                         </ul>
                       </div>
                     </div>

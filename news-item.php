@@ -163,6 +163,32 @@
               </div>
             </div>
           </div>
+          <div class="row-pagelist-ligin">
+            <div class="pagelist__title pagelist-ligin__title">ОТПРАВИТЬ КОММЕНТАРИЙ</div>
+            <div class="pagelist-ligin clear">
+              <div class="answer-avatar">
+                <div class="avatar-profile--mini-image avatar-profile-m"><img src="app/img/content/no-avatar-m.jpg" alt=""></div>
+              </div>
+              <div class="answer-layout">
+                <div class="answer-layout-place parent-sticker">
+                  <textarea></textarea>
+                  <div class="sticker-item-elements">
+                    <div class="sticker-elements">
+                      <ul>
+                        <li><i>I</i></li>
+                        <li><b>B</b></li>
+                        <li>Цитата</li>
+                        <li>Спойлер</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="answer-button">
+                    <button class="button button4">войти</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </content>
           <!-- Сайдбар -->
           <?php include "sections/aside2.php"; ?>
