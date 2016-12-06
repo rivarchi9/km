@@ -9607,6 +9607,17 @@ content.content-not-aside {
 		color: #000;
 	}
 }
+.row-mini-slide-music {
+	.inner-all-slide {
+		padding-bottom: 15px;
+	}
+}
+
+
+
+
+
+
 
 
 
@@ -11236,6 +11247,7 @@ body.test-body {
 	.row-list-about-result .row-result-tabs-item,.row-list-about-result .row-result-tabs-item--right {
 		width: 100%;
 		text-align: center;
+		float: none;
 
 	}
 	.pagelist-prewiew-item:not(:first-child){

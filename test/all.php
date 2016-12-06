@@ -8,6 +8,8 @@
 	<ol>
 	<a href="../km.its-node.zip" download="../km.its-node.zip">Скачать архив</a>
 	<br>
+	<a href="../km.its-node1.2.zip" download="../km.its-node1.2.zip">Скачать архив (1.2)</a>
+	<br>
 	<br>
 		<?
 		$dir = "../";

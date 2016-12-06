@@ -135,7 +135,7 @@
               <div class="outer-pagelist-more">
                 <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
               </div>
-              <div class="row-mini-slide row-mini-slide--two row-mini-slide--gray">
+              <div class="row-mini-slide row-mini-slide--two row-mini-slide--gray row-mini-slide-music">
                 <div class="mini-slide-title"><a href="#" class="no-link">РЕКОМЕНДУЕМЫЕ САУНДТРЕКИ <span class="number">12</span></a></div>
                 <div class="row-bx-mini-slider">
                   <div class="bx-mini-slider">
