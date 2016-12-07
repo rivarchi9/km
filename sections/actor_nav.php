@@ -19,5 +19,5 @@
   <li class="nav-content-item"><a href="actor_box.php">Кадры <span class="number">616</span></a></li>
   <li class="nav-content-item"><a href="actor_awards.php">Награды</a></li>
   <li class="nav-content-item"><a href="actor_news.php">Новости <span class="number">142</span></a></li>
-  <li class="nav-content-item-add"><a href="actor_news.php">Смотреть <span class="number">22</span></a></li>
+  <li class="nav-content-item"><a href="actor_news.php">Смотреть <span class="number">22</span></a></li>
 </ul>

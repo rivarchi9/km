@@ -160,9 +160,9 @@
             <div class="caption-page-item caption-page-dop caption-page-tab">
               <div class="aside__title">Посмотреть фильм<br>с этим актером</div>
               <ul class="aside-list clear">
-                <li class="active" data-type-slidergroup="novelty_2" data-type-sliderbutton="1">КИНО</li>
-                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="2">ТРЕЙЛЕРЫ</li>
-                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="3">ОБОИ</li>
+                <li class="active" data-type-slidergroup="novelty_2" data-type-sliderbutton="1">В КИНО</li>
+                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="2">ОНЛАЙН</li>
+                <li class="default" data-type-slidergroup="novelty_2" data-type-sliderbutton="3">НА ТВ</li>
               </ul>
               <div class="caption-page-tab-content active" data-type-slidergroup="novelty_2" data-type-sliderelem="1">
                 <div class="caption-page-tab-item">
