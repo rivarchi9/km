@@ -178,7 +178,7 @@
                   <div class="caption-page-tab-info">
                     <span class="caption-page-tab-info-item">США, Великобритания, Канада, 2016</span>
                     <ul class="clear caption-page-tab-info-item">
-                      <li>Режиссер:</li>
+                      <li>Режиссёр:</li>
                       <li><a href="#">Рон Ховард</a></li>
                     </ul>
                     <ul class="clear caption-page-tab-info-item">
@@ -211,9 +211,13 @@
               <div class="actor-caption">
                 <p>Том Хэнкс родился 9 июля 1956 года в г. Конкорд, штат Калифорния, США. Его родители развелись, и большую часть детства Том провел с отцом, поваром по профессии. Они часто переезжали из города в город, мальчику постоянно приходилось привыкать к новым школам, новым знакомым, новым подругам отца.</p>
                 <p>Участвовать в театральных постановках Хэнкс начал, еще учась в школе. Для того, чтобы овладеть актерским ремеслом более профессионально, он поступил на отделение драмы в Калифорнийский Университет. 3 сезона Хэнкса приглашали играть на ежегодном “Шекспировском фестивале”, проходившем в Огайо, и Том даже получил там несколько театральных наград.</p>
+                <div data-type-openclose-element="hide-text" class="hide-text">
+                  <p>Том Хэнкс родился 9 июля 1956 года в г. Конкорд, штат Калифорния, США. Его родители развелись, и большую часть детства Том провел с отцом, поваром по профессии. Они часто переезжали из города в город, мальчику постоянно приходилось привыкать к новым школам, новым знакомым, новым подругам отца.</p>
+                  <p>Участвовать в театральных постановках Хэнкс начал, еще учась в школе. Для того, чтобы овладеть актерским ремеслом более профессионально, он поступил на отделение драмы в Калифорнийский Университет. 3 сезона Хэнкса приглашали играть на ежегодном “Шекспировском фестивале”, проходившем в Огайо, и Том даже получил там несколько театральных наград.</p>
+                </div>
               </div>
               <div class="outer-pagelist-more">
-                <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
+                <span class="pagelist-more sprite-before" data-type-openclose-button="hide-text"><span class="pagelist-more__text">Еще</span></span>
               </div>
               <div class="row-actor-about">
                 <div class="row-tabs">
@@ -573,7 +577,6 @@
                           </div>
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -596,12 +599,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>
@@ -622,12 +627,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>

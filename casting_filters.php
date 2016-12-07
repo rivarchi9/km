@@ -138,50 +138,44 @@
                  <div class="row-input row-input-table row-input-select">
                    <label class="filters-input filters-input-name required">Спорт</label>
                    <div class="filters-input filters-input-value clear-inline-block">
-                    <div class="row-dropdown-input">
-                      <select name="name__value">
+                    <div class="row-dropdown-input row-dropdown-input-text">
+                      <!-- <select name="name__value">
                         <option value="name" selected="selected" title="1">Выберите из списка</option>
-                      </select>
+                      </select> -->
+                      <input type="text" class="input-field field--mini">
                     </div>
+
                    </div>
                  </div>
                  <div class="row-input row-input-table row-input-select">
                    <label class="filters-input filters-input-name required">Ин. язык</label>
                    <div class="filters-input filters-input-value clear-inline-block">
-                    <div class="row-dropdown-input">
-                      <select name="name__value">
-                        <option value="name" selected="selected" title="1">Выберите из списка</option>
-                      </select>
+                    <div class="row-dropdown-input row-dropdown-input-text">
+                      <input type="text" class="input-field field--mini">
                     </div>
                    </div>
                  </div>
                  <div class="row-input row-input-table row-input-select">
                    <label class="filters-input filters-input-name required">Муз. инструмент</label>
                    <div class="filters-input filters-input-value clear-inline-block">
-                    <div class="row-dropdown-input">
-                      <select name="name__value">
-                        <option value="name" selected="selected" title="1">Выберите из списка</option>
-                      </select>
+                    <div class="row-dropdown-input row-dropdown-input-text">
+                      <input type="text" class="input-field field--mini">
                     </div>
                    </div>
                  </div>
                  <div class="row-input row-input-table row-input-select">
                    <label class="filters-input filters-input-name required">Танец</label>
                    <div class="filters-input filters-input-value clear-inline-block">
-                    <div class="row-dropdown-input">
-                      <select name="name__value">
-                        <option value="name" selected="selected" title="1">Выберите из списка</option>
-                      </select>
+                    <div class="row-dropdown-input row-dropdown-input-text">
+                      <input type="text" class="input-field field--mini">
                     </div>
                    </div>
                  </div>
                  <div class="row-input row-input-table row-input-select">
                    <label class="filters-input filters-input-name required">Пение</label>
                    <div class="filters-input filters-input-value clear-inline-block">
-                    <div class="row-dropdown-input">
-                      <select name="name__value">
-                        <option value="name" selected="selected" title="1">Выберите из списка</option>
-                      </select>
+                    <div class="row-dropdown-input row-dropdown-input-text">
+                      <input type="text" class="input-field field--mini">
                     </div>
                    </div>
                  </div>
@@ -347,7 +341,7 @@
                </div>
               </div>
               <div class="input-table-place">
-                 <div class="warning-lable">Выделенные поля  поддерживают ввод    нескольких значений</div>
+                 <div class="warning-lable">Поля поддерживают ввод нескольких значений через запятую</div>
                  <button class="button button4">ИСКАТЬ</button>
                </div>
             </form>

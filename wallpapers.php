@@ -41,32 +41,31 @@
                       <div class="item ganre">
                         <div class="selection-trailers__name">Жанр:</div>
                         <div class="selection-trailers__value">
-                        <ul class="selection-trailers__value-list">
-                          <li><a href="#">комедия</a></li>
-                          <li><a href="#">биография</a></li>
-                          <li><a href="#">ужасы</a></li>
-                          <li><a href="#">драма</a></li>
-                          <li><a href="#">боевик</a></li>
-                          <li><a href="#">военный</a></li>
-                          <li><a href="#">фантастика</a></li>
-                          <li><a href="#">мультфильм</a></li>
-                          <li><a href="#">приключения</a></li>
-                          <li><a href="#">мелодрама</a></li>
-                          <li><a href="#">триллер</a></li>
-                          <li><a href="#">фэнтези</a></li>
-                          <li><a href="#">криминал</a></li>
-                          <li><a href="#">фильм-нуар</a></li>
-                          <li><a href="#">семейный</a></li>
-                          <li><a href="#">детектив</a></li>
-                          <li><a href="#">вестерн</a></li>
-                          <li><a href="#">спорт</a></li>
-                          <li><a href="#">мюзикл</a></li>
-                          <li><a href="#">музыка</a></li>
-                          <li><a href="#">исторический</a></li>
-                          <li><a href="#">документальный</a></li>
-                        </ul>
-                      </div>
-                    </div>
+                          <ul class="selection-trailers__value-list">
+                            <li><a href="#">комедия</a></li>
+                            <li><a href="#">биография</a></li>
+                            <li><a href="#">ужасы</a></li>
+                            <li><a href="#">драма</a></li>
+                            <li><a href="#">боевик</a></li>
+                            <li><a href="#">военный</a></li>
+                            <li><a href="#">фантастика</a></li>
+                            <li><a href="#">мультфильм</a></li>
+                            <li><a href="#">приключения</a></li>
+                            <li><a href="#">мелодрама</a></li>
+                            <li><a href="#">триллер</a></li>
+                            <li><a href="#">фэнтези</a></li>
+                            <li><a href="#">криминал</a></li>
+                            <li><a href="#">фильм-нуар</a></li>
+                            <li><a href="#">семейный</a></li>
+                            <li><a href="#">детектив</a></li>
+                            <li><a href="#">вестерн</a></li>
+                            <li><a href="#">спорт</a></li>
+                            <li><a href="#">мюзикл</a></li>
+                            <li><a href="#">музыка</a></li>
+                            <li><a href="#">исторический</a></li>
+                            <li><a href="#">документальный</a></li>
+                          </ul>
+                        </div>
                       </div>
                       <div class="item language">
                         <div class="selection-trailers__name">Язык:</div>

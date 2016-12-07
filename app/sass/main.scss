@@ -40,7 +40,9 @@ $color11: #f2f2f2; // background gray
 .outer {
 	overflow: hidden;
 }
-
+.hide-text {
+	display: none;
+}
 .sprite {
 	background: url('../img/icon/sprite.png') 0 0 no-repeat;
 }
@@ -3007,7 +3009,7 @@ content .description {
 .main-folder-icon {
 	position: absolute;
 	right: -1px;
-	top: -3px;
+	// top: -3px;
 	
 	
 }
@@ -3300,8 +3302,8 @@ a:hover + .hint {
 		background-color: #fff;
 		color: #f07166;
 		font-weight: 500;
-    border-top: 2px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    // border-bottom: 1px solid #fff;
     box-sizing: content-box;
     margin-top: -1px;
     /*margin-bottom: -2px;*/
@@ -4832,6 +4834,8 @@ input.input-field,textarea.input-field {
 					-webkit-transition: 0.4s;
 					-o-transition: 0.4s;
 					transition: 0.4s;
+					display: inline-block;
+					margin-top: 1px;
 				}
 				&:hover span {
 					border-bottom-color: transparent;
@@ -5340,6 +5344,7 @@ li.active .icon__star:before {
 .author-comment-info-list li a {
 	color: #0098B8;
 }
+
 .full-comments-reviews .author-comment-info-list li {
 	margin-right: 15px;
 }
@@ -5369,12 +5374,16 @@ li.active .icon__star:before {
 .full-comments-reviews {
 	.author-comment-info-list li a{
 		&:hover {
-			span {
+			span:not(.value) {
 				border-bottom: 1px dotted #df4839;
 			}
 		}
-		span {
+		span:not(.value) {
 			border-bottom: 1px dotted #0b97b2;
+		}
+		span.value {
+			vertical-align: middle;
+			display: inline-block;
 		}
 		border: none;
 	}
@@ -9058,7 +9067,7 @@ div.caption-page-tab-info {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: -3px;
+	bottom: -2px;
 }
 .user-reviews-info {
 	width: 234px;
@@ -9612,8 +9621,16 @@ content.content-not-aside {
 		padding-bottom: 15px;
 	}
 }
-
-
+.row-news-list {
+	.description {
+		padding-bottom: 30px;
+	}
+}
+.row-dropdown-input-text {
+	input[type="text"] {
+		width: 100%;
+	}
+}
 
 
 
@@ -9679,7 +9696,7 @@ body.test-body {
 		border-color: #df4839;
 	}
 }
-.tab-table-row a,.table-col a,.on-table-text__name a,.user-reviews-name a,.user-content-list-item__title a,.full-comments-text a,.full-comments-reviews .author-reviews-name a,.online-links a,.files-item__format a,.channel-item-head__name a,.table-aside-name a,.add__link,.bxslider-part-title a,.whom-item__link a,.row-table-bill-info .name a,.time-list li.active span,.cinema-info-item a,.button__selection-trailers span,.poster-title a,.all-items-list li ul .all-item-name-all a,.all-items-list a,.select-filters-list li:not(.active) a,.main-item__content-title a,.section-mini-prewiew-list li a,.online-item__title a,.online-item-list a,.art-awards__title a,.outside-more a,.art-list li ul a,.art-title a,.news-comment,.news-title a,.news-child-title a,.all-posts-author,.author__name,.page-content-text a,.awords-list-name.name,.big-awards-list-name li a,.mini-slider-caption-name a,.wall-size-list a,.all-slide-item a,.dropdown-folder-setting span,.name-icon,.trailer-list-view-quality li a span,.list-about-item__button,.nav-films-list a,.info-item-list a,.caption-page-dop li a,.pagelist-ligin-text a,li a.all-slide-item a,.session-table-item__name a,.tile-preview-item__text a,.info-item-list-link,.list-tile-value a,.selection-trailers__value a,.trailer-list-title a ,.trailer__title a,.profile-post-item__content a,.profile-comment-title a,.profile-post-item__title,.section-result-nav--white li a,.prevew-post__title a,.prevew-post__data a,.section-result-nav--black a,.section-result-item .name a,.cinema-list a,.header-result-nav a,.forgot-password,.reg a,.author-comment-info-list li a,.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
+.tab-table-row a,.table-col a,.on-table-text__name a,.user-reviews-name a,.user-content-list-item__title a,.full-comments-text a,.full-comments-reviews .author-reviews-name a,.online-links a,.files-item__format a,.channel-item-head__name a,.table-aside-name a,.add__link,.bxslider-part-title a,.whom-item__link a,.row-table-bill-info .name a,.time-list li.active span,.cinema-info-item a,.button__selection-trailers span,.poster-title a,.all-items-list li ul .all-item-name-all a,.all-items-list a,.select-filters-list li:not(.active) a,.main-item__content-title a,.section-mini-prewiew-list li a,.online-item__title a,.online-item-list a,.art-awards__title a,.outside-more a,.art-list li ul a,.art-title a,.news-comment,.news-title a,.news-child-title a,.all-posts-author,.author__name,.page-content-text a,.awords-list-name.name,.big-awards-list-name li a,.mini-slider-caption-name a,.wall-size-list a,.all-slide-item a,.dropdown-folder-setting span,.name-icon,.trailer-list-view-quality li a span,.list-about-item__button,.nav-films-list a,.info-item-list a,.caption-page-dop li a,.pagelist-ligin-text a,li a.all-slide-item a,.session-table-item__name a,.tile-preview-item__text a,.info-item-list-link,.list-tile-value a,.selection-trailers__value a,.trailer-list-title a ,.trailer__title a,.profile-post-item__content a,.profile-comment-title a,.profile-post-item__title,.section-result-nav--white li a,.prevew-post__title a,.prevew-post__data a,.section-result-nav--black a,.section-result-item .name a,.cinema-list a,.header-result-nav a,.forgot-password,.reg a,.author-comment-info-list li a span:not(.value),.author-comments-name a,.section-mini-prewiew-item-desc a,.inner-tags a,.content-text a,.reviews-list  a,.aside-popular-content a,.pagelist__link,.pagelist-info a,.pagelist-item-title a,.pagelist-item-content p a,.all__news, .section-mini-prewiew-list li, .content-item-dop-section .item-text .item-text-title a, .footer-nav-list li a, .autorization-list li a, .info a , .section-video .head-desc .item a {
 	&:hover {
 		color: #F6574B;
 	}

@@ -6,9 +6,7 @@
 <body class="test-body">
 
 	<ol>
-	<a href="../km.its-node.zip" download="../km.its-node.zip">Скачать архив</a>
-	<br>
-	<a href="../km.its-node1.2.zip" download="../km.its-node1.2.zip">Скачать архив (1.2)</a>
+	<a href="../km.its-node(1.3).zip" download="../km.its-node(1.3).zip">Скачать архив (1.3)</a>
 	<br>
 	<br>
 		<?
