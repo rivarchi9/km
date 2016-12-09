@@ -57,9 +57,26 @@
                   </div>
                 </div>
                 <div class="main-folder-icon">
-                  <div class="row-icon-add icon-folder">
-                    <a href="#" class="folder__icon icon"></a>
-                    <div class="hint">Добавить в Мои Фильмы</div>
+                  <div class="parent-dropdown-folder row-icon-add icon-folder">
+                    <a class="folder__icon icon"></a>
+                    <div class="hint">Добавить в Избранное</div>
+                    <div class="row-dropdown-folder">
+                      <div class="dropdown-folder dropdown-folder-content">
+                        <div class="dropdown-folder-title"><span>В избранное</span></div>
+                        <ul class="dropdown-folder-list">
+                          <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                          <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                          <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                          <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown-folder dropdown-folder-setting">
+                        <a href="#" class="clear">
+                          <!-- <i class="setting-icon"></i> -->
+                          <span>Управление папками</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -103,9 +120,26 @@
                     </div>
                   </div>
                   <div class="main-folder-icon">
-                    <div class="row-icon-add row-icon-add--white icon-folder">
-                      <a href="#" class="folder__icon icon"></a>
-                      <div class="hint">Добавить в Мои Фильмы</div>
+                    <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                      <a class="folder__icon icon"></a>
+                      <div class="hint">Добавить в Избранное</div>
+                      <div class="row-dropdown-folder">
+                        <div class="dropdown-folder dropdown-folder-content">
+                          <div class="dropdown-folder-title"><span>В избранное</span></div>
+                          <ul class="dropdown-folder-list">
+                            <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-folder dropdown-folder-setting">
+                          <a href="#" class="clear">
+                            <!-- <i class="setting-icon"></i> -->
+                            <span>Управление папками</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -145,9 +179,26 @@
                     </div>
                   </div>
                   <div class="main-folder-icon">
-                    <div class="row-icon-add row-icon-add--white icon-folder">
-                      <a href="#" class="folder__icon icon"></a>
-                      <div class="hint">Добавить в Мои Фильмы</div>
+                    <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                      <a class="folder__icon icon"></a>
+                      <div class="hint">Добавить в Избранное</div>
+                      <div class="row-dropdown-folder">
+                        <div class="dropdown-folder dropdown-folder-content">
+                          <div class="dropdown-folder-title"><span>В избранное</span></div>
+                          <ul class="dropdown-folder-list">
+                            <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-folder dropdown-folder-setting">
+                          <a href="#" class="clear">
+                            <!-- <i class="setting-icon"></i> -->
+                            <span>Управление папками</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -187,9 +238,26 @@
                     </div>
                   </div>
                   <div class="main-folder-icon">
-                    <div class="row-icon-add row-icon-add--white icon-folder">
-                      <a href="#" class="folder__icon icon"></a>
-                      <div class="hint">Добавить в Мои Фильмы</div>
+                    <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                      <a class="folder__icon icon"></a>
+                      <div class="hint">Добавить в Избранное</div>
+                      <div class="row-dropdown-folder">
+                        <div class="dropdown-folder dropdown-folder-content">
+                          <div class="dropdown-folder-title"><span>В избранное</span></div>
+                          <ul class="dropdown-folder-list">
+                            <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-folder dropdown-folder-setting">
+                          <a href="#" class="clear">
+                            <!-- <i class="setting-icon"></i> -->
+                            <span>Управление папками</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -229,9 +297,26 @@
                     </div>
                   </div>
                   <div class="main-folder-icon">
-                    <div class="row-icon-add row-icon-add--white icon-folder">
-                      <a href="#" class="folder__icon icon"></a>
-                      <div class="hint">Добавить в Мои Фильмы</div>
+                    <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                      <a class="folder__icon icon"></a>
+                      <div class="hint">Добавить в Избранное</div>
+                      <div class="row-dropdown-folder">
+                        <div class="dropdown-folder dropdown-folder-content">
+                          <div class="dropdown-folder-title"><span>В избранное</span></div>
+                          <ul class="dropdown-folder-list">
+                            <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-folder dropdown-folder-setting">
+                          <a href="#" class="clear">
+                            <!-- <i class="setting-icon"></i> -->
+                            <span>Управление папками</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -274,16 +359,60 @@
                     </div>
                   </div>
                   <div class="main-folder-icon">
-                    <div class="row-icon-add row-icon-add--white icon-folder">
-                      <a href="#" class="folder__icon icon"></a>
-                      <div class="hint">Добавить в Мои Фильмы</div>
+                    <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
+                      <a class="folder__icon icon"></a>
+                      <div class="hint">Добавить в Избранное</div>
+                      <div class="row-dropdown-folder">
+                        <div class="dropdown-folder dropdown-folder-content">
+                          <div class="dropdown-folder-title"><span>В избранное</span></div>
+                          <ul class="dropdown-folder-list">
+                            <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                            <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown-folder dropdown-folder-setting">
+                          <a href="#" class="clear">
+                            <!-- <i class="setting-icon"></i> -->
+                            <span>Управление папками</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                     <div class="row-icon-add row-icon-add--white icon-star">
-                      <a href="#" class="star__icon icon"></a>
-                      <div class="hint">Поставить оценку</div>
+                      <a class="star__icon icon"></a>
+                      <div class="hint-block">
+                       <div class="hint-inner-block">
+                          <div class="hint-inner-block__title">
+                            <i class="star__icon icon"></i>Мой рейтинг
+                          </div>
+                          <div class="row-raiting-star">
+                           <div class="inner-raiting-star" data-fixed="fixed">
+                             <ul class="raiting-list-star clear">
+                               <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
+                               <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
+                               <li class="star__item" data-value="8"><i class="icon__star"></i></li>
+                               <li class="star__item" data-value="9"><i class="icon__star"></i></li>
+                               <li class="star__item" data-value="10"><i class="icon__star"></i></li>
+                             </ul>
+                             <span class="raiting-number"><span class="value">7</span> из 10</span>
+                             <span class="result-star"></span>
+                           </div>
+                         </div>
+                       </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div class="outer-pagelist-more">
+                <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
               </div>
             </div>
             <div class="list-content-item row-content-item-post">

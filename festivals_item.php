@@ -39,7 +39,7 @@
                   <li><a href=""><span>2009</span></a></li>
                   <li><a href=""><span>2008</span></a></li>
                   <li><a href=""><span>2007</span></a></li>
-                  <li class="all-years"><a href="">Все годы</a></li>
+                  <li class="all-years"><a href="">Введите год</a></li>
                 </ul>
               </div>
               <div class="row-outside row-outside-art clear">
@@ -68,7 +68,7 @@
                   </div>
                   <div class="row-main-items">
                     <div class="row-main-item-title">
-                      <div class="main-item-title title-black">«ЗОЛОТОЙ МЕДВЕДЬ» ЗА ЛУЧШИЙ ФИЛЬМ</div>
+                      <div class="main-item-title title-black">«ЗОЛОТОЙ МЕДВЕДЬ» ЗА ЛУЧШУЮ МУЖСКУЮ РОЛЬ</div>
                       <div class="main-item-longtitle title-bold">GOLDEN BEAR FOR BEST FILM</div>
                     </div>
                     <div class="main-item">
@@ -222,7 +222,7 @@
                   </div>
                 </div>
               </div>
-              <div class="section-content row-art-news clear">
+              <div class="section-content row-art-news row-art-news-two clear">
                 <div class="parent-sticker clear">
                   <div class="row">
                     <div class="news-item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">

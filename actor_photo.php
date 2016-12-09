@@ -3,7 +3,7 @@
   include "sections/head.php"; // вывод head
 ?>
 <body>
-  <div class="overlay-photo overlay-wall overlay-posters">
+  <div class="overlay-photo overlay-posters">
     <div class="overlay-bg"></div>
     <div class="row-inner-overlay">
       <div class="inner-overlay-photo">
@@ -57,7 +57,7 @@
               <div class="row">
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
-                    <div data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
+                    <div data-type-over-parent=".row" data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
                       <img alt="" src="app/img/content/aph1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/aph1.jpg" data-src-t="app/img/content/aph1.jpg" data-src-m="app/img/content/aph1.jpg">
                     </div>
                   </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
-                    <div data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
+                    <div data-type-over-parent=".row" data-type-over-img="app/img/content/a1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
                       <img alt="" src="app/img/content/aph1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/aph1.jpg" data-src-t="app/img/content/aph1.jpg" data-src-m="app/img/content/aph1.jpg">
                     </div>
                   </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
-                    <div data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
+                    <div data-type-over-parent=".row" data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
                       <img alt="" src="app/img/content/aph1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/aph1.jpg" data-src-t="app/img/content/aph1.jpg" data-src-m="app/img/content/aph1.jpg">
                     </div>
                   </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
-                    <div data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
+                    <div data-type-over-parent=".row" data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
                       <img alt="" src="app/img/content/aph1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/aph1.jpg" data-src-t="app/img/content/aph1.jpg" data-src-m="app/img/content/aph1.jpg">
                     </div>
                   </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="posters-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
                   <div class="row-posters__image">
-                    <div data-type-over-img="app/img/content/aph1.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
+                    <div data-type-over-parent=".row" data-type-over-img="app/img/content/233.jpg" data-type-over-desc=".desc-in-over" data-type-over-desc-desc="Описание" class="image-shadow-poster posters__image">
                       <img alt="" src="app/img/content/aph1.jpg" class="parent responsive-image image-prewiew" data-src-d="app/img/content/aph1.jpg" data-src-t="app/img/content/aph1.jpg" data-src-m="app/img/content/aph1.jpg">
                     </div>
                   </div>

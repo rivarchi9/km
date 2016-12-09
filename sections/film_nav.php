@@ -13,7 +13,7 @@
       <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
     </ul>
   </div>
-  <li class="nav-content-item active"><a href="films.php">О фильме</a></li>
+  <li class="nav-content-item"><a href="films.php">О фильме</a></li>
   <li class="nav-content-item "><a href="film_reviews.php">Рецензии<span class="number"></span></a></li>
   <li class="nav-content-item "><a href="film_actors.php">Актеры и создатели<span class="number"></span></a></li>
   <li class="nav-content-item "><a href="film_lightbox.php">Кадры <span class="number">38</span></a></li>

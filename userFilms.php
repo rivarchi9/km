@@ -34,7 +34,7 @@
 
           <content class="page-section-content profile-section-content section-content content-outercol-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           
-          <div class="list-content">
+          <div class="list-content list-content-tile">
             <div class="row-list-tile clear">
               <div class="list-tile-item">
                 <div class="list-tile-preview list-preview">
@@ -122,6 +122,9 @@
               </div>
             </div>
           </div>   
+          <div class="outer-pagelist-more">
+            <span class="pagelist-more sprite-before" data-type-openclose-button="hide-text"><span class="pagelist-more__text">Еще</span></span>
+          </div>
           </content>
           <!-- Сайдбар -->
         	<?php include "sections/aside3.php"; ?>  

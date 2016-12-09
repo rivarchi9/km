@@ -88,7 +88,7 @@
                             </a>
                             <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
-                          <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
+                          <div class="result-tabs-caption"><a href="#">23 кадра, 1 видео</a></div>
                         </div>
                         <div class="main-folder-icon">
                           <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
@@ -148,7 +148,7 @@
                             </a>
                             <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
-                          <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
+                          <div class="result-tabs-caption"><a href="#">23 кадра, 1 видео</a></div>
                         </div>
                         <div class="main-folder-icon">
                           <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">
@@ -208,7 +208,7 @@
                             </a>
                             <a href="app/img/content/ap2.jpg" class="parent hidden"></a>
                           </div>
-                          <div class="result-tabs-caption"><span>23 кадра, 1 видео</span></div>
+                          <div class="result-tabs-caption"><a href="#">23 кадра, 1 видео</a></div>
                         </div>
                         <div class="main-folder-icon">
                           <div class="parent-dropdown-folder row-icon-add row-icon-add--white icon-folder">

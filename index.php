@@ -35,7 +35,7 @@
                   </div>
                   <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="outer-desc">
-                        <a href="#" class="title-description_def">Премьеры российского проката 1</a>
+                        <div class="title-description_def">Премьеры российского проката 1</div>
                       <div class="info-section center-info-section">
                         <span class="date-info">23 июня 2016</span>,
                         <a href="#" class="comment-info">9</a>
@@ -59,7 +59,7 @@
                   </div>
                   <div class="section-description center-section-description col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="outer-desc">
-                        <a href="" class="title-description_def">Премьеры российского проката 1</a>
+                        <div class="title-description_def">Премьеры российского проката 2</div>
                       <div class="info-section center-info-section">
                         <span class="date-info">23 июня 2016</span>,
                         <a href="#" class="comment-info">9</a>
@@ -187,6 +187,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -205,6 +236,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -225,6 +287,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -243,6 +336,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -263,6 +387,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -281,6 +436,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -301,6 +487,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -319,6 +536,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -341,6 +589,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -359,6 +638,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -379,6 +689,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -397,6 +738,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -417,6 +789,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -435,6 +838,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -455,6 +889,37 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
@@ -473,41 +938,40 @@
                       <p class="text mini-desc">Inferno, США, Турция, Япония, Венгрия, 2016</p>
                       <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
                       <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                      <div class="download">
+                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                        <div class="outer-dop-download">
+                        <div class="dop-download">
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                          <div class="dop-download-item">
+                            <a href="#">Низкое</a>
+                            <a href="#">HD 480</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="outer-social clear">
+                      <ul class="social-list social-list--horizontal">
+                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
+                    </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="download">
-                <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
-                  <div class="outer-dop-download">
-                  <div class="dop-download">
-                    <div class="dop-download-item">
-                      <a href="#">Низкое</a>
-                      <a href="#">HD 480</a>
-                    </div>
-                    <div class="dop-download-item">
-                      <a href="#">Низкое</a>
-                      <a href="#">HD 480</a>
-                    </div>
-                    <div class="dop-download-item">
-                      <a href="#">Низкое</a>
-                      <a href="#">HD 480</a>
-                    </div>
-                  </div>
-                </div>
-                </div>
-
-              </div>
-              <div class="outer-social clear">
-                <ul class="social-list social-list--horizontal">
-                  <li class="vk"><a href="#"><span class="number">856</span></a></li>
-                  <li class="fb"><a href="#"><span class="number">856</span></a></li>
-                  <li class="ok"><a href="#"><span class="number">856</span></a></li>
-                  <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
-                </ul>
-              </div>
-              <div>
-                <a href="#" class="button button2">ВСЕ ТРЕЙЛЕРЫ</a>
               </div>
             </div>
           </div>
@@ -815,7 +1279,19 @@
               <div class="sticker">
                 <div class="sticker-item">Рекомендуем</div>
               </div>
+              <div class="row-mobile-select">
+                <div class="mobile__select my-select">
+                    <span class="result">Бокс-офис</span>
+                    <ul class="result-list">
+                      <li class="default"><a href="#">Бокс-офис</a></li>
+                      <li class="default"><a href="#">Рецензии</a></li>
+                      <li class="default"><a href="#">Ожидания</a></li>
+                      <li class="default"><a href="#">Был бы повод...</a></li>
+                    </ul>
+                  </div>
+              </div>
                 <div class="outer-section-mini-prewiew-item clear">
+                  
                   <div class="inner-section-mini-prewiew-item">
                     <div class="section-mini-prewiew-wrap-item">
                       <div class="section-mini-prewiew-item">

@@ -64,12 +64,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>
@@ -90,12 +92,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>
@@ -116,12 +120,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>
@@ -142,12 +148,14 @@
                     <ul class="author-comment-info-list">
                       <li class=" reply__like"><a href="#"><span>Мне нравится</span>
                         <i class="reply__icon reply__like_icon"></i>
+                        <span class="value">3</span>
                       </a>
                       </li>
                       <li class="reply__comments">
                         <a href="#">
                           <span>Комментировать</span>
                           <i class="reply__icon reply__comment_icon"></i>
+                          <span class="value">3</span>
                         </a>
                       </li>
                       <li class="date">29 сентября 2016, 23:07</li>

@@ -27,8 +27,8 @@
             <div class="row-wallpapers">
               <div class="row-list-nav-second">
                 <ul class="list-nav-second clear">
-                  <li class="active"><a href="wallpapers.php">Фильмы</a></li>
-                  <li ><a href="wallpapers_actor.php">Актеры</a></li>
+                  <li ><a href="wallpapers.php">Фильмы</a></li>
+                  <li class="active"><a href="wallpapers_actor.php">Актеры</a></li>
                   <li><a href="wallpapers_actress.php">Актрисы</a></li>
                 </ul>
               </div>
@@ -38,88 +38,12 @@
                 <div class="selection-trailers">
                   <div class="row-selection-hide" data-type-openclose-element="open_close">
                     <div class="selection-trailers-item clear">
-                      <div class="item ganre">
-                        <div class="selection-trailers__name">Жанр:</div>
-                        <div class="selection-trailers__value">
-                          <ul class="selection-trailers__value-list">
-                            <li><a href="#">комедия</a></li>
-                            <li><a href="#">биография</a></li>
-                            <li><a href="#">ужасы</a></li>
-                            <li><a href="#">драма</a></li>
-                            <li><a href="#">боевик</a></li>
-                            <li><a href="#">военный</a></li>
-                            <li><a href="#">фантастика</a></li>
-                            <li><a href="#">мультфильм</a></li>
-                            <li><a href="#">приключения</a></li>
-                            <li><a href="#">мелодрама</a></li>
-                            <li><a href="#">триллер</a></li>
-                            <li><a href="#">фэнтези</a></li>
-                            <li><a href="#">криминал</a></li>
-                            <li><a href="#">фильм-нуар</a></li>
-                            <li><a href="#">семейный</a></li>
-                            <li><a href="#">детектив</a></li>
-                            <li><a href="#">вестерн</a></li>
-                            <li><a href="#">спорт</a></li>
-                            <li><a href="#">мюзикл</a></li>
-                            <li><a href="#">музыка</a></li>
-                            <li><a href="#">исторический</a></li>
-                            <li><a href="#">документальный</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item language">
-                        <div class="selection-trailers__name">Язык:</div>
-                        <div class="selection-trailers__value">
-                          <ul class="selection-trailers__value-list">
-                            <li><a href="#">оригинальный</a></li>
-                            <li><a href="#">локализованный</a></li>
-                          </ul>
-                        </div>
-                      </div>
                       <div class="item type">
-                        <div class="selection-trailers__name">Тип:</div>
-                        <div class="selection-trailers__value">
+                        <div class="selection-trailers__value selection-trailers__value-two">
                           <ul class="selection-trailers__value-list">
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
-                            <li><a href="#">трейлер</a></li>
+                            <li><a href="#">российские</a></li>
+                            <li><a href="#">иностранные</a></li>
                           </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="selection-trailers-item clear">
-                      <div class="item years" data-type="slider" data-type-slider-min="1930" data-type-slider-max="2016">
-                        <div class="selection-trailers__name">Года:</div>
-                        <div class="selection-trailers__value">
-                          <div class="outer-time-bar clear">
-                            <div class="time-bar-years">
-                              <ul>
-                                <li>1930</li>
-                                <li>1970</li>
-                                <li>2016</li>
-                              </ul>
-                            </div>
-                            <div class="time-bar-slide">
-                              <div class="slide-bar-bottom" data-type-slider="bg">
-                                <div class="slide-bar-top" data-type-slider="fr"></div>
-                                <div class="slide-bar-controls">
-                                  <div class="slide-bar-controls__item slide-bar-controls__left" data-type-slider="left_controller"></div>
-                                  <div class="slide-bar-controls__item slide-bar-controls__right" data-type-slider="right_controller"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="outer-time-value clear">
-                            <span>с</span>
-                            <input type="text" class="time-value-after" data-type-slider="input_left" value="1993">
-                            <span>по</span>
-                            <input type="text" class="time-value-before" data-type-slider="input_right" value="2006">
-                          </div>
                         </div>
                       </div>
                     </div>

@@ -146,7 +146,7 @@
                   </div>
                 </div>
                 <div class="sticker">
-                  <div class="sticker-item">ФЕСТИВАЛИ И ПРЕМИИ</div>
+                  <div class="sticker-item">Кинофестивали</div>
                 </div>
                 <div class="outer-pagelist-more">
                   <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>

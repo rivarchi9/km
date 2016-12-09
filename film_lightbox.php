@@ -63,137 +63,138 @@
           <div class="list-content">
             <div class="trailer-item clear">
               <div class="row">
-                <div class="trailer-item-col" data-type-filter="from-came-place" data-type-over-img="app/img/content/tl1.jpg">
+                <div class="trailer-item-col" data-type-filter="from-came-place">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
-                      <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="image-size-caption">850x567, 125 КБ</div>
-                  <div class="trailer-caption-hide">
-                    <div class="info">
-                      <p class="title"><a href="#">Lorem ipsum dolor sit amet.</a></p>
-                      <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
-                      <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
-                    </div>
-                    <div class="download">
-                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
-                          <div class="outer-dop-download">
-                          <div class="dop-download">
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
+                      <div class="parent" data-type-over-parent=".row" data-type-over-img="app/img/content/tl1.jpg"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
+                        <div class="trailer-caption-hide">
+                          <div class="info">
+                            <p class="title"><a href="#">Lorem ipsum dolor sit amet.</a></p>
+                            <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
+                            <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                          </div>
+                          <div class="download">
+                            <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                                <div class="outer-dop-download">
+                                <div class="dop-download">
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
+                          </div>
+                          <div class="outer-social clear">
+                            <ul class="social-list social-list--horizontal">
+                              <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                              <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                              <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                              <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="outer-social clear">
-                      <ul class="social-list social-list--horizontal">
-                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
-                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
-                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
-                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
-                      </ul>
-                    </div>
                   </div>
+                  <div class="image-size-caption">850x567, 125 КБ</div>
                 </div>
-                <div class="trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
+                <div class="trailer-item-col" data-type-filter="promo">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
-                      <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="image-size-caption">850x567, 125 КБ</div>
-                  <div class="trailer-caption-hide">
-                    <div class="info">
-                      <p class="title"><a href="#">Lorem ipsum dolor sit amet22.</a></p>
-                      <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
-                      <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
-                    </div>
-                    <div class="download">
-                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
-                          <div class="outer-dop-download">
-                          <div class="dop-download">
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
+                      <div class="parent" data-type-over-parent=".row" data-type-over-img="app/img/content/o1.jpg"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
+                        <div class="trailer-caption-hide">
+                          <div class="info">
+                            <p class="title"><a href="#">Lorem ipsum dolor sit amet22.</a></p>
+                            <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
+                            <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                          </div>
+                          <div class="download">
+                            <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                                <div class="outer-dop-download">
+                                <div class="dop-download">
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
+                          </div>
+                          <div class="outer-social clear">
+                            <ul class="social-list social-list--horizontal">
+                              <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                              <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                              <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                              <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="outer-social clear">
-                      <ul class="social-list social-list--horizontal">
-                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
-                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
-                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
-                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
-                      </ul>
-                    </div>
                   </div>
+                  <div class="image-size-caption">850x567, 125 КБ</div>
                 </div>
-                <div class="trailer-item-col" data-type-filter="promo" data-type-over-img="app/img/content/o1.jpg">
+                <div class="trailer-item-col" data-type-filter="promo">
                   <div class="row-trailer-image-list">
                     <div class="image-shadow">
-                      <a class="parent"><img src="app/img/content/tl1.jpg" alt="" class="image-cover">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="image-size-caption">850x567, 125 КБ</div>
-                  <div class="trailer-caption-hide">
-                    <div class="info">
-                      <p class="title"><a href="#">Lorem ipsum dolor sit AMET22.</a></p>
-                      <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
-                      <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
-                    </div>
-                    <div class="download">
-                      <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
-                          <div class="outer-dop-download">
-                          <div class="dop-download">
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
+                      <div class="parent" data-type-over-parent=".row" data-type-over-img="app/img/content/o1.jpg" />
+                      <img src="app/img/content/tl1.jpg" alt="" class="image-cover">
+                        <div class="trailer-caption-hide">
+                          <div class="info">
+                            <p class="title"><a href="#">Lorem ipsum dolor sit AMET22.</a></p>
+                            <p class="text producer">Режиссер: <a href="#">Рон Ховард</a></p>
+                            <p class="text name">В ролях: <a href="#">Том Хэнкс</a>, <a href="#">Фелисити Джонс</a>, <a href="#">Бен Фостер</a>, <a href="#">Ирфан Кхан</a>, <a href="#">Омар Си</a></p>
+                          </div>
+                          <div class="download">
+                            <div class="link__download"><span>Скачать</span><i class="link__download-icon sprite"></i>
+                                <div class="outer-dop-download">
+                                <div class="dop-download">
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                  <div class="dop-download-item">
+                                    <a href="#">Низкое</a>
+                                    <a href="#">HD 480</a>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
-                            <div class="dop-download-item">
-                              <a href="#">Низкое</a>
-                              <a href="#">HD 480</a>
-                            </div>
+                          </div>
+                          <div class="outer-social clear">
+                            <ul class="social-list social-list--horizontal">
+                              <li class="vk"><a href="#"><span class="number">856</span></a></li>
+                              <li class="fb"><a href="#"><span class="number">856</span></a></li>
+                              <li class="ok"><a href="#"><span class="number">856</span></a></li>
+                              <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="outer-social clear">
-                      <ul class="social-list social-list--horizontal">
-                        <li class="vk"><a href="#"><span class="number">856</span></a></li>
-                        <li class="fb"><a href="#"><span class="number">856</span></a></li>
-                        <li class="ok"><a href="#"><span class="number">856</span></a></li>
-                        <li class="pinterest"><a href="#"><span class="number">856</span></a></li>
-                      </ul>
-                    </div>
                   </div>
+                  <div class="image-size-caption">850x567, 125 КБ</div>
                 </div>
               </div>
             </div>

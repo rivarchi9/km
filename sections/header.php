@@ -11,9 +11,127 @@
       <div class=" search-outer col-xl-6 col-lg-6 col-md-6 col-sm-7 col-xs-5">
         <div class="search">
           <form>
-            <input type="text" class="search__input" placeholder="Поиск">
+            <div class="row-search__input">
+              <input type="text" class="search__input" placeholder="Поиск">
+              <div class="row-search-result">
+                <div class="search-input-result-content">
+                  <div class="search-input-result-title">
+                    Скорее всего вы ищете
+                  </div>
+                  <div class="search-input-result-one">
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-input-result-category">
+                    <div class="search-category-result-title">
+                      <a href="#">Фильмы</a>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-input-result-category">
+                    <div class="search-category-result-title">
+                      <a href="#">Персоналии</a>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-input-result-category">
+                    <div class="search-category-result-title">
+                      <a href="#">Статьи</a>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                    <div class="row-search-result-item">
+                      <div class="search-result-item-left">
+                        <a href="#"><img src="/app/img/content/av1.jpg" alt=""></a>
+                      </div>
+                      <div class="search-result-item-right">
+                        <div class="mini-title"><a href="#">Кристен Стюарт</a></div>
+                        <div class="mini-dop-title"><a href="#">Kristen Stewart</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-input-result-bottom">
+                    <a class="" href="#">Показать все результаты <i class="content-icon content-icon__arrow"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="search__button-outer">
-              <!-- <button class="search__button button button1">Найти</button> -->
               <a href="search.php" class="search__button button button1">Найти</a>
             </div>
           </form>

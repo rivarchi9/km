@@ -59,7 +59,7 @@
                 <div class="inner-list-item active" data-type-trailersType="0">
                   <div class="list-item active" data-type-trailersTrailer="0">
                     <div class="video-prewiew">
-                      <iframe class="video" width="100%" height="430" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
+                      <iframe class="video-prewiew__item" class="video" width="100%" height="430" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info">
                       <p class="title"><a href="#">В Германии стартовал Берлинский кинофестиваль</a></p>
@@ -73,7 +73,7 @@
                   </div>
                   <div class="list-item" data-type-trailersTrailer="1">
                     <div class="video-prewiew">
-                      <iframe class="video" width="100%" height="430" src="https://www.youtube.com/embed/Q-8RB0Up9Y8" frameborder="0" allowfullscreen></iframe>
+                      <iframe class="video-prewiew__item" class="video" width="100%" height="430" src="https://www.youtube.com/embed/IjHgzkQM2Sg" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info">
                       <p class="title"><a href="#">В Германии стартовал Берлинский кинофестиваль</a></p>
@@ -113,13 +113,13 @@
             </div>
           </div>
         </section>
-        <section class=" outer-section clear outer-content">
+        <section class=" outer-section clear outer-content ">
         	<!-- Контент -->
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<div class="row-festivals">
-              <section class="inner-content outer-content-item parent-sticker">
+              <section class="inner-content outer-content-item parent-sticker section-news-festival">
                 <div class="sticker">
-                  <div class="sticker-item">НОВОСТИ</div>
+                  <div class="sticker-item">СТАТЬИ И НОВОСТИ</div>
                 </div>
                 <div class="parent-content-item clear">
                   <div class="content-item content-item-big">

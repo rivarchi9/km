@@ -28,7 +28,7 @@
               <div class="sticker">
                 <div class="sticker-item">ИНТЕРВЬЮ</div>
               </div>
-              <h1 class="pagetitle">Антуан Фукуа: «Кино должно отражать то, что происходит в мире здесь и сейчас»</h1>
+              <h1 class="pagetitle pagetitle-interview">Антуан Фукуа: «Кино должно отражать то, что происходит в мире здесь и сейчас»</h1>
               <div class="header-pagelist-info">
                 <div class="pagelist-info">
                   <span class="pagelist__author"><a href="#">Мария Мухина</a></span>,

@@ -101,7 +101,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Дорога чести</a></div>
                               <div class="poster-title-eng">Road to Paloma</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
+                              </div>
                             </div>
                           </div>
                           <div class="posters-item posters-item-tile">
@@ -115,7 +117,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Черепашки-ниндзя 2</a></div>
                               <div class="poster-title-eng">Teenage Mutant Ninja Turtles: Out of the Shadows</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
+                              </div>
                             </div>
                           </div>
                           <div class="posters-item posters-item-tile">
@@ -129,7 +133,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Дорога чести</a></div>
                               <div class="poster-title-eng">Road to Paloma</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="row-mini-raiting-number">
+                                Рейтинг: <span class="number">8.4</span>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -157,7 +163,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Дорога чести</a></div>
                               <div class="poster-title-eng">Road to Paloma</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="price-films cinema-price-films">
+                                <span class="price-films__text">Цена: от <span class="price-films__number ">260 руб.</span></span>
+                              </div>
                             </div>
                           </div>
                           <div class="posters-item posters-item-tile">
@@ -171,7 +179,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Черепашки-ниндзя 2</a></div>
                               <div class="poster-title-eng">Teenage Mutant Ninja Turtles: Out of the Shadows</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="price-films cinema-price-films">
+                                <span class="price-films__text">Цена: <span class="price-films__number free">бесплатно</span></span>
+                              </div>
                             </div>
                           </div>
                           <div class="posters-item posters-item-tile">
@@ -185,7 +195,9 @@
                             <div class="posters-caption">
                               <div class="poster-title"><a href="#">Дорога чести</a></div>
                               <div class="poster-title-eng">Road to Paloma</div>
-                              <div class="poster-number"><span class="value">6</span> постеров</div>
+                              <div class="price-films cinema-price-films">
+                                <span class="price-films__text">Цена: от <span class="price-films__number ">260 руб.</span></span>
+                              </div>
                             </div>
                           </div>
                         </div>

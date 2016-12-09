@@ -22,11 +22,11 @@
         <!-- Контент -->
         <div class="head-content">
           <div class="info-user">
-            <h1 class="pagetitle mini__pagetitle">Университет монстров</h1>
-            <h2 class="name__page">Monsters University</h2>
+            <h1 class="pagetitle mini__pagetitle">Том Хенкс</h1>
+            <h2 class="name__page">Tom Hanks</h2>
           </div>
           <div class="nav-content">
-            <?php include "sections/film_nav.php" ?>
+            <?php include "sections/actor_nav.php" ?>
           </div>
         </div>
         <section class="outer-section clear outer-content">

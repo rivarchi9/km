@@ -21,6 +21,78 @@
       </div>
     </div>
   </div>
+  <div class="my-overlay">
+    <div class="my-overlay-item" data-type="overlay-add">
+      <div class="my-overlay-bg"></div>
+      <div class="row-inner-my-overlay">
+        <div class="inner-my-overlay">
+          <div class="war-title overlay-content-outside"><i class="content-icon content-icon-add"></i>ДОБАВИТЬ ИНФОРМАЦИЮ</div>
+          <div class="war-title-content overlay-content-outside">
+            <div class="">
+              <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+              <h2 class="name__page">Green Mile</h2>
+            </div>
+          </div>
+          <div class="war-content">
+            <div class="war-content-item">
+              <label class="label-important">Информация <i></i></label>
+              <textarea type="text" class="input-field"></textarea>
+            </div>
+            <div class="war-content-item">
+              <label>Источник </label>
+              <input type="text" class="input-field">
+            </div>
+            <div class="war-content-dop">
+              Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+            </div>
+            <div class="war-content-bottom clear">
+              <div class="row-button-right">
+                <button class="button button4">Отправить</button>
+              </div>
+              <div class="row-button-left">
+                <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-overlay-item" data-type="overlay-error">
+      <div class="my-overlay-bg"></div>
+      <div class="row-inner-my-overlay">
+        <div class="inner-my-overlay">
+          <div class="war-title overlay-content-outside"><i class="content-icon content-icon-error"></i>Сообщить об ошибке</div>
+          <div class="war-title-content overlay-content-outside">
+            <div class="">
+              <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+              <h2 class="name__page">Green Mile</h2>
+            </div>
+          </div>
+          <div class="war-content">
+            <div class="war-content-item">
+              <label class="label-important">Информация <i></i></label>
+              <textarea type="text" class="input-field"></textarea>
+            </div>
+            <div class="war-content-item">
+              <label>Источник</label>
+              <input type="text" class="input-field">
+            </div>
+            <div class="war-content-dop">
+              Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+            </div>
+            <div class="war-content-bottom clear">
+              <div class="row-button-right">
+                <button class="button button4">Отправить</button>
+              </div>
+              <div class="row-button-left">
+                <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="outer-brang-bg">
     <div class="brand-bg">
       <div class="inner-brand-bg">
@@ -178,7 +250,7 @@
                   <div class="caption-page-tab-info">
                     <span class="caption-page-tab-info-item">США, Великобритания, Канада, 2016</span>
                     <ul class="clear caption-page-tab-info-item">
-                      <li>Режиссёр:</li>
+                      <li>Режиссер:</li>
                       <li><a href="#">Рон Ховард</a></li>
                     </ul>
                     <ul class="clear caption-page-tab-info-item">
@@ -198,9 +270,9 @@
           </div>
           <div class="band-nav">
             <ul class="band-nav-list clear">
-              <li class="band-nav__icon my-films"><a href="#"><span>Мои фильмы</span></a></li>
-              <li class="band-nav__icon my-add-info"><a href="#"><span>Добавить информацию</span></a></li>
-              <li class="band-nav__icon my-massage-error"><a href="#"><span>Сообщить об ошибке</span></a></li>
+              <li class="band-nav__icon my-films"><a><span>Мои фильмы</span></a></li>
+              <li class="band-nav__icon my-add-info"><a><span>Добавить информацию</span></a></li>
+              <li class="band-nav__icon my-massage-error"><a><span>Сообщить об ошибке</span></a></li>
             </ul>
           </div>
         </div>

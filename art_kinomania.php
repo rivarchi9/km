@@ -72,7 +72,7 @@
                     </div>
                   </div>
                   <div class="sticker">
-                    <div class="sticker-item">НОВОСТИ КИНО</div>
+                    <div class="sticker-item">НОВОСТИ</div>
                   </div>
                 </div>
               </div>

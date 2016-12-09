@@ -21,7 +21,7 @@
       </div>
       <div class="main-content-other-page clear">
         <!-- Контент -->
-        <section class=" outer-section clear outer-content">
+        <section class=" outer-section clear outer-content-two">
         	<!-- Контент -->
           <content class="page-section-content page-no-aside section-content content-outer col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="outer-form login">

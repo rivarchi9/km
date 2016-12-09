@@ -150,7 +150,10 @@
                 </div>
               </div>
             </div>
-          </div>   
+          </div>
+          <div class="outer-pagelist-more">
+            <span class="pagelist-more sprite-before" data-type-openclose-button="hide-text"><span class="pagelist-more__text">Еще</span></span>
+          </div>  
           </content>
           <!-- Сайдбар -->
         	<?php include "sections/aside3.php"; ?>  

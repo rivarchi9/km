@@ -25,6 +25,8 @@ $(window).resize(function() {
 });
 
 $(document).ready(function() {
+	// $('body').css('max-width', $('body').width() );
+
 	w = window.innerWidth;
 	imageResize();
 
@@ -274,41 +276,58 @@ function imageResize(){
 // ==============================================
 // ============= FILM LIGHTBOX ==================
 // ==============================================
-var parent;
+var obj;
 function open_over(object){
-	parent = $(object).parents("[data-type-over-img]");
 	$("body").css('overflow-y','hidden');
 	$(".overlay-photo").addClass('active');
-	$(".inner-overlay-image img").attr('src',$(parent).attr('data-type-over-img'));
-	$(".inner-overlay-caption").html($(parent).children(".trailer-caption-hide").html());
-	if($(parent).is('[data-type-over-desc]')){
-		$(".inner-overlay-caption").html( $( $(parent).attr('data-type-over-desc') ).html() );
 
-		$(".inner-overlay-caption").children('.link').attr('href',$(parent).attr('data-type-over-img'));
-		$(".inner-overlay-caption").children('.desc').html($(parent).attr('data-type-over-desc-desc'));
+	$(".inner-overlay-image img").attr('src',$(object).attr('data-type-over-img') );
+	$(".inner-overlay-caption").html(
+		$(object).find(".trailer-caption-hide").html()
+	);
+	if($(object).is('[data-type-over-desc]')){
+		$(".inner-overlay-caption").html( $( $(object).attr('data-type-over-desc') ).html() );
+		$(".inner-overlay-caption").children('.link').attr('href', $(object).attr('data-type-over-img') );
+		$(".inner-overlay-caption").children('.desc').html( $(object).attr('data-type-over-desc-desc') );
 	}
 }
 $(document).ready(function() {
-	$("[data-type-over-img] .parent").on('click',function(){
-		open_over(this);
+
+	$("[data-type-over-img]").on('click',function(){
+		//obj = $(this).parents('[data-type-over-img]');
+		obj = this;
+		open_over( obj );
 	});
+
 	//	след кадр
 	$(".overlay-photo .next").on('click',function(){
-		var next = $(parent).next(".trailer-item-col[data-type-over-img]:not(.hide)").find(".parent");
-		if($(next).html() == undefined){
-			open_over($(".trailer-item-col[data-type-over-img]:not(.hide):first").find(".parent"));
+
+		var parent = $(obj).parents( $(obj).attr('data-type-over-parent') );
+		var size = $(parent).find('[data-type-over-img]').size();
+		var index = $(parent).find('[data-type-over-img]').index(obj);
+
+		if(index + 1 < size){
+			index++;
 		}else{
-			open_over(next);
+			index = 0;
 		}
+
+		obj = $(parent).find('[data-type-over-img]:eq('+index+')');
+		open_over( obj );
 	});
 	//	предыдущий кадр
 	$(".overlay-photo .prev").on('click',function(){
-		var prev = $(parent).prev(".trailer-item-col[data-type-over-img]:not(.hide)").find(".parent");
-		if($(prev).html() == undefined){
-			open_over($(".trailer-item-col[data-type-over-img]:not(.hide):last").find(".parent"));
+		var parent = $(obj).parents( $(obj).attr('data-type-over-parent') );
+		var size = $(parent).find('[data-type-over-img]').size();
+		var index = $(parent).find('[data-type-over-img]').index(obj);
+
+		if(index > 0){
+			index--;
 		}else{
-			open_over(prev);
+			index = size - 1;
 		}
+		obj = $(parent).find('[data-type-over-img]:eq('+index+')');
+		open_over( obj );
 	});
 
 	// Закрывашка оверлея
@@ -479,13 +498,11 @@ $("[data-type-slider=left_controller] , [data-type-slider=right_controller]").bi
 			}
 		}
 	});
-	$(window).bind(end,function(){
-		slider_status = 0;
-		$('body').attr('onmousedown',false);
-		$('body').attr('onselectstart',false);
-	});
-
-
+});
+$(window).bind(end,function(){
+	slider_status = 0;
+	$('body').attr('onmousedown',false);
+	$('body').attr('onselectstart',false);
 });
 
 
@@ -614,13 +631,26 @@ $(document).ready(function() {
 // OPEN close
 $(document).ready(function() {
 	$('[data-type-openclose-button]').click(function(){
-		elem = $(this).attr('data-type-openclose-button');
+		var elem = $(this).attr('data-type-openclose-button');
 		if($(this).attr('data-type-openclose-class')){
-			$('[data-type-openclose-element = '+elem+']').toggleClass($(this).attr('data-type-openclose-class'));
+			$('[data-type-openclose-element = '+elem+']').toggleClass( $(this).attr('data-type-openclose-class') );
 		}else{
 			$('[data-type-openclose-element = '+elem+']').slideToggle();
-
 		}
+	});
+	$('[data-type-openclose-parent]').click(function(){
+		var elem;
+		if($(this).attr('data-type-openclose-child') == undefined){
+			elem = $(this);
+		}else{
+			elem = $(this).parents( $(this).attr('data-type-openclose-parent') ).find( $(this).attr('data-type-openclose-child') );
+		}
+		if($(this).attr('data-type-openclose-class')){
+			$(elem).toggleClass( $(this).attr('data-type-openclose-class') );
+		}else{
+			$(elem).slideToggle();
+		}
+
 	});
 });
 
@@ -897,4 +927,38 @@ $(document).ready(function() {
 			}
 		}
 	});
+});
+
+// Открытие попапов (поиск и добавить информацию)
+$(document).ready(function() {
+
+	$('.band-nav__icon.my-add-info , .band-nav__icon.my-massage-error').click(function(event) {
+		$('.my-overlay').addClass('active');
+		$('.my-overlay .my-overlay-item').removeClass('active');
+
+		if( $(this).is('.my-add-info') ){
+			$('.my-overlay .my-overlay-item[data-type="overlay-add"]').addClass('active');
+		}
+		if( $(this).is('.my-massage-error') ){
+			$('.my-overlay .my-overlay-item[data-type="overlay-error"]').addClass('active');
+		}
+	});
+
+	$('.my-overlay-bg , .button.button4').click(function(event) {
+		$('.my-overlay').removeClass('active');
+		$('.my-overlay .my-overlay-item').removeClass('active');
+	});
+
+	$('input.search__input').keyup(function(event) {
+		if( $('input.search__input').val() != '' ){
+			$('.row-search-result').addClass('active');
+		}	else {
+			$('.row-search-result').removeClass('active');
+		}
+	});
+});
+
+$('.radio-my').click(function(event) {
+	$('.radio-my').removeClass('active');
+	$(this).addClass('active');
 });

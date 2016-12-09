@@ -21,7 +21,7 @@
       </div>
       <div class="main-content-other-page clear">
         <!-- Контент -->
-        <section class=" outer-section clear outer-content">
+        <section class=" outer-section clear outer-content-two">
         	<!-- Контент -->
           <content class="page-section-content section-content content-outer outer-vert content-not-aside col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <div class="row-box-office">

@@ -67,7 +67,7 @@
                     <li>
                       <ul class="value">
                         <li class="value__name">Год:</li>
-                        <li>1999</li>
+                        <li><a href="#">1999</a></li>
                       </ul></li>
                     <li><ul class="value">
                       <li class="value__name">Жанр:</li>
@@ -94,8 +94,20 @@
                     </li>
                     <li>
                       <ul class="value">
+                        <li class="value__name">Прокатчик:</li>
+                        <li><a href="#">UPI</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="value">
                         <li class="value__name">Рейтинг MPAA:</li>
                         <li>R</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="value">
+                        <li class="value__name">Возраст:</li>
+                        <li>14+</li>
                       </ul>
                     </li>
                   </ul>
@@ -523,31 +535,7 @@
                 </div>
               </div>
               <div class="row-session-table row-session-tab-table " data-type-sliderGroup="smotr" data-type-sliderElem="2">
-                <div class="tab-table-outer">
-                  <div class="tab-table-head clear">
-                    <div class="tab-table-col">Канал</div>
-                    <div class="tab-table-col">Дата</div>
-                    <div class="tab-table-col">Время</div>
-                  </div>
-                  <div class="tab-table-row clear">
-                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
-                    <div class="tab-table-col">28 сентября, среда </div>
-                    <div class="tab-table-col">20:35</div>
-                  </div>
-                  <div class="tab-table-row clear">
-                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
-                    <div class="tab-table-col">28 сентября, среда </div>
-                    <div class="tab-table-col">20:35</div>
-                  </div>
-                  <div class="tab-table-row clear">
-                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
-                    <div class="tab-table-col">28 сентября, среда </div>
-                    <div class="tab-table-col">20:35</div>
-                  </div>
-                </div>
-              </div>
-              <div class="row-session-table row-session-tab-table row-session-logo-table " data-type-sliderGroup="smotr" data-type-sliderElem="3">
-                <div class="tab-table-outer">
+               <div class="tab-table-outer">
                   <div class="tab-table-head clear">
                     <div class="tab-table-col">Онлайн-кинотеатр</div>
                     <div class="tab-table-col">Цена</div>
@@ -588,6 +576,31 @@
                   </div>
                 </div>
               </div>
+              <div class="row-session-table row-session-tab-table row-session-logo-table " data-type-sliderGroup="smotr" data-type-sliderElem="3">
+               <div class="tab-table-outer">
+                  <div class="tab-table-head clear">
+                    <div class="tab-table-col">Канал</div>
+                    <div class="tab-table-col">Дата</div>
+                    <div class="tab-table-col">Время</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                  <div class="tab-table-row clear">
+                    <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                    <div class="tab-table-col">28 сентября, среда </div>
+                    <div class="tab-table-col">20:35</div>
+                  </div>
+                </div>
+                
+              </div>
               <div class="row-list-post-item">
                 <div class="list-post-item">
                   <div class="list-post-item-title">
@@ -595,13 +608,13 @@
                   </div>
                   <div class="list-post-item-content">
                     По мотивам произведения Стивена Кинга “Зеленая Миля”. Повествование в картине ведется от лица Пола Эджкомба, который, находясь в доме для престарелых, рассказывает своей подруге Эллен Коннели историю, произошедшую с ним 60 лет назад, когда он работал главным охранником в блоке смертников тюрьмы “Холодная гора”. Эджкомб (Tom Hanks) должен наблюдать за убийцами, приговоренными к казни на электрическом стуле, к которому ведет коридор, застланный зеленым покрытием, и из-за этого прозванный “Зеленая миля”. Он слегка циничен, но за долгие годы работы в тюрьме, каждый день наблюдая за тем, как люди живут и умирают, он уже готов потерять веру и рассудок. Он все чаще начинает задаваться вопросом “Имеет ли он право казнить людей ради зарплаты?”. Имеет ли он право брать на себя тяжкую роль бога? Но однажды на его жизненном пути встречается осужденный на смерть за убийство двух детей Джон Коффей (Michael Duncan). Коффей - человек огромного роста, у которого кулаки размером с вафельницу. Но несмотря на свой устрашающий вид он испуган как ребенок. Он боится спать ночью в камере без включенного ночника. К тому же выясняется, что он обладает особой мистической способностью к излечению людей. И Эджкомб и другие охранники теперь сочувствуют Джону и начинают расследование. Они убеждены, что этот сильный человек подобно Иисусу Христу был обвинен несправедливо и осужден на смерть.
-                    <div data-type-openclose-element="hide-text" class="hide-text">
+                    <div class="hide-text">
                       <p>Том Хэнкс родился 9 июля 1956 года в г. Конкорд, штат Калифорния, США. Его родители развелись, и большую часть детства Том провел с отцом, поваром по профессии. Они часто переезжали из города в город, мальчику постоянно приходилось привыкать к новым школам, новым знакомым, новым подругам отца.</p>
                       <p>Участвовать в театральных постановках Хэнкс начал, еще учась в школе. Для того, чтобы овладеть актерским ремеслом более профессионально, он поступил на отделение драмы в Калифорнийский Университет. 3 сезона Хэнкса приглашали играть на ежегодном “Шекспировском фестивале”, проходившем в Огайо, и Том даже получил там несколько театральных наград.</p>
                     </div>
                   </div>
                   <div class="outer-pagelist-more">
-                    <span class="pagelist-more sprite-before" data-type-openclose-button="hide-text"><span class="pagelist-more__text">Еще</span></span>
+                    <span class="pagelist-more sprite-before" data-type-openclose-parent=".list-post-item" data-type-openclose-child=".hide-text"><span class="pagelist-more__text">Еще</span></span>
                   </div>
                 </div>
                 <div class="list-post-item list-post-item-facts">
@@ -614,7 +627,7 @@
                     <p>Съёмки проходили в США, в штатах Северная Каролина и Теннесси.</p>
                     <p>Роман писался частями, и вначале издавался отдельными брошюрами.</p>
                     <p>«Зеленая миля» Стивена Кинга получила премию «Stoker» в номинации «Лучший роман 1996-го года».</p>
-                    <div data-type-openclose-element="hide-text" class="hide-text">
+                    <div class="hide-text">
                       <p>Фильм снят по мотивам романа Стивена Кинга «Зеленая миля» (The Green Mile, 1996).</p>
                       <p>В фильме снялись сразу тридцать мышей, которые играют Мистера Джинглса. Все мыши были названы в честь актёров и членов съёмочной группы.</p>
                       <p>Съёмки проходили в США, в штатах Северная Каролина и Теннесси.</p>
@@ -623,7 +636,7 @@
                     </div>
                   </div>
                   <div class="outer-pagelist-more">
-                    <span class="pagelist-more sprite-before" data-type-openclose-button="hide-text"><span class="pagelist-more__text">Еще</span></span>
+                    <span class="pagelist-more sprite-before" data-type-openclose-parent=".list-post-item" data-type-openclose-child=".hide-text"><span class="pagelist-more__text">Еще</span></span>
                   </div>
                 </div>
               </div>
@@ -869,7 +882,7 @@
               </div>
             </div>
             <div class="row-pagelist-ligin">
-              <div class="pagelist__title pagelist-ligin__title">ОТПРАВИТЬ РЕЦЕНЗИЮ</div>
+              <div class="pagelist__title pagelist-ligin__title">ДОБАВИТЬ РЕЦЕНЗИЮ</div>
               <div class="pagelist-ligin">
                 <div class="pagelist-ligin__item">
                   <div class="pagelist-ligin__social">
