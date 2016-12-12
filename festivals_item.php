@@ -39,10 +39,10 @@
                   <li><a href=""><span>2009</span></a></li>
                   <li><a href=""><span>2008</span></a></li>
                   <li><a href=""><span>2007</span></a></li>
-                  <li class="all-years"><a href="">Введите год</a></li>
+                  <li class="all-years"><div class="row-all-years"><span>Введите год</span><input type="text" class="input-field field--mini"><span class="input-button input-button--blue">Показать</span></div></li>
                 </ul>
               </div>
-              <div class="row-outside row-outside-art clear">
+              <div class="row-outside row-outside-art row-outside-art-two clear">
                 <div class="inner-outside parent-sticker">
                   <div class="row-main-items">
                     <div class="row-main-item-title">
@@ -138,7 +138,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row-outside row-programms clear">
+              <div class="row-outside row-programms row-programms-two clear">
                 <div class="inner-outside parent-sticker">
                   <div class="row-all-programms">
                     <div class="all-programms-item">
@@ -223,41 +223,71 @@
                 </div>
               </div>
               <div class="section-content row-art-news row-art-news-two clear">
-                <div class="parent-sticker clear">
+                <div class="parent-sticker clear parent-sticker-all-posts">
                   <div class="row">
                     <div class="news-item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="news-item__prewiew image-shadow">
-                        <img alt="" src="/app/img/content/22.jpg" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                      <div class="new-item-each active" data-news-element="news_1">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">38-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
                       </div>
-                      <p class="news-title title--normal"><a href="#">38-й ММКФ открылся новой работой Сергея Соловьева</a></p>
-                      <div class="outer-news-date info-section center-info-section">
-                        <span class="news-date date-info">24 июня 2016</span>,
-                        <a href="#" class="news-comment comment-info">2</a>
+                      <div class="new-item-each" data-news-element="news_2">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">39-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
                       </div>
-                      <p class="news-link-desc">
-                        <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
-                        <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
-                      </p>
+                      <div class="new-item-each" data-news-element="news_3">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">40-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
+                      </div>
                     </div>
                     <div class="news-item news-item2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_1">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_2">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_3">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
                       <div class="outer-dop-news">
                         <ul class="dop-news">
                           <li>
-                            <a href="#" class="all__news">ВСЕ СТАТЬИ</a>
+                            <a href="#" class="all__news">ВСЕ НОВОСТИ</a>
                           </li>
-                          <li>
+                          <li >
                             <a href="#" class="rss"></a>
                           </li>
                         </ul>

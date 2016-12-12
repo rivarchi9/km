@@ -59,7 +59,7 @@
                   <div class="row-big-awards-head__content">
                     <div class="big-awards-head__content">
                       <div class="awards__title">ОСКАР</div>
-                      <div class="awards__raiting"><a href="#">ACADEMY AWARDS</a> <span class="value">11/11</span></div>
+                      <div class="awards__raiting"><a href="#">ACADEMY AWARDS <span class="value">11/11</span></a></div>
                     </div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@
                   <div class="row-big-awards-head__content">
                     <div class="big-awards-head__content">
                       <div class="awards__title">MTV (США)</div>
-                      <div class="awards__raiting"><a href="#">MTV (USA)</a> <span class="value">2/2</span></div>
+                      <div class="awards__raiting"><a href="#">MTV (USA) <span class="value">2/2</span></a></div>
                     </div>
                   </div>
                 </div>
@@ -218,7 +218,7 @@
                   <div class="row-big-awards-head__content">
                     <div class="big-awards-head__content">
                       <div class="awards__title">ЗОЛОТОЙ ГЛОБУС</div>
-                      <div class="awards__raiting"><a href="#">GOLDEN GLOBE</a> <span class="value">4/4</span></div>
+                      <div class="awards__raiting"><a href="#">GOLDEN GLOBE <span class="value">4/4</span></a></div>
                     </div>
                   </div>
                 </div>

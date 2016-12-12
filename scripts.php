@@ -26,7 +26,7 @@
           <content class="page-section-content section-content content-outer outer-vert col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
           	<h1 class="pagetitle trailers-pagetitle">ВСЕ СЦЕНАРИИ</h1>
             <div class="outer-selection-trailers">
-              <div class="button__selection-trailers"><span data-type-openclose-button="open_close" data-type-openclose-class="active">Подбор по параметрам</span></div>
+              <div class="button__selection-trailers" data-type-openclose-button="open_close" data-type-openclose-class="active"><span>Подбор по параметрам</span></div>
               <div class="selection-trailers">
                 <div class="row-selection-hide" data-type-openclose-element="open_close">
                   <div class="selection-trailers-item clear">

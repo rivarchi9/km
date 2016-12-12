@@ -11,6 +11,7 @@
       <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
       <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
       <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
+      <li class="nav-content-item"><a href="film_billboard.php">Билборды <span class="number">4</span></a></li>
     </ul>
   </div>
   <li class="nav-content-item"><a href="films.php">О фильме</a></li>
@@ -22,4 +23,5 @@
   <li class="nav-content-item"><a href="film_music.php">Саундтрек <span class="number">4</span></a></li>
   <li class="nav-content-item"><a href="film_poster.php">Постеры <span class="number">4</span></a></li>
   <li class="nav-content-item"><a href="film_awords.php">Награды <span class="number">4</span></a></li>
+  <li class="nav-content-item"><a href="film_billboard.php">Билборды <span class="number">4</span></a></li>
 </ul>

@@ -42,7 +42,7 @@
                     <li><a href=""><span>2009</span></a></li>
                     <li><a href=""><span>2008</span></a></li>
                     <li><a href=""><span>2007</span></a></li>
-                    <li class="all-years"><a href="">Все годы</a></li>
+                    <li class="all-years"><div class="row-all-years"><span>Введите год</span><input type="text" class="input-field field--mini"><span class="input-button input-button--blue">Показать</span></div></li>
                   </ul>
                 </div>
               </div>

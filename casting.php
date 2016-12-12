@@ -35,7 +35,7 @@
                  <li><span class="list-casting-value" data-type="video">11 326</span> <span class="list-casting-name">видео</span></li>
                </ul>
                <div class="list-casting__button">
-                 <span class="button button3">Поиск актеров по параметрам</span>
+                 <a href="casting_filters.php" class="button button3">Поиск актеров по параметрам</a>
                </div>
              </div>
              <section class="inner-content outer-content-item parent-sticker outer-section-mini-prewiew art-yellow parent-whom">

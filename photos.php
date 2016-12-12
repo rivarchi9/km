@@ -31,8 +31,7 @@
                 <div class="row-selection-hide" data-type-openclose-element="open_close">
                   <div class="selection-trailers-item clear">
                     <div class="item ganre">
-                      <div class="selection-trailers__name"></div>
-                      <div class="selection-trailers__value">
+                      <div class="selection-trailers__value selection-trailers__value-two">
                         <ul class="selection-trailers__value-list">
                           <li><a href="#">актер</a></li>
                           <li><a href="#">актриса</a></li>
@@ -40,8 +39,7 @@
                       </div>
                     </div>
                     <div class="item language">
-                      <div class="selection-trailers__name"></div>
-                      <div class="selection-trailers__value">
+                      <div class="selection-trailers__value selection-trailers__value-two">
                         <ul class="selection-trailers__value-list">
                           <li><a href="#">российские</a></li>
                           <li><a href="#">иностранные</a></li>
@@ -50,15 +48,15 @@
                     </div>
                   </div>
                   <div class="selection-trailers-item clear">
-                    <div class="item years" data-type="slider" data-type-slider-min="1930" data-type-slider-max="2016">
-                      <div class="selection-trailers__name">Года:</div>
+                    <div class="item years" data-type="slider" data-type-slider-min="0" data-type-slider-max="100">
+                      <div class="selection-trailers__name">Возраст:</div>
                       <div class="selection-trailers__value">
                         <div class="outer-time-bar clear">
                           <div class="time-bar-years">
                             <ul>
-                              <li>1930</li>
-                              <li>1970</li>
-                              <li>2016</li>
+                              <li>0</li>
+                              <li></li>
+                              <li>100</li>
                             </ul>
                           </div>
                           <div class="time-bar-slide">
@@ -73,9 +71,9 @@
                         </div>
                         <div class="outer-time-value clear">
                           <span>с</span>
-                          <input type="text" class="time-value-after" data-type-slider="input_left" value="1993">
-                          <span>по</span>
-                          <input type="text" class="time-value-before" data-type-slider="input_right" value="2006">
+                          <input type="text" class="time-value-after" data-type-slider="input_left" value="0">
+                          <span>до</span>
+                          <input type="text" class="time-value-before" data-type-slider="input_right" value="100">
                         </div>
                       </div>
                     </div>

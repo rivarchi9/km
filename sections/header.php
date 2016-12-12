@@ -4,7 +4,8 @@
       <div class="outer-logo col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-8">
         <div class="logo">
           <a href="/" class="logo__link">
-            <img  src="app/img/design/logo.png" class="logo__image" alt="Logo Kinomania" title="Logo Kinomania">
+            <img  src="app/img/design/logo2.png" class="logo__image" alt="Logo Kinomania" title="Logo Kinomania">
+            <span class="slogan">Это мы еще посмотрим!</span>
           </a>
         </div>
       </div>

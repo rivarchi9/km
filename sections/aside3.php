@@ -13,39 +13,124 @@
       <a href="#"><img src="/app/img/content/a1.jpg" alt=""></a>
     </div> -->
     <div class="aside">
-      <div class="inner-aside">
+      <div class="inner-aside-folder">
         <div class="aside-item">
           <div class="aside__title">КОЛЛЕКЦИИ BLOKH</div>
           <div class="row-select-folder">
             <ul class="select-folder-list">
-              <li class="active"><a href="#">Неразобранное</a>
+              <li class="active"><div class="box-name-folder"><a href="#">Неразобранное</a>
                 <div class="folder-setting clear">
-                  <div class="folder-setting-item folder-setting-icon"><a href="#" title="Настройки"></a></div>
-                  <div class="folder-setting-item folder-setting-remove"><a href="#" title="Удалить"></a></div>
+                  <div class="folder-setting-item folder-setting-icon"><i href="#" title="Настройки"></i></div>
+                  <div class="folder-setting-item folder-setting-remove"><i href="#" title="Удалить"></i></div>
+                </div>
+              </div>
+                
+                <div class="setting-folder">
+                  <div class="add-folder">
+                    <div class="add-folder-input">
+                      <i class="add-folder-icon"></i>
+                      <input type="text" placeholder="Переименовать папку">
+                    </div>
+                    <div class="add-folder-select">
+                      <div class="add-folder-select__name">Коллекция видна</div>
+                      <div class="row-add-folder-button clear">
+                        <span class="add-folder-button " data-type="public">ВСЕМ</span>
+                        <span class="add-folder-button active" data-type="private">ТОЛЬКО МНЕ</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
-              <li><a href="#">Комедии</a>
+              <li class="active"><div class="box-name-folder"><a href="#">Комедии</a>
                 <div class="folder-setting clear">
-                  <div class="folder-setting-item folder-setting-icon"><a href="#" title="Настройки"></a></div>
-                  <div class="folder-setting-item folder-setting-remove"><a href="#" title="Удалить"></a></div>
+                  <div class="folder-setting-item folder-setting-icon"><i href="#" title="Настройки"></i></div>
+                  <div class="folder-setting-item folder-setting-remove"><i href="#" title="Удалить"></i></div>
+                </div>
+              </div>
+                
+                <div class="setting-folder">
+                  <div class="add-folder">
+                    <div class="add-folder-input">
+                      <i class="add-folder-icon"></i>
+                      <input type="text" placeholder="Переименовать папку">
+                    </div>
+                    <div class="add-folder-select">
+                      <div class="add-folder-select__name">Коллекция видна</div>
+                      <div class="row-add-folder-button clear">
+                        <span class="add-folder-button " data-type="public">ВСЕМ</span>
+                        <span class="add-folder-button active" data-type="private">ТОЛЬКО МНЕ</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
-              <li><a href="#">Посмотреть позже</a>
+              <li class="active"><div class="box-name-folder"><a href="#">Посмотреть позже</a>
                 <div class="folder-setting clear">
-                  <div class="folder-setting-item folder-setting-icon"><a href="#" title="Настройки"></a></div>
-                  <div class="folder-setting-item folder-setting-remove"><a href="#" title="Удалить"></a></div>
+                  <div class="folder-setting-item folder-setting-icon"><i href="#" title="Настройки"></i></div>
+                  <div class="folder-setting-item folder-setting-remove"><i href="#" title="Удалить"></i></div>
+                </div>
+              </div>
+                
+                <div class="setting-folder">
+                  <div class="add-folder">
+                    <div class="add-folder-input">
+                      <i class="add-folder-icon"></i>
+                      <input type="text" placeholder="Переименовать папку">
+                    </div>
+                    <div class="add-folder-select">
+                      <div class="add-folder-select__name">Коллекция видна</div>
+                      <div class="row-add-folder-button clear">
+                        <span class="add-folder-button " data-type="public">ВСЕМ</span>
+                        <span class="add-folder-button active" data-type="private">ТОЛЬКО МНЕ</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
-              <li><a href="#">Исторические</a>
+              <li class="active"><div class="box-name-folder"><a href="#">Исторические</a>
                 <div class="folder-setting clear">
-                  <div class="folder-setting-item folder-setting-icon"><a href="#" title="Настройки"></a></div>
-                  <div class="folder-setting-item folder-setting-remove"><a href="#" title="Удалить"></a></div>
+                  <div class="folder-setting-item folder-setting-icon"><i href="#" title="Настройки"></i></div>
+                  <div class="folder-setting-item folder-setting-remove"><i href="#" title="Удалить"></i></div>
+                </div>
+              </div>
+                
+                <div class="setting-folder">
+                  <div class="add-folder">
+                    <div class="add-folder-input">
+                      <i class="add-folder-icon"></i>
+                      <input type="text" placeholder="Переименовать папку">
+                    </div>
+                    <div class="add-folder-select">
+                      <div class="add-folder-select__name">Коллекция видна</div>
+                      <div class="row-add-folder-button clear">
+                        <span class="add-folder-button " data-type="public">ВСЕМ</span>
+                        <span class="add-folder-button active" data-type="private">ТОЛЬКО МНЕ</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
-              <li><a href="#">Семейные</a>
+              <li class="active"><div class="box-name-folder"><a href="#">Семейные</a>
                 <div class="folder-setting clear">
-                  <div class="folder-setting-item folder-setting-icon"><a href="#" title="Настройки"></a></div>
-                  <div class="folder-setting-item folder-setting-remove"><a href="#" title="Удалить"></a></div>
+                  <div class="folder-setting-item folder-setting-icon"><i href="#" title="Настройки"></i></div>
+                  <div class="folder-setting-item folder-setting-remove"><i href="#" title="Удалить"></i></div>
+                </div>
+              </div>
+                
+                <div class="setting-folder">
+                  <div class="add-folder">
+                    <div class="add-folder-input">
+                      <i class="add-folder-icon"></i>
+                      <input type="text" placeholder="Переименовать папку">
+                    </div>
+                    <div class="add-folder-select">
+                      <div class="add-folder-select__name">Коллекция видна</div>
+                      <div class="row-add-folder-button clear">
+                        <span class="add-folder-button " data-type="public">ВСЕМ</span>
+                        <span class="add-folder-button active" data-type="private">ТОЛЬКО МНЕ</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
             </ul>

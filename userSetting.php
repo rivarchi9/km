@@ -69,7 +69,7 @@
                     <div class="form-input-item clear">
                       <div class="value-name">Email</div>
                       <div class="row-input">
-                        <input type="text" class="input-field" data-type="no-edit" value="Blokh@mail.ru" disabled>
+                        <input type="text" class="input-field" data-type="no-edit" value="Blokh@mail.ru">
                         <div class="error-massage">
                           Ошибка в поле
                         </div>
@@ -85,7 +85,7 @@
                     <div class="form-input-item clear">
                       <div class="value-name">Логин</div>
                       <div class="row-input">
-                        <input type="text" class="input-field" value="Blokh" data-type="no-edit" disabled>
+                        <input type="text" class="input-field" value="Blokh" data-type="no-edit">
                         <div class="error-massage">
                           Ошибка в поле
                         </div>
@@ -157,7 +157,7 @@
                     <div class="form-input-item clear">
                       <div class="value-name">Имя</div>
                       <div class="row-input">
-                        <input type="text" class="input-field" data-type="no-edit" value="Blokh" disabled>
+                        <input type="text" class="input-field" data-type="no-edit" value="Blokh">
                         <div class="error-massage">
                           Ошибка в поле
                         </div>

@@ -381,31 +381,32 @@
                       </div>
                     </div>
                     <div class="row-icon-add row-icon-add--white icon-star">
-                      <a class="star__icon icon"></a>
-                      <div class="hint-block">
-                       <div class="hint-inner-block">
-                          <div class="hint-inner-block__title">
-                            <i class="star__icon icon"></i>Мой рейтинг
-                          </div>
-                          <div class="row-raiting-star">
-                           <div class="inner-raiting-star" data-fixed="fixed">
-                             <ul class="raiting-list-star clear">
-                               <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
-                               <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
-                               <li class="star__item" data-value="8"><i class="icon__star"></i></li>
-                               <li class="star__item" data-value="9"><i class="icon__star"></i></li>
-                               <li class="star__item" data-value="10"><i class="icon__star"></i></li>
-                             </ul>
-                             <span class="raiting-number"><span class="value">7</span> из 10</span>
-                             <span class="result-star"></span>
+                      <div class="star__icon icon hint-block-open">
+                        <div class="hint-block">
+                         <div class="hint-inner-block">
+                            <div class="hint-inner-block__title">
+                              <i class="star__icon icon"></i>Мой рейтинг
+                            </div>
+                            <div class="row-raiting-star">
+                             <div class="inner-raiting-star" data-fixed="fixed">
+                               <ul class="raiting-list-star clear">
+                                 <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
+                                 <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
+                                 <li class="star__item" data-value="8"><i class="icon__star"></i></li>
+                                 <li class="star__item" data-value="9"><i class="icon__star"></i></li>
+                                 <li class="star__item" data-value="10"><i class="icon__star"></i></li>
+                               </ul>
+                               <span class="raiting-number"><span class="value">7</span> из 10</span>
+                               <span class="result-star"></span>
+                             </div>
                            </div>
                          </div>
-                       </div>
+                        </div>
                       </div>
                     </div>
                   </div>

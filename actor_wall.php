@@ -57,7 +57,7 @@
               <div class="wall-items clear">
                 <div class="wall-image">
                   <div class="image-shadow">
-                    <img alt="" src="app/img/content/a2.jpg" class="responsive-image image-prewiew" data-src-d="app/img/content/a2.jpg" data-src-t="app/img/content/a2.jpg" data-src-m="">
+                    <img alt="" src="app/img/content/a2.jpg" class="responsive-image image-prewiew" data-src-d="app/img/content/a2.jpg" data-src-t="app/img/content/a2.jpg" data-src-m="app/img/content/a2.jpg">
                   </div>
                 </div>
                 <div class="wall-content">
@@ -104,7 +104,7 @@
               <div class="wall-items clear">
                 <div class="wall-image">
                   <div class="image-shadow">
-                    <img alt="" src="app/img/content/a2.jpg" class="responsive-image image-prewiew" data-src-d="app/img/content/a2.jpg" data-src-t="app/img/content/a2.jpg" data-src-m="">
+                    <img alt="" src="app/img/content/a2.jpg" class="responsive-image image-prewiew" data-src-d="app/img/content/a2.jpg" data-src-t="app/img/content/a2.jpg" data-src-m="app/img/content/a2.jpg">
                   </div>
                 </div>
                 <div class="wall-content">

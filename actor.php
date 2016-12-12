@@ -22,76 +22,78 @@
     </div>
   </div>
   <div class="my-overlay">
-    <div class="my-overlay-item" data-type="overlay-add">
-      <div class="my-overlay-bg"></div>
-      <div class="row-inner-my-overlay">
-        <div class="inner-my-overlay">
-          <div class="war-title overlay-content-outside"><i class="content-icon content-icon-add"></i>ДОБАВИТЬ ИНФОРМАЦИЮ</div>
-          <div class="war-title-content overlay-content-outside">
-            <div class="">
-              <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
-              <h2 class="name__page">Green Mile</h2>
-            </div>
-          </div>
-          <div class="war-content">
-            <div class="war-content-item">
-              <label class="label-important">Информация <i></i></label>
-              <textarea type="text" class="input-field"></textarea>
-            </div>
-            <div class="war-content-item">
-              <label>Источник </label>
-              <input type="text" class="input-field">
-            </div>
-            <div class="war-content-dop">
-              Ссылка на сайт или наименование ресурса, подтверждающего верность информации
-            </div>
-            <div class="war-content-bottom clear">
-              <div class="row-button-right">
-                <button class="button button4">Отправить</button>
-              </div>
-              <div class="row-button-left">
-                <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+    <form action="">
+      <div class="my-overlay-item" data-type="overlay-add">
+        <div class="my-overlay-bg"></div>
+        <div class="row-inner-my-overlay">
+          <div class="inner-my-overlay">
+            <div class="war-title overlay-content-outside"><i class="content-icon content-icon-add"></i>ДОБАВИТЬ ИНФОРМАЦИЮ</div>
+            <div class="war-title-content overlay-content-outside">
+              <div class="">
+                <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+                <h2 class="name__page">Green Mile</h2>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="my-overlay-item" data-type="overlay-error">
-      <div class="my-overlay-bg"></div>
-      <div class="row-inner-my-overlay">
-        <div class="inner-my-overlay">
-          <div class="war-title overlay-content-outside"><i class="content-icon content-icon-error"></i>Сообщить об ошибке</div>
-          <div class="war-title-content overlay-content-outside">
-            <div class="">
-              <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
-              <h2 class="name__page">Green Mile</h2>
-            </div>
-          </div>
-          <div class="war-content">
-            <div class="war-content-item">
-              <label class="label-important">Информация <i></i></label>
-              <textarea type="text" class="input-field"></textarea>
-            </div>
-            <div class="war-content-item">
-              <label>Источник</label>
-              <input type="text" class="input-field">
-            </div>
-            <div class="war-content-dop">
-              Ссылка на сайт или наименование ресурса, подтверждающего верность информации
-            </div>
-            <div class="war-content-bottom clear">
-              <div class="row-button-right">
-                <button class="button button4">Отправить</button>
+            <div class="war-content">
+              <div class="war-content-item">
+                <label class="label-important">Информация <i></i></label>
+                <textarea type="text" class="input-field"></textarea>
               </div>
-              <div class="row-button-left">
-                <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+              <div class="war-content-item">
+                <label>Источник </label>
+                <input type="text" class="input-field">
+              </div>
+              <div class="war-content-dop">
+                Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+              </div>
+              <div class="war-content-bottom clear">
+                <div class="row-button-right">
+                  <button class="button button4">Отправить</button>
+                </div>
+                <div class="row-button-left">
+                  <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="my-overlay-item" data-type="overlay-error">
+        <div class="my-overlay-bg"></div>
+        <div class="row-inner-my-overlay">
+          <div class="inner-my-overlay">
+            <div class="war-title overlay-content-outside"><i class="content-icon content-icon-error"></i>Сообщить об ошибке</div>
+            <div class="war-title-content overlay-content-outside">
+              <div class="">
+                <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+                <h2 class="name__page">Green Mile</h2>
+              </div>
+            </div>
+            <div class="war-content">
+              <div class="war-content-item">
+                <label class="label-important">Информация <i></i></label>
+                <textarea type="text" class="input-field"></textarea>
+              </div>
+              <div class="war-content-item">
+                <label>Источник</label>
+                <input type="text" class="input-field">
+              </div>
+              <div class="war-content-dop">
+                Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+              </div>
+              <div class="war-content-bottom clear">
+                <div class="row-button-right">
+                  <button class="button button4">Отправить</button>
+                </div>
+                <div class="row-button-left">
+                  <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
   <div class="outer-brang-bg">
     <div class="brand-bg">
@@ -185,10 +187,10 @@
                         <li>
                           <a href="#" class="awords-list-name name">
                             ОСКАР
+                            <span class="awords-list-name dop-name">
+                              ACADEMY AWARDS <span class="value">2/5</span>
+                            </span>
                           </a>
-                          <span class="awords-list-name dop-name">
-                            ACADEMY AWARDS <span class="value">2/5</span>
-                          </span>
                         </li>
                       </ul>
                       <ul class="awords-list-value clear">
@@ -196,10 +198,10 @@
                         <li>
                           <a href="#" class="awords-list-name name">
                             MTV (США)
+                            <span class="awords-list-name dop-name">
+                              MTV (USA) <span class="value">1/13</span>
+                            </span>
                           </a>
-                          <span class="awords-list-name dop-name">
-                            MTV (USA) <span class="value">1/13</span>
-                          </span>
                         </li>
                       </ul>
                       <ul class="awords-list-value clear">
@@ -207,10 +209,10 @@
                         <li>
                           <a href="#" class="awords-list-name name">
                             ЗОЛОТОЙ ГЛОБУС
+                            <span class="awords-list-name dop-name">
+                              GOLDEN GLOBE <span class="value">4/8</span>
+                            </span>
                           </a>
-                          <span class="awords-list-name dop-name">
-                            GOLDEN GLOBE <span class="value">4/8</span>
-                          </span>
                         </li>
                       </ul>
                       <ul class="awords-list-value clear">
@@ -218,10 +220,10 @@
                         <li>
                           <a href="#" class="awords-list-name name">
                             БЕРЛИНСКИЙ КИНОФЕСТИВАЛЬ
+                            <span class="awords-list-name dop-name">
+                              BERLIN INTERNATIONAL FILM FESTIVAL <span class="value">1/1</span>
+                            </span>
                           </a>
-                          <span class="awords-list-name dop-name">
-                            BERLIN INTERNATIONAL FILM FESTIVAL <span class="value">1/1</span>
-                          </span>
                         </li>
                       </ul>
                     </li>
@@ -264,13 +266,73 @@
                   </div>
                 </div>
               </div>
-              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="2">2</div>
-              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="3">3</div>
+              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="2">
+                <div class="aside-result__item">
+                  <p class="aside-result__title">
+                    <span class="aside-result__title-text">IVI</span>
+                  </p>
+                  <div class="price-films cinema-price-films">
+                    <span class="price-films__text">Цена: от <span class="price-films__number ">260 руб.</span></span>
+                  </div>
+                  <a href="#" class="button button2 button-mini-two">СМОТРЕТЬ</a>
+                </div>
+                <div class="aside-result__item">
+                  <p class="aside-result__title">
+                    <span class="aside-result__title-text">MEGOGO</span>
+                  </p>
+                  <div class="price-films cinema-price-films">
+                    <span class="price-films__text">Цена: <span class="price-films__number free">бесплатно</span></span>
+                  </div>
+                  <a href="#" class="button button2 button-mini-two">СМОТРЕТЬ</a>
+                </div>
+                <div class="aside-result__item">
+                  <p class="aside-result__title">
+                    <span class="aside-result__title-text">OKKO</span>
+                  </p>
+                  <div class="price-films cinema-price-films">
+                    <span class="price-films__text">Цена: от <span class="price-films__number ">260 руб.</span></span>
+                  </div>
+                  <a href="#" class="button button2 button-mini-two">СМОТРЕТЬ</a>
+                </div>
+              </div>
+              <div class="caption-page-tab-content" data-type-slidergroup="novelty_2" data-type-sliderelem="3">
+                <div class="aside-result__item">
+                  <p class="aside-result__title">
+                    <span class="aside-result__title-text">Первый</span>
+                  </p>
+                  <p class="aside-result__dop">5 декабря, пн., 13:30</p>
+                </div>
+                <div class="aside-result__item">
+                  <p class="aside-result__title">
+                    <span class="aside-result__title-text">Россия 1</span>
+                  </p>
+                  <p class="aside-result__dop">7 декабря, ср., 14:20</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="band-nav">
             <ul class="band-nav-list clear">
-              <li class="band-nav__icon my-films"><a><span>Мои фильмы</span></a></li>
+              <li class="band-nav__icon my-films">
+                <a class="folder-icon-two"><span>Мои фильмы</span></a>
+                <div class="row-dropdown-folder">
+                  <div class="dropdown-folder dropdown-folder-content">
+                    <div class="dropdown-folder-title"><span>В избранное</span></div>
+                    <ul class="dropdown-folder-list">
+                      <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-folder dropdown-folder-setting">
+                    <a href="#" class="clear">
+                      <!-- <i class="setting-icon"></i> -->
+                      <span>Управление папками</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
               <li class="band-nav__icon my-add-info"><a><span>Добавить информацию</span></a></li>
               <li class="band-nav__icon my-massage-error"><a><span>Сообщить об ошибке</span></a></li>
             </ul>
@@ -382,8 +444,33 @@
                                   </div>
                                 </div>
                                 <div class="row-icon-add row-icon-add--white icon-star">
-                                  <a class="star__icon icon"></a>
-                                  <div class="hint">Поставить оценку</div>
+                                  <div class="star__icon icon hint-block-open">
+                                    <div class="hint-block">
+                                     <div class="hint-inner-block">
+                                        <div class="hint-inner-block__title">
+                                          <i class="star__icon icon"></i>Мой рейтинг
+                                        </div>
+                                        <div class="row-raiting-star">
+                                         <div class="inner-raiting-star" data-fixed="fixed">
+                                           <ul class="raiting-list-star clear">
+                                             <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
+                                             <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
+                                             <li class="star__item" data-value="8"><i class="icon__star"></i></li>
+                                             <li class="star__item" data-value="9"><i class="icon__star"></i></li>
+                                             <li class="star__item" data-value="10"><i class="icon__star"></i></li>
+                                           </ul>
+                                           <span class="raiting-number"><span class="value">7</span> из 10</span>
+                                           <span class="result-star"></span>
+                                         </div>
+                                       </div>
+                                     </div>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                               <div class="row-mini-raiting-number">
@@ -455,9 +542,34 @@
                                   </div>
                                 </div>
                                 <div class="row-icon-add row-icon-add--white icon-star">
-                                  <a class="star__icon icon"></a>
-                                  <div class="hint">Поставить оценку</div>
+                                <div class="star__icon icon hint-block-open">
+                                  <div class="hint-block">
+                                   <div class="hint-inner-block">
+                                      <div class="hint-inner-block__title">
+                                        <i class="star__icon icon"></i>Мой рейтинг
+                                      </div>
+                                      <div class="row-raiting-star">
+                                       <div class="inner-raiting-star" data-fixed="fixed">
+                                         <ul class="raiting-list-star clear">
+                                           <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
+                                           <li class="star__item" data-value="8"><i class="icon__star"></i></li>
+                                           <li class="star__item" data-value="9"><i class="icon__star"></i></li>
+                                           <li class="star__item" data-value="10"><i class="icon__star"></i></li>
+                                         </ul>
+                                         <span class="raiting-number"><span class="value">7</span> из 10</span>
+                                         <span class="result-star"></span>
+                                       </div>
+                                     </div>
+                                   </div>
+                                  </div>
                                 </div>
+                              </div>
                               </div>
                               <div class="row-mini-raiting-number">
                                 Рейтинг: <span class="number">8.4</span>
@@ -528,9 +640,34 @@
                                   </div>
                                 </div>
                                 <div class="row-icon-add row-icon-add--white icon-star">
-                                  <a class="star__icon icon"></a>
-                                  <div class="hint">Поставить оценку</div>
+                                <div class="star__icon icon hint-block-open">
+                                  <div class="hint-block">
+                                   <div class="hint-inner-block">
+                                      <div class="hint-inner-block__title">
+                                        <i class="star__icon icon"></i>Мой рейтинг
+                                      </div>
+                                      <div class="row-raiting-star">
+                                       <div class="inner-raiting-star" data-fixed="fixed">
+                                         <ul class="raiting-list-star clear">
+                                           <li class="star__item active" data-value="1"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="2"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="3"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="4"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="5"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="6"><i class="icon__star"></i></li>
+                                           <li class="star__item active" data-value="7" data-active="select"><i class="icon__star"></i><span class="select-star default">ваша оценка</span><span class="select-star default">ваша оценка</span></li>
+                                           <li class="star__item" data-value="8"><i class="icon__star"></i></li>
+                                           <li class="star__item" data-value="9"><i class="icon__star"></i></li>
+                                           <li class="star__item" data-value="10"><i class="icon__star"></i></li>
+                                         </ul>
+                                         <span class="raiting-number"><span class="value">7</span> из 10</span>
+                                         <span class="result-star"></span>
+                                       </div>
+                                     </div>
+                                   </div>
+                                  </div>
                                 </div>
+                              </div>
                               </div>
                               <div class="row-mini-raiting-number">
                                 Рейтинг: <span class="number">8.4</span>
@@ -583,13 +720,301 @@
                   <div class="row-list-about-result" data-type-openclose-element="4"></div>
                 </div>
               </div>
-              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="2">2
+              <div class="row-list-about row-session-table" data-type-sliderGroup="tab" data-type-sliderElem="2">
+                <form action="">
+                  <div class="row-dropdown-input session-dropdown-input">
+                    <select name="city" id="" class="">
+                      <option value="name" selected="selected">Москва</option>
+                    </select>
+                    <select name="cinema" id="" class=""  >
+                      <option value="1">Кинотеатр 1</option>
+                      <option value="2">Кинотеатр 2</option>
+                      <option value="3">Кинотеатр 3</option>
+                    </select>
+                    <div class="row-drop-down-where">
+                      <div class="drop-down-where">
+                        22.07.2019
+                      </div>
+                      <div class="outer-calendar drop-down-where-calendar default">
+                        <div class="datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-bottom" style="top: 40px; right: 0px; display: block;">
+                          <div class="datepicker-days" style="display: block;">
+                              <table class=" table-condensed">
+                                  <thead>
+                                      <tr>
+                                          <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                                      </tr>
+                                      <tr class="date">
+                                          <th class="prev" style="visibility: visible;">«</th>
+                                          <th colspan="5" class="datepicker-switch">Октябрь 2016</th>
+                                          <th class="next" style="visibility: visible;">»</th>
+                                      </tr>
+                                      <tr>
+                                          <th class="dow">Пн</th>
+                                          <th class="dow">Вт</th>
+                                          <th class="dow">Ср</th>
+                                          <th class="dow">Чт</th>
+                                          <th class="dow">Пт</th>
+                                          <th class="dow">Сб</th>
+                                          <th class="dow">Вс</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                  </tbody>
+                              </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="session-table-title">Сеансы <a href="#">Инферно</a></div>
+                <div class="session-table">
+                  <div class="session-table-item clear">
+                    <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="session-table-item clear">
+                      <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="session-table-item clear">
+                      <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="session-table-item clear">
+                      <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="session-table-item clear">
+                      <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="session-table-item clear">
+                      <div class="session-table-item__name"><a href="#">Amigos</a></div>
+                      <div class="session-table-item-list">
+                        <ul class="time-list time-list--normal clear">
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li class="active open-help-in"><span>10:00</span>
+                            <div class="help help--color2">Купить билет</div>
+                          </li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                          <li><span>10:00</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-pagelist-more">
+                    <span class="pagelist-more sprite-before"><span class="pagelist-more__text">Еще</span></span>
+                  </div>
               </div>
-              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="3">3
+              <div class="row-list-about row-session-table row-session-tab-table" data-type-sliderGroup="tab" data-type-sliderElem="3">
+               <div class="tab-table-outer tab-table-outer-online">
+                  <div class="tab-table-head clear">
+                    <div class="tab-table-col">Онлайн-кинотеатр</div>
+                    <div class="tab-table-col">Цена</div>
+                    <div class="tab-table-col"></div>
+                  </div>
+                  <div class="outer-cinema-online">
+                    <div class="link-cinema"><a href="#">Инферно</a></div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i1.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i2.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i3.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-cinema-online">
+                    <div class="link-cinema"><a href="#">Инферно</a></div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i1.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i2.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#" class="table-logo">
+                        <img src="app/img/icon/logo/i3.png" alt="" class="table-logo-1">
+                      </a></div>
+                      <div class="tab-table-col tab-table-price">249 руб.
+                      <a href="#" class="table-button-mobile button button2">СМОТРЕТЬ</a>
+                      </div>
+                      <div class="tab-table-col">
+                        <a href="#" class="button button2">СМОТРЕТЬ</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="row-list-about" data-type-sliderGroup="tab" data-type-sliderElem="4">4
+              <div class="row-list-about row-session-table row-session-tab-table row-session-logo-table row-session-logo-table-channel" data-type-sliderGroup="tab" data-type-sliderElem="4">
+                <div class="tab-table-outer">
+                  <div class="tab-table-head clear">
+                    <div class="tab-table-col">Канал</div>
+                    <div class="tab-table-col">Дата</div>
+                    <div class="tab-table-col">Время</div>
+                  </div>
+                  <div class="outer-cinema-online">
+                    <div class="link-cinema"><a href="#">Инферно</a></div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                  </div>
+                  <div class="outer-cinema-online">
+                    <div class="link-cinema"><a href="#">Инферно</a></div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                    <div class="tab-table-row clear">
+                      <div class="tab-table-col tab-table-col-name"><a href="#">Первый</a></div>
+                      <div class="tab-table-col">28 сентября, среда </div>
+                      <div class="tab-table-col">20:35</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
             <div class="pagelist-social">
               <div class="outer-social clear">
                 <ul class="social-list social-list--horizontal">

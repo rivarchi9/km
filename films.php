@@ -21,6 +21,80 @@
       </div>
     </div>
   </div>
+  <div class="my-overlay">
+    <form action="">
+      <div class="my-overlay-item" data-type="overlay-add">
+        <div class="my-overlay-bg"></div>
+        <div class="row-inner-my-overlay">
+          <div class="inner-my-overlay">
+            <div class="war-title overlay-content-outside"><i class="content-icon content-icon-add"></i>ДОБАВИТЬ ИНФОРМАЦИЮ</div>
+            <div class="war-title-content overlay-content-outside">
+              <div class="">
+                <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+                <h2 class="name__page">Green Mile</h2>
+              </div>
+            </div>
+            <div class="war-content">
+              <div class="war-content-item">
+                <label class="label-important">Информация <i></i></label>
+                <textarea type="text" class="input-field"></textarea>
+              </div>
+              <div class="war-content-item">
+                <label>Источник </label>
+                <input type="text" class="input-field">
+              </div>
+              <div class="war-content-dop">
+                Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+              </div>
+              <div class="war-content-bottom clear">
+                <div class="row-button-right">
+                  <button class="button button4">Отправить</button>
+                </div>
+                <div class="row-button-left">
+                  <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-overlay-item" data-type="overlay-error">
+        <div class="my-overlay-bg"></div>
+        <div class="row-inner-my-overlay">
+          <div class="inner-my-overlay">
+            <div class="war-title overlay-content-outside"><i class="content-icon content-icon-error"></i>Сообщить об ошибке</div>
+            <div class="war-title-content overlay-content-outside">
+              <div class="">
+                <h1 class="pagetitle mini__pagetitle">Зеленая миля</h1>
+                <h2 class="name__page">Green Mile</h2>
+              </div>
+            </div>
+            <div class="war-content">
+              <div class="war-content-item">
+                <label class="label-important">Информация <i></i></label>
+                <textarea type="text" class="input-field"></textarea>
+              </div>
+              <div class="war-content-item">
+                <label>Источник</label>
+                <input type="text" class="input-field">
+              </div>
+              <div class="war-content-dop">
+                Ссылка на сайт или наименование ресурса, подтверждающего верность информации
+              </div>
+              <div class="war-content-bottom clear">
+                <div class="row-button-right">
+                  <button class="button button4">Отправить</button>
+                </div>
+                <div class="row-button-left">
+                  <button class="button button8">ВЫБЕРИТЕ ФАЙЛЫ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
   <div class="outer-brang-bg">
     <div class="brand-bg">
       <div class="inner-brand-bg">
@@ -284,9 +358,28 @@
           </div>
           <div class="band-nav">
             <ul class="band-nav-list clear">
-              <li class="band-nav__icon my-films"><a href="#"><span>Мои фильмы</span></a></li>
-              <li class="band-nav__icon my-add-info"><a href="#"><span>Добавить информацию</span></a></li>
-              <li class="band-nav__icon my-massage-error"><a href="#"><span>Сообщить об ошибке</span></a></li>
+              <li class="band-nav__icon my-films">
+                <a class="folder-icon-two"><span>Мои фильмы</span></a>
+                <div class="row-dropdown-folder">
+                  <div class="dropdown-folder dropdown-folder-content">
+                    <div class="dropdown-folder-title"><span>В избранное</span></div>
+                    <ul class="dropdown-folder-list">
+                      <li><i class="dropdown-folder-content-icon"><span>1</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>2</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>3</span></i><span class="name-icon">Избранное</span></li>
+                      <li><i class="dropdown-folder-content-icon"><span>4</span></i><span class="name-icon">Избранное</span></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-folder dropdown-folder-setting">
+                    <a href="#" class="clear">
+                      <!-- <i class="setting-icon"></i> -->
+                      <span>Управление папками</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="band-nav__icon my-add-info"><a><span>Добавить информацию</span></a></li>
+              <li class="band-nav__icon my-massage-error"><a><span>Сообщить об ошибке</span></a></li>
             </ul>
           </div>
         </div>
@@ -535,7 +628,7 @@
                 </div>
               </div>
               <div class="row-session-table row-session-tab-table " data-type-sliderGroup="smotr" data-type-sliderElem="2">
-               <div class="tab-table-outer">
+               <div class="tab-table-outer tab-table-outer-online">
                   <div class="tab-table-head clear">
                     <div class="tab-table-col">Онлайн-кинотеатр</div>
                     <div class="tab-table-col">Цена</div>

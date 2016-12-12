@@ -3,7 +3,7 @@
     <div class="aside-branding no-mobile">
       <a href="#"><img src="/app/img/content/a1.jpg" alt=""></a>
     </div>
-    <div class="aside-item ">
+    <div class="aside-item aside-item-agency">
       <div class="aside__title">АКТЕРСКИЕ АГЕНТСТВА</div>
       <div class="row-table-aside">
         <div class="table-aside-item">

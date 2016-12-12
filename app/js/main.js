@@ -2,9 +2,9 @@ $(window).load(function() {
 	sliderNavigation();
 	sliderNavigationButton();
 });
-
+sccroll_width = 0;
 $(window).resize(function() {
-
+	$('body').css('width', window.innerWidth - sccroll_width );
 	imageResize();
 	sliderNavigation();
 	sliderNavigationButton();
@@ -25,7 +25,9 @@ $(window).resize(function() {
 });
 
 $(document).ready(function() {
-	// $('body').css('max-width', $('body').width() );
+	sccroll_width = window.innerWidth - $('body').width();
+	$('body').css('width', window.innerWidth - sccroll_width );
+
 
 	w = window.innerWidth;
 	imageResize();
@@ -43,12 +45,12 @@ $(document).ready(function() {
 	// Setttings
 	var inputRowEdit = $('.row-input');
 
-	$(inputRowEdit).click(function() {
-		thisInput = $(this).find('.input-field[data-type = no-edit]');
-		if (thisInput.length != 0) {
-			thisInput.next().addClass('active').html('Разблокируйте поле');
-		}
-	});
+	// $(inputRowEdit).click(function() {
+	// 	thisInput = $(this).find('.input-field[data-type = no-edit]');
+	// 	if (thisInput.length != 0) {
+	// 		thisInput.next().addClass('active').html('Разблокируйте поле');
+	// 	}
+	// });
 
 	$('.check-hide input').click(function() {
 		findInputHide = $(this).parents('.form-input-item').find('input[data-type = hide]');
@@ -76,7 +78,7 @@ $(document).ready(function() {
 	}
 
 	$('.add-folder-button').click(function() {
-		$('.add-folder-button').removeClass('active');
+		$(this).parents('.row-add-folder-button').find('.add-folder-button').removeClass('active');
 		$(this).addClass('active');
 	});
 
@@ -127,7 +129,7 @@ $(document).ready(function() {
 		sliderTrailers(section, type);
 	});
 	// == Трейлеры ПК версия
-	$("[data-type-trailersTrailerButton]").on('click',function () {
+	$("[data-type-trailersTrailerButton]").mouseover(function () {
 		trailer = $(this).attr('data-type-trailersTrailerButton');
 		type = $(this).parents("[data-type-trailersType]").attr('data-type-trailersType');
 		section = $(this).parents("[data-type-trailersType]").parents("[data-type-trailersSection]").attr('data-type-trailersSection');
@@ -616,7 +618,7 @@ $(document).ready(function() {
 // Film-Actors
 
 $(document).ready(function() {
-	$('.folder__icon').click(function(){
+	$('.folder__icon , .folder-icon-two').click(function(){
 		$(this).parent().children('.row-dropdown-folder').addClass('active');
 	});
 	$(document).mouseup(function (e){ // событие клика по веб-документу
@@ -650,7 +652,6 @@ $(document).ready(function() {
 		}else{
 			$(elem).slideToggle();
 		}
-
 	});
 });
 
@@ -957,8 +958,35 @@ $(document).ready(function() {
 		}
 	});
 });
-
+// Что-то в настройках пользователя
 $('.radio-my').click(function(event) {
 	$('.radio-my').removeClass('active');
 	$(this).addClass('active');
+});
+
+$('.folder-setting-icon').click(function() {
+	var elemFolder = $(this).parents('li').find('.setting-folder');
+	if (elemFolder.is('.active')){
+		elemFolder.removeClass('active');
+	} else {
+		$('.setting-folder').removeClass('active');
+		elemFolder.addClass('active');
+	}
+});
+
+// Новости кино
+$(document).ready(function() {
+	$('[data-news]').mouseover(function(){
+		var elem = $(this).attr('data-news');
+		$('[data-news-element]').removeClass('active');
+		$('[data-news-element='+elem+']').addClass('active');
+	});
+});
+
+// В настройках пользователя изменение пароля
+
+$(document).ready(function() {
+	$('.row-form-input .field-add-icon.field-add-icon-edit').click(function(event) {
+		$(this).parents('.row-form-input').find('input').focus();
+	});
 });

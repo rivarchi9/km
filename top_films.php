@@ -35,6 +35,28 @@
                     <div class="row-dropdown-input session-dropdown-input">
                       <select name="ganre" id="" class="">
                         <option value="name" selected="selected">Выберите жанр</option>
+                        <option value="1">комедия</option>
+                        <option value="2">биография</option>
+                        <option value="3">ужасы</option>
+                        <option value="4">драма</option>
+                        <option value="5">боевик</option>
+                        <option value="6">военный</option>
+                        <option value="7">фантастика</option>
+                        <option value="8">мультфильм</option>
+                        <option value="9">приключения</option>
+                        <option value="10">мелодрама</option>
+                        <option value="11">триллер</option>
+                        <option value="12">фэнтези</option>
+                        <option value="13">криминал</option>
+                        <option value="14">фильм-нуар</option>
+                        <option value="15">семейный</option>
+                        <option value="16">детектив</option>
+                        <option value="17">вестерн</option>
+                        <option value="18">спорт</option>
+                        <option value="19">мюзикл</option>
+                        <option value="20">музыка</option>
+                        <option value="21">исторический</option>
+                        <option value="22">документальный</option>
                       </select>
                       <select name="city" id="" class=""  >
                         <option value="1" selected="selected">Выберите страну</option>

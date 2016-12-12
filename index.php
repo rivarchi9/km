@@ -87,29 +87,59 @@
                 <div class="parent-sticker clear">
                   <div class="row">
                     <div class="news-item col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="news-item__prewiew image-shadow">
-                        <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                      <div class="new-item-each active" data-news-element="news_1">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">38-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
                       </div>
-                      <p class="news-title title--normal"><a href="#">38-й ММКФ открылся новой работой Сергея Соловьева</a></p>
-                      <div class="outer-news-date info-section center-info-section">
-                        <span class="news-date date-info">24 июня 2016</span>,
-                        <a href="#" class="news-comment comment-info">2</a>
+                      <div class="new-item-each" data-news-element="news_2">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">39-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
                       </div>
-                      <p class="news-link-desc">
-                        <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
-                        <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
-                      </p>
+                      <div class="new-item-each" data-news-element="news_3">
+                        <div class="news-item__prewiew image-shadow">
+                          <img alt="" src="#" class="responsive-image image-prewiew" data-src-d="/app/img/content/22.jpg" data-src-t="/app/img/content/22.jpg" data-src-m="">
+                        </div>
+                        <p class="news-title title--normal"><a href="#">40-й ММКФ открылся новой работой Сергея Соловьева</a></p>
+                        <div class="outer-news-date info-section center-info-section">
+                          <span class="news-date date-info">24 июня 2016</span>,
+                          <a href="#" class="news-comment comment-info">2</a>
+                        </div>
+                        <p class="news-link-desc">
+                          <a href="#">В столице открылся <strong>38-й Московский международный кинофестиваль</strong>. Фильмом-открытия стала новая картина<br>
+                          <span>Сергея Соловьева</span> «<span>Ке-ды</span>».</a>
+                        </p>
+                      </div>
                     </div>
                     <div class="news-item news-item2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_1">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_2">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
-                      <div class="news-child__item">
+                      <div class="news-child__item" data-news="news_3">
                         <p class="news-child-title news-title title--normal"><a href="#">Терренс Малик снимет фильм о блаженном Франце Егерштеттере</a></p>
                         <p class="news-child-desc"><a href="#">Терренс Малик готовится к съемкам военной драмы «Радегунд».</a></p>
                       </div>
@@ -152,7 +182,7 @@
                     <li class="default" data-type-trailersSectionButton="series"><span>СЕРИАЛОВ</span></li>
                   </ul>
                   <div class="mobile-section-black__check-list">
-                    
+
                     <div class="mobile__select my-select">
                       <span class="result">ФИЛЬМОВ</span>
                       <ul class="result-list">
@@ -1291,7 +1321,7 @@
                   </div>
               </div>
                 <div class="outer-section-mini-prewiew-item clear">
-                  
+
                   <div class="inner-section-mini-prewiew-item">
                     <div class="section-mini-prewiew-wrap-item">
                       <div class="section-mini-prewiew-item">
