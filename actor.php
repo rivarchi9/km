@@ -1160,6 +1160,7 @@
                 </div>
               </div>
             </div>
+            </div>
           </content>
           <!-- Сайдбар -->
         	<?php include "sections/aside_billboards.php"; ?>
