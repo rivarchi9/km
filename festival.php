@@ -13,6 +13,24 @@
       </div>
     </div>
   </div>
+  <div class="overlay-photo overlay-posters">
+    <div class="overlay-bg"></div>
+    <div class="row-inner-overlay">
+      <div class="inner-overlay-photo">
+        <div class="inner-overlay-image">
+          <img src="" alt="">
+          <div class="overlay-photo-controls">
+            <div class="close"></div>
+            <div class="prev"></div>
+            <div class="next"></div>
+          </div>
+        </div>
+        <div class="inner-overlay-caption clear section-video ">
+          <!--  Содержимое описания  -->
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="outer">
     <div class="wrap">
       <?php include "sections/header.php"; ?>

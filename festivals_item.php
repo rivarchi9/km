@@ -13,6 +13,7 @@
       </div>
     </div>
   </div>
+  
   <div class="outer">
     <div class="wrap">
       <?php include "sections/header.php"; ?>

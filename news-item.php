@@ -183,7 +183,7 @@
                     </div>
                   </div>
                   <div class="answer-button">
-                    <button class="button button4">войти</button>
+                    <button class="button button4">Отправить</button>
                   </div>
                 </div>
               </div>
